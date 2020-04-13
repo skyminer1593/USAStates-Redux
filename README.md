@@ -18,26 +18,26 @@ just download a ZIP archive.
    `https://github.com/us-state-devs/US-State-Mod`. and clone it into
    `Paradox Interactive/Hearts of Iron IV/mod`, under your user's Documents
    folder. Start the cloning process by clicking "Clone".
-4. Open the new folder using a file explorer. Drag `US-States.mod`
+4. Open the new folder using a file explorer. Drag `USAStates-Redux.mod`
    into the `mods` folder.
-5. Start up HOI4, and select "US States Mod (DEV VERSION)".
+5. Start up HOI4, and select "USA States:Redux (Development)".
 
 #### ...with another Git client
 *This guide presumes that this client is set up and configured.*
 
-1. Clone `https://github.com/us-state-devs/US-State-Mod` into
+1. Clone `https://github.com/FascistThanos/USAStates-Redux` into
    `Paradox Interactive/Hearts of Iron IV/mod`, under your Documents folder.
-2. Copy the repository's `US-States.mod` into the `mods` folder.
+2. Copy the repository's `USAStates-Redux.mod` into the `mods` folder.
 
 ### ...without using Git
 **Warning:** You may fall behind from the latest version of the mod. Make sure
 to check this page often, and redownload.
 
-1. Download the [ZIP file](https://github.com/us-state-devs/US-State-Mod/archive/master.zip) for the mod.
+1. Download the [ZIP file](https://github.com/fascistthanos/USAStates-Redux/archive/master.zip) for the mod.
 2. Extract the ZIP to `Documents/Paradox Interactive/Hearts of Iron IV/mod`.
-3. Rename the folder you just extracted (`US-State-Mod-master`) to `US-State-Mod`.
-3. Copy "US-States.mod" to `Documents/Paradox Interactive/Hearts of Iron IV/mod`.
-4. Start up HOI4, and select "US States Mod (DEV VERSION)".
+3. Rename the folder you just extracted (`USAStates-Redux-master`) to `USAStates-Redux`.
+3. Copy "USAStates-Redux.mod" to `Documents/Paradox Interactive/Hearts of Iron IV/mod`.
+4. Start up HOI4, and select "USA States:Redux (Development)".
 
 
 **You can try running it with other mods, but we will not provide any support for bugs that occur.** If you have any

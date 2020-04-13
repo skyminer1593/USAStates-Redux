@@ -3,7 +3,7 @@ state={
 	id=310
 	name="STATE_310"
 
-	history={
+	history={ 1936.1.3 = {owner = AAA controller = AAA  }
 		owner = FRA
 		add_core_of = CAY
 		buildings = {
@@ -15,13 +15,13 @@ state={
 
 		}
 		victory_points = {
-			12885 1 
+			12885 1
 		}
 
 	}
 
 	provinces={
-		4934 12885 13235 
+		4934 12885 13235
 	}
 	manpower=47341
 	buildings_max_level_factor=1.000

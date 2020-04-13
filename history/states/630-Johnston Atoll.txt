@@ -1,0 +1,26 @@
+state=
+{
+	id=630
+	name="STATE_630"
+	manpower = 9
+	resources = {
+		rubber = 3.000
+		steel = 1.000
+	}
+	state_category = tiny_island
+
+	history = {
+		owner = JAJ
+		add_core_of = JAJ
+		buildings = {
+			infrastructure = 1
+			13051 = {
+				naval_base = 1
+			}
+		}
+		}
+	
+	provinces={
+		13051 	
+	}
+}

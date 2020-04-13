@@ -1,5 +1,5 @@
 # US-State-Redux
-If you are not a dev and are testing the dev branch, check this page regularly.
+If you are not a developer and are testing the development branch, check this page regularly.
 
 A modification for the Paradox Interactive game, "Hearts of Iron 4"
 

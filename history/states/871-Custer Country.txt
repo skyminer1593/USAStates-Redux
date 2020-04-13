@@ -1,0 +1,17 @@
+state={
+	id=871
+	name="Custer Country"
+	history = {
+		owner = MTM
+		add_core_of = MTM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		1767 10587 14088 14151 14190 
+	}
+	manpower=35261
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

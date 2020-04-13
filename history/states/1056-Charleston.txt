@@ -1,0 +1,19 @@
+state={
+	id=1056
+	name="Charleston"
+	history = {
+		owner = WVW
+		add_core_of = WVW
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 3
+		}
+	}
+	provinces={
+		13770 13772 13781 13784 
+	}
+	manpower=520134
+	buildings_max_level_factor=1.000
+	state_category = city
+}

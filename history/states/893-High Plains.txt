@@ -1,0 +1,19 @@
+state={
+	id=893
+	name="High Plains"
+	history={
+		owner = NMN
+		add_core_of = NMN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+		}
+	}
+
+	provinces={
+		2102 10642 12684 13604 13605 13639 13677 13691 
+	}
+	manpower=623316
+	buildings_max_level_factor=1.000
+	state_category = town
+}

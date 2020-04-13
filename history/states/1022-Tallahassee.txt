@@ -1,0 +1,19 @@
+state={
+	id=1022
+	name="Tallahassee"
+	history = {
+		owner = FLF
+		add_core_of = FLF
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		10407 13470 13476 13477 13483 13484 
+	}
+	manpower=1021403
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

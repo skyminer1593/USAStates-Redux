@@ -1,0 +1,29 @@
+state={
+	id=1085
+	name="Long Island"
+	manpower = 1178432
+	state_category = metropolis
+	resources = {
+		steel = 25.00
+	}
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 10
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 5
+			859 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = NYN
+	}
+	provinces={
+		859
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=1110
+	name="White Mountains"
+	manpower=159742
+	state_category=rural
+	resources={
+		tungsten=4.000
+		chromium=3.000
+	}
+
+	history={
+		owner = NHN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = NHN
+	}
+	provinces={
+		14030 14046
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=861
+	name="Iron"
+	resources = {
+		oil = 15.000
+	}
+	history = {
+		owner = UTU
+		add_core_of = UTU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		12573 12699 13749 
+	}
+	manpower=40125
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

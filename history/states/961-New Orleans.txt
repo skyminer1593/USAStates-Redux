@@ -1,0 +1,19 @@
+state={
+	id=961
+	name="New Orleans"
+	history = {
+		owner = LAL
+		add_core_of = LAL
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	provinces={
+		7552 13449 13455 13456 13459 
+	}
+	manpower=501243
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

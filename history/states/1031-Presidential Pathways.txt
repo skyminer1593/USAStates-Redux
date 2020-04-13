@@ -1,0 +1,18 @@
+state={
+	id=1031
+	name="Presidential Pathways"
+	history = {
+		owner = GAG
+		add_core_of = GAG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		7583 10492 12384 
+	}
+	manpower=102465
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

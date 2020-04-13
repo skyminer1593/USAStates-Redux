@@ -1,0 +1,25 @@
+state={
+	id=1098
+	name="Berkshires"
+	manpower = 504713
+	state_category=town
+	resources={
+		steel=8.000
+		rubber=3.000
+	}
+
+	history={
+		owner = MAM
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = MAM
+	}
+
+	provinces={
+		718 908
+	}
+	buildings_max_level_factor=1.000
+}

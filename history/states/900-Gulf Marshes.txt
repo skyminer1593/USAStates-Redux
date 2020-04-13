@@ -1,0 +1,17 @@
+state={
+	id=900
+	name="Gulf Marshes"
+	history = {
+		owner = TXT
+		add_core_of = TXT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		1500 13452 
+	}
+	manpower=52143
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

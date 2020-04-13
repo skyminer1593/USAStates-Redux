@@ -1,0 +1,18 @@
+state={
+	id=811
+	name="Southeast Oregon"
+	history = {
+		owner = ORO
+		add_core_of = ORO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		4347 7721 10305 10625 13940 13965 13971 13990 14003 14013 
+	}
+	manpower=256829
+	buildings_max_level_factor=1.000
+	state_category = town
+}

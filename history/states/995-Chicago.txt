@@ -1,0 +1,19 @@
+state={
+	id=995
+	name="Chicago"
+	history = {
+		owner = ILI
+		add_core_of = ILI
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		9450 13911 13920 13933 13935 13945 13946 13959 
+	}
+	manpower=1245301
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

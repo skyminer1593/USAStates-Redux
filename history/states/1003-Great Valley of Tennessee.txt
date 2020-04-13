@@ -1,0 +1,21 @@
+state={
+	id=1003
+	name="Great Valley of Tennessee"
+	resources = {
+		steel = 34.000
+		tungsten = 25.000
+	}
+	history = {
+		owner = TNT
+		add_core_of = TNT
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		913 7791 8014 
+	}
+	manpower=50132
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,20 @@
+state={
+	id=1021
+	name="Upper Peninsula"
+	history = {
+		owner = MIM
+		add_core_of = MIM
+		buildings = {
+			infrastructure = 3
+			751 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		709 751 4854 5205 10599 
+	}
+	manpower=311361
+	buildings_max_level_factor=1.000
+	state_category = city
+}

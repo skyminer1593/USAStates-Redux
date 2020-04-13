@@ -1,0 +1,25 @@
+state={
+	id=1096
+	name="Eastern Connecticut"
+	manpower = 390713
+	state_category = large_city
+
+	history={
+		owner = CTC
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 4
+			9832 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = CTC
+	}
+
+	provinces={
+		9832 13932
+	}
+	buildings_max_level_factor=1.000
+}

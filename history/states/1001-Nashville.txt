@@ -1,0 +1,23 @@
+state={
+	id=1001
+	name="Nashville"
+	resources = {
+		steel = 73.000
+		chromium = 8.000
+	}
+	history = {
+		owner = TNT
+		add_core_of = TNT
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2 
+		}
+	}
+	provinces={
+		8083 13668 13669 13672 13679 13680 13681 13688 
+	}
+	manpower=1034254
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

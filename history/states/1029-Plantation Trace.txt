@@ -1,0 +1,17 @@
+state={
+	id=1029
+	name="Plantation Trace"
+	history = {
+		owner = GAG
+		add_core_of = GAG
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1433 12325 12470 12498 
+	}
+	manpower=50124
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

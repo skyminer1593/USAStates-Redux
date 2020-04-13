@@ -1,0 +1,23 @@
+state={
+	id=1067
+	name="Eastern Shore"
+	manpower=389621
+	state_category = town
+
+	history = {
+		owner = MDM
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 4
+		}
+		add_core_of = MDM
+	}
+
+	provinces={
+		3917 6892 9758 13753
+	}
+
+	buildings_max_level_factor=1.000
+}

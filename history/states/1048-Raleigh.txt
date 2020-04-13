@@ -1,0 +1,19 @@
+state={
+	id=1048
+	name="Raleigh"
+	history = {
+		owner = NCN
+		add_core_of = NCN
+		buildings = {
+			infrastructure = 8
+			industrial_complex=  3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		13653 13654 13655 13659 13660 13661 13667 
+	}
+	manpower=1320547
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

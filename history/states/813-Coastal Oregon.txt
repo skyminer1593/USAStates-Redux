@@ -1,0 +1,21 @@
+state={
+	id=813
+	name="Coastal Oregon"
+	history = {
+		owner = ORO
+		add_core_of = ORO
+		buildings = {
+			infrastructure = 5
+			dockyard = 2
+			4380 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		505 4380 10183 11495 12211 12281 
+	}
+	manpower=213976
+	buildings_max_level_factor=1.000
+	state_category = city
+}

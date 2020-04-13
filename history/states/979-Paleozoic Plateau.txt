@@ -1,0 +1,22 @@
+state={
+	id=979
+	name="Paleozoic Plateau"
+	resources = {
+		steel = 29.000
+	}
+	history={
+		owner = IAI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = IAI
+	}
+	provinces={
+		1831 9910 10478 
+	}
+	manpower=45213
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=942
+	name="Regina"
+	history = {
+		owner = SKS
+		add_core_of = SKS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	provinces={
+	 12663 14645 14646 14721 
+	}
+	manpower=1235012
+	buildings_max_level_factor=1.000
+	state_category = city
+}

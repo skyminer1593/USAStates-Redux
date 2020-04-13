@@ -1,0 +1,22 @@
+state={
+	id=933
+	name="Black Hills and Badlands"
+	resources = {
+		chromium = 13.000
+	}
+	history={
+		owner = SDS
+		add_core_of = SDS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1875 7745 7771 13979 13980 13981 13992 14008 14009 14021 
+	}
+	manpower=692849
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

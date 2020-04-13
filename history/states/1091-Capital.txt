@@ -1,0 +1,23 @@
+state={
+	id=1091
+	name="Capital"
+	manpower = 241376
+	state_category=large_city
+	resources = {
+		steel=10.00
+	}
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = NYN
+	}
+	provinces={
+		3806 11665 11722
+	}
+	buildings_max_level_factor=1.000
+}

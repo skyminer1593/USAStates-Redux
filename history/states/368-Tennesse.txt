@@ -1,0 +1,29 @@
+
+state={
+	id=368
+	name="Highland Rim"
+	resources={
+		steel=60.000
+	}
+
+	history={
+		owner = TNT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		add_core_of = TNT
+		victory_points = {
+			1758 3 
+		}
+
+	}
+
+	provinces={
+		10281 10824 12501 12670 
+	}
+	manpower=216555
+	buildings_max_level_factor=1.000
+	state_category=city
+}

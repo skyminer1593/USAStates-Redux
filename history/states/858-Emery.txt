@@ -1,0 +1,19 @@
+
+state={
+	id=858
+	name="Emery"
+	history = {
+		owner = UTU
+		add_core_of = UTU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		4742 7764 10662 13733 13743 13750 13757 13800 
+	}
+	manpower=31456
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

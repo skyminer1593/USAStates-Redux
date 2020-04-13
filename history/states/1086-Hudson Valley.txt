@@ -1,0 +1,24 @@
+state={
+	id=1086
+	name="Hudson Valley"
+	manpower=969873
+	state_category=large_city
+	resources={
+		steel=23.000
+	}
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = NYN
+	}
+
+	provinces={
+		3894 6911
+	}
+	buildings_max_level_factor=1.000
+}

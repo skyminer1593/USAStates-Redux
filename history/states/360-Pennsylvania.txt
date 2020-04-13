@@ -1,0 +1,29 @@
+state={
+	id=360
+	name="Allegheny Mountains and Valleys"
+	manpower=631346
+	state_category=town
+	resources={
+		steel=44.000
+		chromium=12.000
+		aluminium=14.000
+	}
+
+	history={
+		owner = PAP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+		}
+		add_core_of = PAP
+	}
+
+	provinces={
+		 822 847 3847 3850 6872 6885 11758 11769 12405 9804 
+	}
+
+	buildings_max_level_factor=1.000
+
+}

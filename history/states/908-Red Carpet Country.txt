@@ -1,0 +1,18 @@
+state={
+	id=908
+	name="Red Carpet Country"
+	history = {
+		owner = OKO
+		add_core_of = OKO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		7762 7904 10798 11802 13640 13658 13675 13687 13690 
+	}
+	manpower=442170
+	buildings_max_level_factor=1.000
+	state_category = town
+}

@@ -1,0 +1,18 @@
+state={
+	id=913
+	name="Frontier"
+	history = {
+		owner = OKO
+		add_core_of = OKO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1618 5103 13642 13646 
+	}
+	manpower=214530
+	buildings_max_level_factor=1.000
+	state_category = town
+}

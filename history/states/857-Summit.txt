@@ -1,0 +1,20 @@
+state={
+	id=857
+	name="Summit"
+	resources = {
+		chromium = 7.000
+	}
+	history = {
+		owner = UTU
+		add_core_of = UTU
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		1756 4668 4865 13829 13838 
+	}
+	manpower=30236
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

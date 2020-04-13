@@ -1,0 +1,25 @@
+state={
+	id=862
+	name="North River Country"
+	resources={
+		steel=20.000
+	}
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			11814 15
+		}
+
+	}
+	provinces={
+		850 1793 11814 13598 13600 13622 13638 13657 
+	}
+	manpower=156234
+	buildings_max_level_factor=1.000
+	state_category = town
+}

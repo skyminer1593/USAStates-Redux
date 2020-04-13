@@ -1,0 +1,21 @@
+state={
+	id=881
+	name="Mountains and Mesas"
+	resources = {
+		oil = 5.000
+	}
+	history={
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		7999 9792 13702 
+	}
+	manpower=35790
+	buildings_max_level_factor=1.000
+	state_category = town
+}

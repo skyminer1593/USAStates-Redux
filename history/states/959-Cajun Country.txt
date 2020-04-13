@@ -1,0 +1,19 @@
+state={
+	id=959
+	name="Cajun Country"
+	history={
+		owner = LAL
+		add_core_of = LAL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
+		}
+	}
+	provinces={
+		1643 4507 12313 13448 13453 13480 
+	}
+	manpower=405124
+	buildings_max_level_factor=1.000
+	state_category = city
+}

@@ -1,0 +1,19 @@
+state={
+	id=928
+	name="Republican Valley"
+	history = {
+		owner = NEN
+		add_core_of = NEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	provinces={
+		4830 10606 13853 13858 
+	}
+	manpower=134572
+	buildings_max_level_factor=1.000
+	state_category = town
+}

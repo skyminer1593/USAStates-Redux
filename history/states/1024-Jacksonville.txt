@@ -1,0 +1,18 @@
+state={
+	id=1024
+	name="Jacksonville"
+	history = {
+		owner = FLF
+		add_core_of = FLF
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces={
+		13462 13463 13466 13472 13475 
+	}
+	manpower=210451
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

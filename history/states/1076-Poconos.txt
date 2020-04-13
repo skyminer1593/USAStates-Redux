@@ -1,0 +1,22 @@
+state={
+	id=1076
+	name="Poconos"
+	manpower=450129
+	state_category=rural
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = PAP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = PAP
+	}
+	provinces={
+		891 894 3897 9820 11799
+	}
+	buildings_max_level_factor=1.000
+}

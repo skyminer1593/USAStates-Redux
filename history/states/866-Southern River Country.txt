@@ -1,0 +1,18 @@
+state={
+	id=866
+	name="Southern River Country"
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		853 8115 10783 13512 13533 13563 13565 13566 13575 13576 
+	}
+	manpower=75572
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=1057
+	name="Northern Panhandle"
+	history = {
+		owner = WVW
+		add_core_of = WVW
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		801 3975 6850 
+	}
+	manpower=102104
+	buildings_max_level_factor=1.000
+	state_category = town
+}

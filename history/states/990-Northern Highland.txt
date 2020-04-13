@@ -1,0 +1,18 @@
+state={
+	id=990
+	name="Northern Highland"
+	history = {
+		owner = WIW
+		add_core_of = WIW
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1760 3699 4029 7829 10341 10526 
+	}
+	manpower=102415
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

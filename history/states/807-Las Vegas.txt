@@ -1,0 +1,20 @@
+state={
+	id=807
+	name="Las Vegas"
+	history = {
+		owner = NVN
+		add_core_of = NVN
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			air_base = 3
+		}
+	}
+		
+	provinces={
+		4799 13629 13647 13648 13649 13662 13663 13673 13682 13693 15864
+	}
+	manpower=125810
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

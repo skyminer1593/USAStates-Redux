@@ -1,0 +1,23 @@
+state={
+	id=1084
+	name="New York City"
+	manpower = 5947163
+	state_category = megalopolis
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 10
+			arms_factory = 6
+			industrial_complex = 8
+			dockyard = 4
+			}
+		add_core_of = NYN
+
+	}
+
+	provinces={
+		3878 13870 13872 13876 13887
+	}
+	buildings_max_level_factor=1.000
+}

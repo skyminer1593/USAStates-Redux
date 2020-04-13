@@ -1,0 +1,32 @@
+
+state={
+	id=384
+	name="Nebraska"
+
+	history={
+		owner = NEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = NEN
+		victory_points = {
+			12586 1 
+		}
+		victory_points = {
+			1683 2
+		}
+		victory_points = {
+			12516 3 
+		}
+
+	}
+
+	provinces={
+		1683 12586 13929 13904 13943
+	}
+	manpower=377962
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

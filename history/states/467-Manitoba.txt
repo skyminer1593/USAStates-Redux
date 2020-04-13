@@ -1,0 +1,30 @@
+
+state={
+	id=467
+	name="manitoba"
+
+	history={
+		owner = MBM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			4872 5
+		}
+		victory_points = {
+			1848 4
+		}
+		add_core_of = MBM
+
+	}
+
+	provinces={
+		4790 4872 12688 14460 14461 14487 14495 14521 14537 14569 14604 
+	}
+	manpower=951071
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,18 @@
+state={
+	id=1044
+	name="Southeast Carolina"
+	history = {
+		owner = NCN
+		add_core_of = NCN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1019 1132 
+	}
+	manpower=45103
+	buildings_max_level_factor=1.000
+	state_category = town
+}

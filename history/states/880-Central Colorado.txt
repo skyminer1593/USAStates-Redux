@@ -1,0 +1,24 @@
+state={
+	id=880
+	name="Central Colorado"
+
+	resources={
+		tungsten=15	
+		chromium= 7.000
+	}
+
+	history = {
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1827 10588 13735 13740 13762 13776 13795 13821 13846 
+	}
+	manpower=124036
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

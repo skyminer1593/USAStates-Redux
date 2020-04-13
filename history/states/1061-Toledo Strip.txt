@@ -1,0 +1,19 @@
+state={
+	id=1061
+	name="Toledo Strip"
+	history = {
+		owner = OHO
+		add_core_of = OHO
+		add_core_of = MIM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		13923 13925 
+	}
+	manpower=301424
+	buildings_max_level_factor=1.000
+	state_category = city
+}

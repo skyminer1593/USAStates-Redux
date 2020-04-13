@@ -1,0 +1,18 @@
+state={
+	id=996
+	name="Rock River Region"
+	history = {
+		owner = ILI
+		add_core_of = ILI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		6737 11589 12312 12368 
+	}
+	manpower=201432
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

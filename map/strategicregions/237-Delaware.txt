@@ -1,0 +1,9 @@
+strategic_region={
+	id=237
+	name="Delaware"
+	provinces={
+		9786 13806 13812 13814 13825 
+	}
+	weather={
+	}
+}

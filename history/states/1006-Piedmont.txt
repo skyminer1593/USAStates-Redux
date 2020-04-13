@@ -1,0 +1,18 @@
+state={
+	id=1006
+	name="Piedmont"
+	history = {
+		owner = ALA
+		add_core_of = ALA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		4594 11509 
+	}
+	manpower=50416
+	buildings_max_level_factor=1.000
+	state_category = town
+}

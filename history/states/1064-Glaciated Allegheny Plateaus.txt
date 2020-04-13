@@ -1,0 +1,17 @@
+state={
+	id=1064
+	name="Glaciated Alegheny Plateaus"
+	history = {
+		owner = OHO
+		add_core_of = OHO
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		882 4442 6874 9808 
+	}
+	manpower=301241
+	buildings_max_level_factor=1.000
+	state_category = city
+}

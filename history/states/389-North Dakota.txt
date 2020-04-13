@@ -1,0 +1,36 @@
+
+state={
+	id=389
+	name="STATE_389"
+	resources={
+		steel=17.000
+		oil=7.000
+	}
+
+	history={
+		owner = NDN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = NDN
+		victory_points = {
+			1870 10 
+		}
+		victory_points = {
+			3719 1 
+		}
+		victory_points = {
+			12685 5 
+		}
+
+	}
+
+	provinces={
+		1752 1870 3719 12685 14327 14329 14339 14388 
+	}
+	manpower=680844
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

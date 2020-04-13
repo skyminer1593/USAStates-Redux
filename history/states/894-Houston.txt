@@ -1,0 +1,19 @@
+state={
+	id=894
+	name="Houston"
+	history={
+		owner = TXT
+		add_core_of = TXT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			dockyard = 4
+		}
+	}
+	provinces={
+		10337 13447 13451 13460 13468 
+	}
+	manpower=1756500
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

@@ -1,0 +1,19 @@
+state={
+	id=1135
+	name="Toronto"
+	history = {
+		owner = ONO
+		add_core_of = ONO
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 4
+		}
+	}
+	provinces={
+		3775 14015 14024 14027 14034 14038 14044 
+	}
+	manpower=2931245
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

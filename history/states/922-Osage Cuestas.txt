@@ -1,0 +1,17 @@
+state={
+	id=922
+	name="Osage Cuestas"
+	history = {
+		owner = KSK
+		add_core_of = KSK
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1352 4811 7834 9802 13706 13722 13767 13780 
+	}
+	manpower=50147
+	buildings_max_level_factor=1.000
+	state_category = town
+}

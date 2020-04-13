@@ -1,0 +1,18 @@
+state={
+	id=882
+	name="The Great West"
+	history = {
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		7684 10535 13766 13807 
+	}
+	manpower=98739
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

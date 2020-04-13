@@ -1,0 +1,22 @@
+state={
+	id=852
+	name="The Magic Valley"
+	resources={
+		steel=18.000
+		chromium=12.000
+		tungsten=18.000
+	}
+	history = {
+		owner = IDI
+		add_core_of = IDI
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		9695 12607 13941 
+	}
+	manpower=25412
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

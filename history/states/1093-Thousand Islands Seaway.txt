@@ -1,0 +1,20 @@
+state={
+	id=1093
+	name="Thousand Islands Seaway"
+	manpower=234901
+	state_category = rural
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = NYN
+	}
+	provinces={
+		598 6778 6795 6916 9754
+	}
+	buildings_max_level_factor=1.000
+}

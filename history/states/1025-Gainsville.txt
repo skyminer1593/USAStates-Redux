@@ -1,0 +1,18 @@
+state={
+	id=1025
+	name="Gainsville"
+	history = {
+		owner = FLF
+		add_core_of = FLF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1556 12353 12381 
+	}
+	manpower=521341
+	buildings_max_level_factor=1.000
+	state_category = city
+}

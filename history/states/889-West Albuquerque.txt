@@ -1,0 +1,18 @@
+state={
+	id=889
+	name="Western Albuquerque"
+	history = {
+		owner = NMN
+		add_core_of = NMN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		13593 13610 
+	}
+	manpower=323514
+	buildings_max_level_factor=1.000
+	state_category = city
+}

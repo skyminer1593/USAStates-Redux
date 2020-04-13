@@ -1,0 +1,19 @@
+state={
+	id=875
+	name="Green River Region"
+	history={
+		owner = WYW
+		add_core_of = WYW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+	provinces={
+		7688 7888 12633 13888 13910 13915 13937 13949 
+	}
+	manpower=125564
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

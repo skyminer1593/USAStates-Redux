@@ -1,0 +1,18 @@
+state={
+	id=1040
+	name="Metrolina"
+	history = {
+		owner = NCN
+		add_core_of = NCN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		7138 10096 10495 13621 
+	}
+	manpower=201540
+	buildings_max_level_factor=1.000
+	state_category = city
+}

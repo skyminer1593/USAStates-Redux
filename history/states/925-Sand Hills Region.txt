@@ -1,0 +1,18 @@
+state={
+	id=925
+	name="Sand Hills Region"
+	history = {
+		owner = NEN
+		add_core_of = NEN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces={
+		7840 12516 
+	}
+	manpower=34029
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,17 @@
+state={
+	id=1055
+	name="Hatfield-McCoy Mountains"
+	history = {
+		owner = WVW
+		add_core_of = WVW
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		6971 10441 
+	}
+	manpower=60125
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

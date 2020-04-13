@@ -1,0 +1,19 @@
+state={
+	id=879
+	name="Denver"
+	history = {
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	provinces={
+		13802 13808 13815 13816 13832 13841 
+	}
+	manpower=741524
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

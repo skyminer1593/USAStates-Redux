@@ -1,0 +1,24 @@
+
+state={
+	id=365
+	name="Classic South"
+	resources={
+		steel=25
+		aluminium=15
+	}
+	history={
+		owner = GAG
+		add_core_of = GAG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}	
+	}
+
+	provinces={
+		7118 10437 10465 
+	}
+	manpower=1408504
+	buildings_max_level_factor=1.000
+	state_category=city
+}

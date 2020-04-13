@@ -1,0 +1,19 @@
+state={
+	id=1030
+	name="Atlanta Metro"
+	history = {
+		owner = GAG
+		add_core_of = GAG
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		13572 13573 13582 13584 13586 
+	}
+	manpower=1623047
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

@@ -1,0 +1,18 @@
+state={
+	id=874
+	name="STATE_874"
+	history = {
+		owner = WYW
+		add_core_of = WYW
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		4723 10640 13916 13927 13936 
+	}
+	manpower=102546
+	buildings_max_level_factor=1.000
+	state_category = town
+}

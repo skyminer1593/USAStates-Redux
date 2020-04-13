@@ -1,0 +1,23 @@
+state={
+	id=1101
+	name="Cape Cod"
+	manpower=478422
+	state_category=city
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = MAM
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 2
+		}
+		add_core_of = MAM
+	}
+	provinces={
+		905 13908
+	}
+	buildings_max_level_factor=1.000
+}

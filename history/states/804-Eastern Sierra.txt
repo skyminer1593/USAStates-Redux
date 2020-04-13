@@ -1,0 +1,20 @@
+state={
+	id=804
+	name="Eastern Sierra"
+	resources = {
+		aluminium = 2.000
+	}
+	history = {
+		owner = CAC
+		add_core_of = CAC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		1651 4657 7667 10387 13656 
+	}
+	manpower=121435
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

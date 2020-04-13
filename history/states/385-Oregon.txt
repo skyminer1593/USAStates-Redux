@@ -1,0 +1,24 @@
+
+state={
+	id=385
+	name="Northeastern Oregon"
+	resources={
+		tungsten=9.000
+		steel=11.000
+	}
+
+	history={
+		owner = ORO
+		add_core_of = ORO
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+  	12553 14069
+	}
+	manpower=323783
+	buildings_max_level_factor=1.000
+	state_category=town
+}

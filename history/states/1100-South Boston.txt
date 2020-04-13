@@ -1,0 +1,24 @@
+state={
+	id=1100
+	name="South Boston"
+	manpower=348752
+	state_category=large_city
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = MAM
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = MAM
+	}
+	provinces={
+		3906 13918 13948
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=1026
+	name="Orlando"
+	history = {
+		owner = FLF
+		add_core_of = FLF
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		1572 1584 12439 
+	}
+	manpower=641312
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

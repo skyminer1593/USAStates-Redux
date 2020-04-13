@@ -1,0 +1,20 @@
+state={
+	id=817
+	name="Southeast Region"
+	history={
+		owner = WAW
+		add_core_of = WAW
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+		}
+	}
+	provinces={
+		4747 10155 10327 10687 10690 12155 12214 12673 14160 14171 14211 14222 
+	}
+	manpower=233295
+	buildings_max_level_factor=1.000
+	state_category = town
+}

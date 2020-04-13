@@ -1,0 +1,18 @@
+state={
+	id=884
+	name="Pikes Peak Wonders"
+	history={
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		868 13710 13726 13729 13730 13734 13739 13751 13754 
+	}
+	manpower=75210
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

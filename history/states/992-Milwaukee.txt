@@ -1,0 +1,19 @@
+state={
+	id=992
+	name="Milwaukee"
+	history = {
+		owner = WIW
+		add_core_of = WIW
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		9657 13995 13999 14010 14014 14023 14037 14039 
+	}
+	manpower=904152
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

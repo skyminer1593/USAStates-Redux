@@ -1,0 +1,19 @@
+state={
+	id=985
+	name="Minneapolis"
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
+	}
+	provinces={
+		14121 14122 14131 14132 14144 14149 
+	}
+	manpower=745628
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

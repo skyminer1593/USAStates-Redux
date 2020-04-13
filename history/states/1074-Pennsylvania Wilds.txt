@@ -1,0 +1,25 @@
+state={
+	id=1074
+	name="Pennsylvania Wilds"
+	manpower=356382
+	state_category=rural
+	resources={
+		tungsten=15.000
+		steel=18.000
+	}
+
+	history={
+		owner = PAP
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = PAP
+	}
+
+	provinces={
+		702 862 3697 3880 6899 9662 9836 11648 11817
+	}
+	buildings_max_level_factor=1.000
+}

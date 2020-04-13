@@ -1,0 +1,21 @@
+state={
+	id=935
+	name="Fargo"
+	resources = {
+		tungsten = 14.000
+	}
+	history = {
+		owner = NDN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+		}
+	}
+	provinces={
+		14214 14235 14236 14258 14263 
+	}
+	manpower=880844
+	buildings_max_level_factor=1.000
+	state_category = city
+}

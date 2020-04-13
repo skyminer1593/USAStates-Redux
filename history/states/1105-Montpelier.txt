@@ -1,0 +1,26 @@
+state={
+	id=1105
+	name="Montpelier"
+	manpower=242157
+	state_category=metropolis
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = VTV
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = VTV
+	}
+	provinces={
+		14058 14059 14061 14066
+	}
+	manpower=743654
+	buildings_max_level_factor=1.000
+}

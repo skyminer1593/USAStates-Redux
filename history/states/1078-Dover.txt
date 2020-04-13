@@ -1,0 +1,21 @@
+state={
+	id=1078
+	name="Dover"
+	manpower = 309291
+	state_category = large_city
+
+	history = {
+		Owner = DED
+		buildings = {
+		infrastructure = 7
+		industrial_complex = 5
+		arms_factory = 2
+		}
+		add_core_of = DED
+	}
+
+	provinces={
+		13812 13814 13825
+	}
+	buildings_max_level_factor=1.000
+}

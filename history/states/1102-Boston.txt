@@ -1,0 +1,32 @@
+state={
+	id=1102
+	name="Boston"
+	manpower = 952773
+	state_category=megalopolis
+	resources={
+		steel=15.000
+	}
+
+	history={
+		owner = MAM
+		buildings = {
+			infrastructure = 10
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 5
+			air_base = 10
+			13961 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = MAM
+		victory_points = {
+			13961 25
+		}
+	}
+
+	provinces={
+		6732 13960 13961 13964 13969
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=870
+	name="Russel Country"
+	resources = {
+		tungsten = 11.000
+	}
+	history = {
+		owner = MTM
+		add_core_of = MTM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		1857 10593 11712 12572 14218 14219 14223 14275 14308 14326 14346 
+	}
+	manpower=125436
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

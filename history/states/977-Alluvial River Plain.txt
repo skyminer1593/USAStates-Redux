@@ -1,0 +1,20 @@
+state={
+	id=977
+	name="Alluvial River Plain"
+	resources = {
+		chromium = 12.000
+	}
+	history = {
+		owner = MOM
+		add_core_of = MOM
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1523 7607 
+	}
+	manpower=52143
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=903
+	name="Hill Country"
+	history = {
+		owner = TXT
+		add_core_of = TXT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1927 6798 12782 13437 13442 13469 13482 13487 13493 
+	}
+	manpower=124325
+	buildings_max_level_factor=1.000
+	state_category = town
+}

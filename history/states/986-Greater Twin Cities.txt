@@ -1,0 +1,19 @@
+state={
+	id=986
+	name="Greater Twin Cities Area"
+	history = {
+		owner = MNM
+		add_core_of = MNM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		1719 6827 12550 14109 14152 
+	}
+	manpower=401246
+	buildings_max_level_factor=1.000
+	state_category = city
+}

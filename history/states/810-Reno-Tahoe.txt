@@ -1,0 +1,22 @@
+state={
+	id=810
+	name="Carson City"
+	history={
+		owner = NVN
+		add_core_of = NVN
+		victory_points = {
+			4607 30
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		4607 10422 13761 13834 13896 
+	}
+	manpower=1222179
+	state_category = city
+	buildings_max_level_factor=1.000
+}

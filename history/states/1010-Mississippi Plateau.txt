@@ -1,0 +1,19 @@
+state={
+	id=1010
+	name="Mississippi Plateau"
+	history = {
+		owner = KYK
+		add_core_of = KYK
+		buildings= {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	provinces={
+		1582 4988 6696 12568 12709 
+	}
+	manpower=310246
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

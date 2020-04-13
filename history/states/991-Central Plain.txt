@@ -1,0 +1,18 @@
+state={
+	id=991
+	name="Central Plain"
+	history = {
+		owner = WIW
+		add_core_of = WIW
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+		}
+	}
+	provinces={
+		926 4166 4834 
+	}
+	manpower=450321
+	buildings_max_level_factor=1.000
+	state_category = city
+}

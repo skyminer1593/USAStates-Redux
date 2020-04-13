@@ -1,0 +1,21 @@
+state={
+	id=1095
+	name="Naugatuck Valley"
+	manpower=432013
+	state_category=city
+
+	history={
+		owner = CTC
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = CTC
+	}
+	provinces={
+		6909 9847 9850
+	}
+	buildings_max_level_factor=1.000
+}

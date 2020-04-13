@@ -1,0 +1,26 @@
+
+state={
+	id=359
+	name="Central Jersey"
+	manpower=3041332
+	state_category=large_city
+
+	history={
+		owner = NJN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 1
+		}
+		add_core_of = NJN
+
+	}
+
+	provinces={
+		11900 11782
+	}
+
+	buildings_max_level_factor=1.000
+
+}

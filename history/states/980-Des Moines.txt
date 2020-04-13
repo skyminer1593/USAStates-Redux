@@ -1,0 +1,19 @@
+state={
+	id=980
+	name="Des Moines"
+	history={
+		owner = IAI
+		add_core_of = IAI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+
+		}
+	}
+	provinces={
+		13930 13938 13939 13944 13952 13954 13956 
+	}
+	manpower=520938
+	buildings_max_level_factor=1.000
+	state_category = city
+}

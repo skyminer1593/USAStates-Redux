@@ -1,0 +1,19 @@
+state={
+	id=1004
+	name="Mobile"
+	history = {
+		owner = ALA
+		add_core_of = ALA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	provinces={
+		7480 10520 13489 13490 13496 13497 13498 13499 13500 13502 
+	}
+	manpower=1502314
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

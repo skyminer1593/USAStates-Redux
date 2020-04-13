@@ -1,0 +1,18 @@
+state={
+	id=1002
+	name="Cumberland Plateu"
+	history = {
+		owner = TNT
+		add_core_of = TNT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1758 10657 10909 
+	}
+	manpower=213485
+	buildings_max_level_factor=1.000
+	state_category = town
+}

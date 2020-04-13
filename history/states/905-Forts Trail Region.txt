@@ -1,0 +1,21 @@
+state={
+	id=905
+	name="Forts Trail Region"
+	resources = {
+		chromium = 3.000
+	}
+	history = {
+		owner = TXT
+		add_core_of = TXT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1915 12875 13517 13519 
+	}
+	manpower=51423
+	buildings_max_level_factor=1.000
+	state_category = town
+}

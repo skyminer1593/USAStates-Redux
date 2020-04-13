@@ -1,0 +1,23 @@
+state={
+	id=1088
+	name="Greater Niagara"
+	manpower = 1246908
+	state_category=city
+	resources={
+		steel=20.000
+		oil= 37.000
+	}
+
+	history={
+		owner = NYN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+		}
+	}
+	provinces={
+		734 6707 9664 11654
+	}
+	buildings_max_level_factor=1.000
+}

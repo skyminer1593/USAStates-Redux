@@ -1,0 +1,19 @@
+state={
+	id=930
+	name="Lincoln and Omaha"
+	history = {
+		owner = NEN
+		add_core_of = NEN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		13871 13874 13879 13880 13899 13901 13905 
+	}
+	manpower=751629
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

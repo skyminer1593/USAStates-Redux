@@ -1,0 +1,17 @@
+state={
+	id=978
+	name="Glaciated Till Plain"
+	history = {
+		owner = MOM
+		add_core_of = MOM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		7449 10333 10391 10516 13813 
+	}
+	manpower=20154
+	buildings_max_level_factor=1.000
+	state_category = town
+}

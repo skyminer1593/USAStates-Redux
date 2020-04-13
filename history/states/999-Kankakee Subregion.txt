@@ -1,0 +1,18 @@
+state={
+	id=999
+	name="Kankakee Subregion"
+	history = {
+		owner = ILI
+		add_core_of = ILI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		1655 4508 7611 9682 10461 
+	}
+	manpower=352104
+	buildings_max_level_factor=1.000
+	state_category = city
+}

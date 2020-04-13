@@ -1,0 +1,21 @@
+state={
+	id=814
+	name="STATE_814"
+	history={
+		owner = ORO
+		add_core_of = ORO
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 3
+		}
+	}
+	provinces={
+		3513 14098 14103 14112 14113 
+	}
+	manpower=1647805
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

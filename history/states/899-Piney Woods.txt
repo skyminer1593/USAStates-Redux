@@ -1,0 +1,20 @@
+state={
+	id=899
+	name="Piney Woods"
+	resources = {
+		steel = 12.000
+	}
+	history = {
+		owner = TXT
+		add_core_of = TXT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		805 4577 5001 6968 7628 9829 10504 10778 12486 13485 
+	}
+	manpower=21031
+	buildings_max_level_factor=1.000
+	state_category = town
+}

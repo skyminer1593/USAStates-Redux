@@ -1,0 +1,17 @@
+state={
+	id=816
+	name="Columbia Plateau"
+	history = {
+		owner = ORO
+		add_core_of = ORO
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1414 4826 7865 12183 
+	}
+	manpower=21456
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

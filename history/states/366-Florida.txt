@@ -1,0 +1,22 @@
+
+state={
+	id=366
+	name="Florida Plains"
+	manpower = 1468210
+	
+	state_category = city
+
+	history={
+		owner = FLF
+		add_core_of = FLF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+	}
+
+	provinces={
+		12752 7388 866 10489
+	}
+	
+}

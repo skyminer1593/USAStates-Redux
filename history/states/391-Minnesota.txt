@@ -1,0 +1,29 @@
+
+state={
+	id=391
+	name="Arrowhead"
+	resources={
+		steel=110.000
+	}
+
+	history={
+		owner = MNM
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+
+		}
+		add_core_of = MNM
+		victory_points = {
+			1866 5 
+		}
+
+	}
+
+	provinces={
+		1734 6767 7896 14237 
+	}
+	manpower=163952
+	buildings_max_level_factor=1.000
+	state_category=city
+}

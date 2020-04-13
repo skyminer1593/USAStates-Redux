@@ -1,0 +1,19 @@
+state={
+	id=1017
+	name="Detroit"
+	history = {
+		owner = MIM
+		add_core_of = MIM
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 4
+		}
+	}
+	provinces={
+		6710 13947 13957 13962 13968 
+	}
+	manpower=1820342
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

@@ -1,4 +1,4 @@
-﻿capital = 958
+﻿capital = 1001
 
 oob = "TNT_1936"
 

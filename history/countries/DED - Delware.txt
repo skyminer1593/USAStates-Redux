@@ -1,4 +1,4 @@
-﻿capital = 906
+﻿capital = 1078
 
 oob = "DED_1936"
 

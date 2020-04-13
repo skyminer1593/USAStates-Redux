@@ -1,4 +1,4 @@
-﻿capital = 960
+﻿capital = 1030
 
 oob = "GAG_1936"
 

@@ -1,6 +1,6 @@
 state={
 	id=850
-	name="STATE_850"
+	name="Boise"
 	resources={
 		steel=12.000
 		chromium=10.000

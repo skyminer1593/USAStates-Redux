@@ -1,4 +1,4 @@
-﻿capital = 888
+﻿capital = 1097
 
 oob = "RIR_1936"
 

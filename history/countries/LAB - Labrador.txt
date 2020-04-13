@@ -1,4 +1,4 @@
-﻿capital = 332
+﻿capital = 1142
 
 oob = "LAB_1936"
 

@@ -1,6 +1,6 @@
 state={
 	id=814
-	name="STATE_814"
+	name="Portland"
 	history={
 		owner = ORO
 		add_core_of = ORO

@@ -17,9 +17,10 @@ state={
 			air_base = 2
 			13909 = {
 				naval_base = 3
-
 			}
-
+		}
+		victory_points = {
+			11830 20
 		}
 		add_core_of = RIR
 	}

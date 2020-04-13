@@ -13,6 +13,9 @@ state={
 
 		}
 		add_core_of = MDM
+		victory_points = {
+			13797 15
+		}
 	}
 
 	provinces={

@@ -15,6 +15,9 @@ state={
 
 		}
 		add_core_of = MEM
+		victory_points = {
+			7462 20
+		}
 	}
 	provinces={
 		6719 7462 12202 14055 14070 14077 14117

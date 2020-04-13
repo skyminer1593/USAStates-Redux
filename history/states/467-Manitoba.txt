@@ -1,7 +1,7 @@
 
 state={
 	id=467
-	name="manitoba"
+	name="Manitoba"
 
 	history={
 		owner = MBM

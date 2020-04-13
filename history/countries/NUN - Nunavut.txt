@@ -1,4 +1,4 @@
-﻿capital = 910
+﻿capital = 950
 
 oob = "NUN_1936"
 

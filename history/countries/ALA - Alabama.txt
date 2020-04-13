@@ -1,4 +1,4 @@
-﻿capital = 959
+﻿capital = 1004
 
 oob = "ALA_1936"
 

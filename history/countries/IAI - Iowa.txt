@@ -1,4 +1,4 @@
-﻿capital = 954
+﻿capital = 980
 
 oob = "IAI_1936"
 

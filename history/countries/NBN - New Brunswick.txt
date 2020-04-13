@@ -1,4 +1,4 @@
-﻿capital = 465
+﻿capital = 1122
 
 oob = "NBN_1936"
 

@@ -1,4 +1,4 @@
-﻿capital = 977
+﻿capital = 1114
 
 oob = "MEM_1936"
 

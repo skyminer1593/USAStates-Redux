@@ -9,6 +9,9 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = NDN
+		victory_points = {
+			14424 20
+		}
 	}
 	provinces={
 		6722 7877 12566 14161 14162 14205 14224 14262 

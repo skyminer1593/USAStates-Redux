@@ -12,6 +12,9 @@ state={
 			arms_factory = 2
 		}
 		add_core_of = PAP
+		victory_points = {
+			11785 20
+		}
 	}
 	provinces={
 		3824 6869 11785

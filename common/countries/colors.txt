@@ -873,3 +873,7 @@ GRN = {
 	color = rgb { 10 59 55 }
 	color_ui = rgb { 10 59 55 }
 }
+AAA = {
+	color = rgb { 0 0 0 }
+	color_ui = { 0 0 0 }
+}

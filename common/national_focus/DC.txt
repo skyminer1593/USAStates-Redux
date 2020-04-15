@@ -1,0 +1,1298 @@
+########################### WASHINGTON DC by cfc324 ###########################
+
+focus_tree = {
+  id = dc_focus
+
+  country = {
+      factor = 0
+    modifier = {
+      add = 30
+      tag = DCD
+    }
+  }
+
+
+default = no
+
+continuous_focus_position = { x = 50 y = 3000 }
+
+    focus = {
+    id = WDC_army
+    icon = GFX_goal_unknown
+    x = 30
+    y = 0
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      army_experience = 10
+    }
+  }
+
+    focus = {
+    id = WDC_SF1
+    icon = GFX_goal_generic_army_artillery
+    prerequisite = {focus = WDC_army}
+    x = -3
+    y = 1
+
+    relative_position_id = WDC_army
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_tech_bonus = {
+        name = land_doctrine
+        bonus = 1.0
+        uses = 1
+        category = cat_superior_firepower
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_SF2
+    icon = GFX_goal_generic_army_artillery2
+    prerequisite = {focus = WDC_SF1}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_SF1
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_arty
+    }
+  }
+
+    focus = {
+    id = WDC_SF3
+    icon = GFX_goal_generic_occupy_start_war
+    prerequisite = {focus = WDC_SF2}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_SF2
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      swap_ideas = {
+        remove_idea = WDC_arty
+        add_idea = DC_arty2
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_SF4
+    icon = GFX_goal_generic_little_entente
+    prerequisite = {focus = WDC_SF3}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_SF3
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      load_oob = DC_patriots
+    }
+  }
+
+    focus = {
+    id = WDC_MW1
+    icon = GFX_goal_generic_cavalry
+    prerequisite = {focus = WDC_army}
+    x = -1
+    y = 1
+
+    relative_position_id = WDC_army
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_tech_bonus = {
+        name = land_doctrine
+        bonus = 1.0
+        uses = 1
+        category = cat_mobile_warfare
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_MW2
+    icon = GFX_goal_generic_army_motorized
+    prerequisite = {focus = WDC_MW1}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_MW1
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_timed_idea = {
+        idea = DC_motorized
+          days = 365
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_MW3
+    icon = GFX_goal_generic_army_tanks
+    prerequisite = {focus = WDC_MW2}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_MW2
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      country_event = DC.x
+    }
+  }
+
+    focus = {
+    id = WDC_MW4
+    icon = GFX_focus_generic_strike_at_democracy
+    prerequisite = {focus = WDC_MW3}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_MW3
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_MW1
+    }
+  }
+
+    focus = {
+    id = WDC_GB1
+    icon = GFX_goal_generic_defence
+    prerequisite = {focus = WDC_army}
+    x = 1
+    y = 1
+
+    relative_position_id = WDC_army
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_tech_bonus = {
+        name = land_doctrine
+        bonus = 1.0
+        uses = 1
+        category = cat_grand_battle_plan
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_GB2
+    icon = GFX_goal_generic_fortify_city
+    prerequisite = {focus = WDC_GB1}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_GB1
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      STATEID = {
+        add_building_construction = {
+          type = bunker
+          level = 3
+          instant_build = yes
+          province = {
+            all_provinces = yes
+            limit_to_border = yes
+          }
+        }
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_GB3
+    icon = GFX_goal_generic_construction2
+    prerequisite = {focus = WDC_GB2}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_GB2
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_GB1
+    }
+  }
+
+    focus = {
+    id = WDC_GB4
+    icon = GFX_focus_eng_decolonization
+    prerequisite = {focus = WDC_GB3}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_GB3
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      swap_ideas = {
+        remove_idea = DC_GB1
+        add_idea = DC_GB2
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_MA1
+    icon = GFX_generic_American_Soldier2
+    prerequisite = {focus = WDC_army}
+    x = 3
+    y = 1
+
+    relative_position_id = WDC_army
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_tech_bonus = {
+        name = land_doctrine
+        bonus = 1.0
+        uses = 1
+        category = cat_mass_assault
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_MA2
+    icon = GFX_goal_generic_support_the_left_right
+    prerequisite = {focus = WDC_MA1}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_MA1
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = {
+        DC_MA1
+      }
+    }
+    }
+
+    focus = {
+    id = WDC_MA3
+    icon = GFX_focus_generic_manpower
+    prerequisite = {focus = WDC_MA2}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_MA2
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = {
+        DC_MA2
+      }
+    }
+  }
+
+    focus = {
+    id = WDC_MA4
+    icon = GFX_goal_generic_small_arms
+    prerequisite = {focus = WDC_MA3}
+    x = 0
+    y = 1
+
+    relative_position_id = WDC_MA3
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = {
+        DC_MA3
+      }
+    }
+  }
+
+  ################################################################ P O L I T I C S #############################################################
+
+  focus = {
+    id = DC_constitution
+    icon = GFX_Generic_Factionalism
+
+    x = 10
+    y = 0
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    bypass = {}
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      country_event = dc.5
+    }
+  }
+
+  focus = {
+    id = DC_divided
+    icon = GFX_WDC_burning_flag
+    prerequisite = {focus = DC_constitution}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_constitution
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    bypass = {}
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_political_power = 50
+    }
+  }
+
+  focus = {
+    id = DC_democratic1
+    icon = GFX_Generic_Blue_Democracy
+    prerequisite = {focus = DC_divided}
+    mutually_exclusive = { focus = DC_fascist1 focus = DC_communist1 }
+
+    x = -8
+    y = 1
+
+    relative_position_id = DC_divided
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_stability = 0.15
+    }
+  }
+
+  focus = {
+    id = DC_democratic2
+    icon = GFX_Generic_Meeting
+    prerequisite = {focus = DC_democratic1}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic1
+
+    cost = 10
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      remove_ideas = DC_crisis
+    }
+  }
+
+  focus = {
+    id = DC_democratic3
+    icon = GFX_Generic_Legislation
+    prerequisite = { focus = DC_democratic2 }
+
+    x = -2
+    y = 1
+
+    relative_position_id = DC_democratic2
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cost = 5
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_political_power = 50
+      add_stability = 0.03
+    }
+  }
+
+  focus = {
+    id = DC_democratic4
+    icon = GFX_Generic_Parliament_Box
+    prerequisite = { focus = DC_democratic2 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic2
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cost = 5
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_political_power = 50
+      add_stability = 0.03
+    }
+  }
+
+  focus = {
+    id = DC_democratic5
+    icon = GFX_Generic_Shady_Deal
+    prerequisite = { focus = DC_democratic2 }
+
+    x = 2
+    y = 1
+
+    relative_position_id = DC_democratic2
+
+    ai_will_do = {
+      factor = 1
+    }
+
+    cost = 5
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_political_power = 50
+      add_stability = 0.03
+    }
+  }
+
+  focus = {
+    id = DC_democratic6
+    icon = GFX_Focus_Television
+    prerequisite = { focus = DC_democratic3 }
+    prerequisite = { focus = DC_democratic4 }
+    prerequisite = { focus = DC_democratic5 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic4
+
+    cost = 15
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      news_event = {
+        hours = 1
+        id = genericfocusnews.2
+      }
+      add_ideas = DC_stable
+      add_stability = 0.05
+    }
+  }
+
+  focus = {
+    id = DC_democratic7
+    icon = GFX_Generic_Democracy
+    prerequisite = {focus = DC_democratic6}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic6
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_country_leader_trait = great_reformer
+    }
+  }
+
+  focus = {
+    id = DC_democratic8
+    icon = GFX_Generic_Workers_Democracy
+    prerequisite = {focus = DC_democratic7}
+
+    x = -2
+    y = 1
+
+    relative_position_id = DC_democratic7
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_wpa
+    }
+  }
+
+  focus = {
+    id = DC_democratic9
+    icon = GFX_focus_usa_guarantee_the_american_dream
+    prerequisite = {focus = DC_democratic7}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic7
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_ssa
+    }
+  }
+
+  focus = {
+    id = DC_democratic10
+    icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = {focus = DC_democratic7}
+
+    x = 2
+    y = 1
+
+    relative_position_id = DC_democratic7
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_mic
+    }
+  }
+
+  focus = {
+    id = DC_democratic11
+    icon = GFX_focus_eng_concessions_to_the_trade_unions
+    prerequisite = {focus = DC_democratic8}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic8
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_jobs
+    }
+  }
+
+  focus = {
+    id = DC_democratic12
+    icon = GFX_goal_generic_production
+    prerequisite = {focus = DC_democratic9}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic9
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      879 = {
+        add_extra_state_shared_building_slots = 2
+      }
+      add_ideas = DC_publicworks
+    }
+  }
+
+  focus = {
+    id = DC_democratic13
+    icon = GFX_goal_generic_fortify_city
+    prerequisite = {focus = DC_democratic10}
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic10
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_onestepahead
+    }
+  }
+
+  focus = {
+    id = DC_democratic14
+    icon = GFX_goal_unknown
+    prerequisite = {focus = DC_democratic11}
+    prerequisite = {focus = DC_democratic12}
+    prerequisite = {focus = DC_democratic13}
+
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic12
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      remove_ideas = DC_wpa
+      remove_ideas = DC_ssa
+      remove_ideas = DC_mic
+      remove_ideas = DC_jobs
+      remove_ideas = DC_publicworks
+      remove_ideas = DC_onestepahead
+      add_ideas = DC_newdeal
+    }
+  }
+
+  focus = {
+    id = DC_democratic15
+    icon = GFX_goal_unknown
+    prerequisite = { focus = DC_democratic14 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic14
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      MDM = {
+        country_event = dc.6
+      }
+    }
+  }
+
+  focus = {
+    id = DC_democratic16
+    icon = GFX_goal_generic_air_naval_bomber
+    prerequisite = { focus = DC_democratic15 }
+
+    x = -4
+    y = 1
+
+    relative_position_id = DC_democratic15
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      add_ideas = DC_gunboat
+    }
+  }
+
+  focus = {
+    id = DC_democratic17
+    icon = GFX_Generic_Revanchism02
+    prerequisite = { focus = DC_democratic16 }
+
+    x = -2
+    y = 1
+
+    relative_position_id = DC_democratic16
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = DED
+      }
+    }
+  }
+
+  focus = {
+    id = DC_democratic18
+    icon = GFX_Generic_Revanchism02
+    prerequisite = { focus = DC_democratic16 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic16
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = VAV
+      }
+    }
+  }
+
+  focus = {
+    id = DC_democratic19
+    icon = GFX_Generic_Revanchism02
+    prerequisite = { focus = DC_democratic16 }
+
+    x = 2
+    y = 1
+
+    relative_position_id = DC_democratic16
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = PAP
+      }
+    }
+  }
+
+  focus = {
+    id = DC_democratic20
+    icon = GFX_Generic_Revanchism02
+    prerequisite = { focus = DC_democratic17 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic17
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = WVW
+      }
+    }
+  }
+
+  focus = {
+    id = DC_democratic21
+    icon = GFX_Generic_Revanchism02
+    prerequisite = { focus = DC_democratic19 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic19
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = NJN
+      }
+    }
+  }
+
+  focus = {
+    id = DC_democratic22
+    icon = GFX_Generic_Revanchism02
+    prerequisite = { focus = DC_democratic18 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_democratic18
+
+    cost = 10
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = NCN
+      }
+      create_wargoal = {
+        type = annex_everything
+        target = SCS
+      }
+    }
+  }
+
+  focus = {
+    id = DC_fascist1
+    icon = GFX_Generic_Ultranationalist_Government
+    prerequisite = { focus = DC_divided }
+    mutually_exclusive = { focus = DC_democratic1 }
+    mutually_exclusive = { focus = DC_communist1 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_divided
+
+    cost = 10
+
+    completion_reward = {
+      add_stability = -0.05
+      add_war_support = 0.10
+      add_popularity = {
+        ideology = fascism
+        popularity = 0.25
+      }
+      hidden_effect = {
+        news_event = {
+          hours = 1
+          id = genericfocusnews.3
+        }
+      }
+    }
+  }
+
+  focus = {
+    id = DC_fascist2
+    icon = GFX_Generic_Ripping_Papers
+    prerequisite = { focus = DC_fascist1 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_fascist1
+
+    cost = 10
+
+    completion_reward = {
+      add_stability = 0.05
+    }
+  }
+
+
+  focus = {
+    id = DC_fascist4
+    icon = GFX_Generic_Political_Purge
+    prerequisite = { focus = DC_fascist2 }
+
+    x = -2
+    y = 1
+
+    relative_position_id = DC_fascist2
+
+    cost = 10
+
+    completion_reward = {
+
+    }
+  }
+
+
+  focus = {
+    id = DC_fascist5
+    icon = GFX_Generic_Espionage04
+    prerequisite = { focus = DC_fascist4 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_fascist4
+
+    cost = 10
+
+    completion_reward = {
+      add_ideas = DC_COINTELPRO
+    }
+  }
+
+  focus = {
+    id = DC_fascist6
+    icon = GFX_Generic_Lookout
+    prerequisite = { focus = DC_fascist2 }
+
+    x = 2
+    y = 1
+
+    relative_position_id = DC_fascist2
+
+    cost = 10
+
+    completion_reward = {
+      custom_effect_tooltip = available_political_advisor
+      show_ideas_tooltip = USA_joseph_mccarthy
+    }
+  }
+
+  focus = {
+    id = DC_fascist7
+    icon = GFX_Generic_Arrests
+    prerequisite = { focus = DC_fascist6 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_fascist6
+
+    cost = 10
+
+    completion_reward = {
+      add_stability = 0.10
+    }
+  }
+
+  focus = {
+    id = DC_fascist8
+    icon = GFX_Generic_Ultranationalist_Volunteers
+    prerequisite = { focus = DC_fascist2 }
+
+    x = 0
+    y = 3
+
+    relative_position_id = DC_fascist2
+
+    cost = 10
+
+    completion_reward = {
+      remove_ideas = dc_crisis
+    }
+  }
+
+  focus = {
+    id = DC_fascist9
+    icon = GFX_Generic_Ultranationalist_Volunteers
+    prerequisite = { focus = DC_fascist8 }
+    mutually_exclusive = { focus = DC_fascist10 }
+
+    x = -1
+    y = 1
+
+    relative_position_id = DC_fascist8
+
+    cost = 10
+
+    completion_reward = {
+      create_country_leader = {
+        name = "Douglas Macarthur"
+        desc = POLITICS_WDC_DOUGLAS_MACARTHUR_DESC
+        picture = "Portrait_WDC_Douglas_Macarthur.dds"
+        expire = "1965.1.1"
+        ideology = rexism
+        traits = { american_caesar }
+      }
+      add_war_support = 0.10
+    }
+  }
+
+  focus = {
+    id = DC_fascist10
+    icon = GFX_Generic_Imperial_Eagle
+    prerequisite = { focus = DC_fascist8 }
+    mutually_exclusive = { focus = DC_fascist9 }
+
+    x = 1
+    y = 1
+
+    relative_position_id = DC_fascist8
+
+    cost = 10
+
+    completion_reward = {
+      create_country_leader = {
+        name = "Alvin M. Owsley"
+        desc = POLITICS_WDC_ALVIN_OWLSEY_DESC
+        picture = "Portrait_WDC_Alvin_Owsley.dds"
+        expire = "1965.1.1"
+        ideology = falangism
+        traits = { rearmer legionnaire }
+      }
+      add_stability = 0.10
+    }
+  }
+
+  focus = {
+    id = DC_war_powers
+    icon = GFX_Generic_Elections
+    prerequisite = { focus = DC_fascist9 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_fascist9
+
+    cost = 10
+
+    completion_reward = {
+      add_ideas = DC_warpowers
+    }
+  }
+
+  focus = {
+    id = DC_stringent_recruitment
+    icon = GFX_Generic_Infantry_Training
+    prerequisite = { focus = DC_fascist10 }
+
+    x = 0
+    y = 1
+
+    relative_position_id = DC_fascist10
+
+    cost = 10
+
+    completion_reward = {
+      add_ideas = DC_recruitment
+    }
+  }
+
+  focus = {
+    id = DC_communist1
+    icon = GFX_Generic_Revolutionary_Government
+    prerequisite = { focus = DC_divided }
+    mutually_exclusive = { focus = DC_democratic1 focus = DC_fascist1}
+
+    x = 8
+    y = 1
+
+    relative_position_id = DC_divided
+
+    cost = 10
+
+    completion_reward = {
+      add_popularity = {
+        ideology = communism
+        popularity = 0.30
+      }
+      hidden_effect = {
+        news_event = {
+          hours = 1
+          id = genericfocusnews.4
+        }
+      }
+    }
+  }
+}

@@ -141,7 +141,7 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
-	
+	CAC_aloyaldemocraticarmy
 }
 set_popularities = {
 	democratic = 71

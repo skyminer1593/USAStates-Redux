@@ -2,6 +2,8 @@
 #Party Names
 TXT_fascism_party_ourown:0 "LSP"
 TXT_fascism_party_ourown_long:0 "The Lone Star Party"
+#Leaders/Advisors
+robert_bobbitt:0 "Robert L. Bobbit"
 #Events
  tex.5.t:0 "The Republic of Texas Proposes a Deal"
  tex.5.d:0 "A diplomat from The Republic of Texas has proposed a deal from their government. They've offered 4 civilian factories in return for the Eastern part of our country. While it is nothing but desert, it also contains most of our largest cities and population. The option weighs heavily on us, but we fear what the Texas will do if we decline their offer. We also have a threat to our West; California. Texas has also offered a guarantee of independence if we accept their offer."
@@ -62,6 +64,16 @@ TXT_fascism_party_ourown_long:0 "The Lone Star Party"
  tex.21.d:0 "Following the political revolution of our country, we need to choose who we will align with. Stalin's more direct approach creates a sphere of inferior nations that we will have control over. This may lead to insubordinate puppets and overall instability in the sphere. Trotsky's model follows more closely to the idea of a 'permanent revolution' which will eventually encompass the entire world. If we were to follow trotsky, the countries nearest to us may need some form of assistance in he conversion, but that would be very easily handeled. The path of the revolution depends on your choice, which will undoubtably be the smart decision."
  tex.21.a:0 "Stalin's model best fits the people of Texas."
  tex.21.b:0 "A collaboration of equals seems more fitting."
+ tex.22.t:0 "[From.GetName] joins our faction"
+ tex.22.d:0 "[From.GetName] sees that our morals are true and has joined us to support our preservation of America"
+ tex.22.a:0 "Wonderful"
+ tex.23.t:0 "[From.GetName] has denied our request"
+ tex.23.d:0 "[From.GetName] has not seen the high probability of American Culture being eliminated by European powers."
+ tex.23.a:0 "They will soon see."
+ tex.25.t:0 "Lone Star Empire Invites Us"
+ tex.25.d:0 "Today we recieved a diplomatic request to join a faction with the Lone Star Empire"
+ tex.25.a:0 "Delightful, we shall join them."
+ tex.25.b:0 "They don't deserve our help."
 
 #News Events
  texasnews.5.t:0 "The Capitol Building Under the Control of Nationalists!"

@@ -592,6 +592,80 @@ country_event = {
     }
   }
 }
+# [Country] Accepts
+  country_event = {
+    id = tex.22
+    title = tex.22.t
+    desc = tex.22.d
+    picture = GFX_report_event_soldiers_in_disunitedstates
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.22.a
+      effect_tooltip = {
+        add_to_faction = FROM
+      }
+    }
+  }
+
+  # [Country] Refuses
+  country_event = {
+    id = tex.23
+    title = tex.23.t
+    desc = tex.23.d
+    picture = GFX_report_event_finnish_letter
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.23.a
+    }
+  }
+  country_event = {
+    id = tex.24
+    title = tex.24.t
+    desc = tex.24.d
+    picture = GFX_report_event_worried_french
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.24.a
+      ai_chance = {
+        factor = 10
+        modifier = {
+          factor = 20
+          has_government = fascism
+        }
+        modifier = {
+          factor = 10
+          strength_ratio = {
+            tag = FROM
+            ratio > 0.5
+          }
+        }
+      }
+      TXT = {
+        country_event = tex.22
+        add_to_faction = ROOT
+      }
+      add_ai_strategy = {
+        type = alliance
+        id = "TXT"
+        value = 200
+      }
+    }
+    option = {
+      name = tex.24.b
+      ai_chance = {
+        factor = 90
+      }
+      TXT = {
+        country_event = tex.23
+      }
+    }
+  }
 
 ##### News Events
 news_event = {

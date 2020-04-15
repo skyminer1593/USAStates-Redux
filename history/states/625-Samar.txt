@@ -14,4 +14,5 @@ state=
 	provinces={
 		1224 1311 1340 4269 4373 
 	}
+	state_category = town
 }

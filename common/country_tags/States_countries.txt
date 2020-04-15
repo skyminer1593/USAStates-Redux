@@ -87,3 +87,6 @@ NAY = "countries/Nayarit.txt"
 SON = "countries/Sonora.txt"
 TAU = "countries/Tamaulipas.txt"
 SIN = "countries/Sinaloa.txt"
+
+###Developer
+AAA = "countries/Wastes"

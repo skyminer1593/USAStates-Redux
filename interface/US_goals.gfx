@@ -2545,6 +2545,10 @@ spriteType = {
   name = "GFX_Generic_Navy"
   texturefile = "gfx/interface/goals/GFX_Generic_Navy.dds"
 }
+spriteType = {
+  name = "GFX_Focus_Down_in_Flames"
+  texturefile = "gfx/interface/goals/Focus_Down_in_Flames.dds"
+}
 ###########################################################################################################################
 
 

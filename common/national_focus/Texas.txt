@@ -2364,4 +2364,66 @@ focus_tree = {
 			add_ideas = TXT_idea_stalinism
 		}
 	}
+	focus = {
+		id = TXT_replicate_five_year
+		icon = GFX_Generic_Industry02
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -7
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_stalinism
+		}
+
+		x = 33
+		y = 7
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_five_year_plan
+				days = 1825
+			}
+		}
+	}
+	focus = {
+		id = TXT_destroy_american_dream
+		icon = GFX_Focus_Down_in_Flames
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -7
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_replicate_five_year
+		}
+
+		x = 35
+		y = 8
+
+		completion_reward = {
+			add_ideas = TXT_kill_dream
+		}
+	}
+
 }

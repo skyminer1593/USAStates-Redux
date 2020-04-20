@@ -14,11 +14,20 @@ state={
 		add_core_of = CAC
 
 		victory_points = {
-			9671 45
+			13717 45
+		}
+		victory_points = {
+			13711 5
+		}
+		victory_points = {
+			13698 5
+		}
+		victory_points = {
+			9671 15
 		}
 	}
 	provinces={
-		3677 3678 9637 9671 13698 13711 13717 
+		3677 3678 9637 9671 13698 13711 13717
 	}
 	manpower=884363
 	buildings_max_level_factor=1.000

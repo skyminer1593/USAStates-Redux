@@ -12,22 +12,16 @@ state={
 			arms_factory = 1
 			610 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = CAC
 		victory_points = {
-			610 3 
+			768 5
 		}
-		victory_points = {
-			677 2 
-		}
-
 	}
 
 	provinces={
-		610 677 768 781 3644 6482 6681 6745 6757 6772 9730 
+		610 677 768 781 3644 6482 6681 6745 6757 6772 9730
 	}
 	manpower=1086031
 	buildings_max_level_factor=1.000

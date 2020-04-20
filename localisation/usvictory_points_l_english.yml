@@ -1,4 +1,33 @@
 ﻿l_english:
-##Texas  
+##VICTORY_POINTS_
+##California
+#Sacramento
+  VICTORY_POINTS_13760:0 "Sacramento"
+  VICTORY_POINTS_13756:0 "Rancho Cordova"
+  VICTORY_POINTS_13779:0 "Folsom"
+  VICTORY_POINTS_13773:0 "Roseville"
+  VICTORY_POINTS_9713:0 "Elk Grove"
+#San Francisco
+  VICTORY_POINTS_13717:0 "San Francisco"
+  VICTORY_POINTS_13711:0 "Oakland"
+  VICTORY_POINTS_13698:0 "San Mateo"
+  VICTORY_POINTS_9671:2 "San Jose"
+#Los Angeles
+  VICTORY_POINTS_13585:0 "Anaheim"
+  VICTORY_POINTS_13574:0 "Long Beach"
+  VICTORY_POINTS_13597:0 "Pasadena"
+  VICTORY_POINTS_13592:0 "Santa Monica"
+#San Diego
+  VICTORY_POINTS_7517:0 "Escondido"
+  VICTORY_POINTS_12374:0 "La Mesa"
+  VICTORY_POINTS_13560:0 "El Cajon"
+  VICTORY_POINTS_13559:0 "Santee"
+  VICTORY_POINTS_13537:0 "Chula Vista"
+#Not Thick Cities
+  VICTORY_POINTS_11859:0 "Ventura"
+  VICTORY_POINTS_6881:0 "Santa Barbara"
+  VICTORY_POINTS_4518:0 "Fresno"
+  VICTORY_POINTS_768:0 "Redding"
+##Texas
   VICTORY_POINTS_13535:0 "Dallas"
   VICTORY_POINTS_13539:0 "Fort Worth"

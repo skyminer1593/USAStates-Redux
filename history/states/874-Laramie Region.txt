@@ -1,6 +1,6 @@
 state={
 	id=874
-	name="STATE_874"
+	name="Laramie Region"
 	history = {
 		owner = WYW
 		add_core_of = WYW
@@ -10,7 +10,7 @@ state={
 		}
 	}
 	provinces={
-		4723 10640 13916 13927 13936 
+		4723 10640 13916 13927 13936
 	}
 	manpower=102546
 	buildings_max_level_factor=1.000

@@ -1,6 +1,6 @@
 state={
 	id=897
-	name="Bug Bend Country"
+	name="Big Bend Country"
 	resources = {
 		aluminium = 19.000
 		oil = 97.000
@@ -15,7 +15,7 @@ state={
 		}
 	}
 	provinces={
-		1954 5038 10740 10894 13445 13471 13474 13488 
+		1954 5038 10740 10894 13445 13471 13474 13488
 	}
 	manpower=524712
 	buildings_max_level_factor=1.000

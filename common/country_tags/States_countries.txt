@@ -89,4 +89,4 @@ TAU = "countries/Tamaulipas.txt"
 SIN = "countries/Sinaloa.txt"
 
 ###Developer
-AAA = "countries/Wastes"
+AAA = "countries/Wastes.txt"

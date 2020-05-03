@@ -956,7 +956,7 @@ focus_tree = {
 									picture = "Portrait_KSK_Gerald_Winrod.dds"
 									expire = "1965.1.1"
 									ideology = falangism
-									traits = { religious_fundamentalist }
+									traits = {  }
 					}
 					}
 

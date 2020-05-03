@@ -841,6 +841,8 @@ ideas = {
 				original_tag = TXT
 			}
 
+			ledger = army
+
 			picture = generic_army_europe_2
 
 			research_bonus = {
@@ -856,6 +858,8 @@ ideas = {
 			allowed = {
 				original_tag = TXT
 			}
+
+			ledger = air
 
 			picture = generic_air_europe_1
 
@@ -877,7 +881,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = army
 
 			traits = { army_chief_defensive_2 }
 
@@ -894,7 +898,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = army
 
 			traits = { army_chief_organizational_2 }
 
@@ -915,7 +919,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = air
 
 			traits = { air_chief_ground_support_2 }
 
@@ -932,7 +936,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = air
 
 			traits = { air_chief_safety_2 }
 
@@ -953,7 +957,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = navy
 
 			traits = { navy_naval_air_defense_2 }
 
@@ -970,7 +974,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = navy
 
 			traits = { navy_chief_decisive_battle_2 }
 
@@ -990,7 +994,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = navy
 
 			traits = { navy_amphibious_assault_2 }
 
@@ -1007,6 +1011,8 @@ ideas = {
 				original_tag = TXT
 			}
 
+			ledger = army
+
 			traits = { army_artillery_2 }
 
 			ai_will_do = {
@@ -1022,7 +1028,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = army
 
 			traits = { army_armored_2 }
 
@@ -1039,7 +1045,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = air
 
 			traits = { air_air_superiority_2 }
 
@@ -1056,7 +1062,7 @@ ideas = {
 				original_tag = TXT
 			}
 
-
+			ledger = navy
 
 			traits = { navy_capital_ship_2 }
 

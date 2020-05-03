@@ -1,47 +1,47 @@
 ideas = {
 	political_advisor = {
 
-		CAP_James_Gully= {
+		CHP_James_Gully= {
 
 			picture = generic_political_advisor_europe_1
-			
+
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+
 			traits = { silent_workhorse }
 		}
 
-		CAP_John_Rodriguez = {
+		CHP_John_Rodriguez = {
 
 			picture = generic_political_advisor_europe_2
 
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+
 			traits = { compassionate_gentleman }
 		}
 
-		CAP_William_Williams = {
+		CHP_William_Williams = {
 
 			picture = generic_army_europe_3
-			
+
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+
 			traits = { war_industrialist }
 		}
 
-		CAP_ernst_wetter = {
+		CHP_ernst_wetter = {
 
 			picture = generic_political_advisor_europe_3
-			
+
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+
 			traits = { backroom_backstabber }
 			ai_will_do = {
 				factor = 0
@@ -51,70 +51,70 @@ ideas = {
 
 	theorist = {
 
-		CAP_Matthew_Ochrym = {
-					
-					
+		CHP_Matthew_Ochrym = {
+
+
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+			ledger = army
 			picture = generic_army_europe_2
-			
+
 			research_bonus = {
 				land_doctrine = 0.07
 			}
-			
+
 			traits = { military_theorist }
 		}
 
-		CAP_Charles_Gills = {
-					
-					
+		CHP_Charles_Gills = {
+
+
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+
 			picture = generic_air_europe_1
-			
+			ledger = air
 			research_bonus = {
 				air_doctrine = 0.07
 			}
-			
+
 			traits = { air_warfare_theorist }
 		}
 	}
 	# MILITARY
 	army_chief = {
 
-		CAP_johann_august_sutter = {
-			
-			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_johann_august_sutter = {
 
-			
+			picture = generic_army_europe_1
+
+			allowed = {
+				original_tag = CHP
+			}
+
+
+			ledger = army
 			traits = { army_chief_defensive_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAP_Ruth_Harvill = {
-			
-			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_Ruth_Harvill = {
 
-			
+			picture = generic_army_europe_1
+
+			allowed = {
+				original_tag = CHP
+			}
+
+
+			ledger = army
 			traits = { army_chief_organizational_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -122,37 +122,37 @@ ideas = {
 	}
 
 	air_chief = {
-		
 
-		CAP_carl_jacobs = {
-			
+
+		CHP_carl_jacobs = {
+
 			picture = generic_air_europe_3
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
 
-			
+			allowed = {
+				original_tag = CHP
+			}
+
+
+			ledger = air
 			traits = { air_chief_ground_support_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAP_James_Caver = {
-			
-			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_James_Caver = {
 
-			
+			picture = generic_air_europe_2
+
+			allowed = {
+				original_tag = CHP
+			}
+
+
+			ledger = air
 			traits = { air_chief_safety_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -162,35 +162,35 @@ ideas = {
 
 	navy_chief = {
 
-		CAP_Jeff_von_Shao = {
-			
-			picture = generic_navy_europe_2
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_Jeff_von_Shao = {
 
-			
+			picture = generic_navy_europe_2
+
+			allowed = {
+				original_tag = CHP
+			}
+
+
+			ledger = navy
 			traits = { navy_naval_air_defense_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAP_peter_Ivan = {
-			
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_peter_Ivan = {
 
-			
+			picture = generic_navy_europe_1
+
+			allowed = {
+				original_tag = CHP
+			}
+
+
+			ledger = navy
 			traits = { navy_chief_decisive_battle_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -199,84 +199,84 @@ ideas = {
 
 	high_command = {
 
-		CAP_hermann_hessel = {
-			
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_hermann_hessel = {
 
-			
+			picture = generic_navy_europe_1
+
+			allowed = {
+				original_tag = CHP
+			}
+
+			ledger = navy
+
 			traits = { navy_amphibious_assault_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAP_Paul_Miller = {
+		CHP_Paul_Miller = {
 
 			picture = generic_army_europe_1
-			
+
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
+			ledger = army
 			traits = { army_artillery_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
-	
-		CAP_Eugen_Wilson = {
-			
+
+		CHP_Eugen_Wilson = {
+
 			picture = generic_army_europe_2
 
 			allowed = {
-				original_tag = CAP
+				original_tag = CHP
 			}
-			
 
-			
+			ledger = army
+
 			traits = { army_armored_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAP_Frank_prett = {
-			
+		CHP_Frank_prett = {
+
 			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
 
-			
+			allowed = {
+				original_tag = CHP
+			}
+
+			ledger = air
+
 			traits = { air_air_superiority_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		CAP_David_Garcia = {
-			
-			picture = generic_navy_europe_2
-			
-			allowed = {
-				original_tag = CAP
-			}
-			
+		CHP_David_Garcia = {
 
-			
+			picture = generic_navy_europe_2
+
+			allowed = {
+				original_tag = CHP
+			}
+
+			ledger = navy
+
 			traits = { navy_capital_ship_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}

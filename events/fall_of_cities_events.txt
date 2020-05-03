@@ -1,10 +1,10 @@
-﻿add_namespace = news
+﻿add_namespace = fallofcities
 
 #Fall Of Kansas City (Kansas takes over missouri)
 news_event = {
-  id = news.500
-  title = news.500.t
-  desc = news.500.d
+  id = fallofcities.500
+  title = fallofcities.500.t
+  desc = fallofcities.500.d
   picture = GFX_news_event_KC
 
   major = yes
@@ -26,7 +26,7 @@ news_event = {
 
 
   option = {
-    name = news.500.a
+    name = fallofcities.500.a
     trigger = {
       NOT = {
         TAG = KSK
@@ -35,20 +35,20 @@ news_event = {
     }
   }
   option = {
-    name = news.500.b
+    name = fallofcities.500.b
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.500.c
+    name = fallofcities.500.c
     trigger = { TAG = MOM}
   }
 }
 
 #Fall Of Kansas City (Missouri Takes over Kansas)
 news_event = {
-  id = news.506
-  title = news.506.t
-  desc = news.506.d
+  id = fallofcities.506
+  title = fallofcities.506.t
+  desc = fallofcities.506.d
   picture = GFX_news_event_KC
 
   major = yes
@@ -70,15 +70,15 @@ news_event = {
 
 
   option = {
-    name = news.506.a
+    name = fallofcities.506.a
     trigger = { TAG = MOM}
   }
   option = {
-    name = news.506.b
+    name = fallofcities.506.b
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.506.c
+    name = fallofcities.506.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -90,9 +90,9 @@ news_event = {
 
 #Fall Of Las Vegas (Cali takes Las Vegas)
 news_event = {
-  id = news.501
-  title = news.501.t
-  desc = news.501.d
+  id = fallofcities.501
+  title = fallofcities.501.t
+  desc = fallofcities.501.d
   picture = GFX_news_event_polish_resistance_warsaw
 
   major = yes
@@ -114,7 +114,7 @@ news_event = {
 
 
   option = {
-    name = news.501.a
+    name = fallofcities.501.a
     trigger = {
       NOT = {
         TAG = CAC
@@ -123,20 +123,20 @@ news_event = {
     }
   }
   option = {
-    name = news.501.b
+    name = fallofcities.501.b
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.501.c
+    name = fallofcities.501.c
     trigger = { TAG = NVN}
   }
 }
 
 #Fall Of Los Angeles (Kansas takes over L.A.)
 news_event = {
-  id = news.502
-  title = news.502.t
-  desc = news.502.d
+  id = fallofcities.502
+  title = fallofcities.502.t
+  desc = fallofcities.502.d
   picture = GFX_news_event_LA
 
   major = yes
@@ -158,15 +158,15 @@ news_event = {
 
 
   option = {
-    name = news.502.a
+    name = fallofcities.502.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.502.b
+    name = fallofcities.502.b
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.502.c
+    name = fallofcities.502.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -178,9 +178,9 @@ news_event = {
 
 #Fall Of Sacramento (Kansas takes over Sacramento)
 news_event = {
-  id = news.503
-  title = news.503.t
-  desc = news.503.d
+  id = fallofcities.503
+  title = fallofcities.503.t
+  desc = fallofcities.503.d
   picture = GFX_news_event_sacramento
 
   major = yes
@@ -202,15 +202,15 @@ news_event = {
 
 
   option = {
-    name = news.503.a
+    name = fallofcities.503.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.503.b
+    name = fallofcities.503.b
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.503.c
+    name = fallofcities.503.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -222,9 +222,9 @@ news_event = {
 
 #Fall Of Sacramento (Kansas takes over Sacramento)
 news_event = {
-  id = news.504
-  title = news.504.t
-  desc = news.504.d
+  id = fallofcities.504
+  title = fallofcities.504.t
+  desc = fallofcities.504.d
   picture = GFX_news_event_san_francisco
 
   major = yes
@@ -246,15 +246,15 @@ news_event = {
 
 
   option = {
-    name = news.504.a
+    name = fallofcities.504.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.504.b
+    name = fallofcities.504.b
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.504.c
+    name = fallofcities.504.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -266,9 +266,9 @@ news_event = {
 
 #Fall Of Denver (Kansas takes over Denver)
 news_event = {
-  id = news.505
-  title = news.505.t
-  desc = news.505.d
+  id = fallofcities.505
+  title = fallofcities.505.t
+  desc = fallofcities.505.d
   picture = GFX_news_event_denver
 
   major = yes
@@ -290,15 +290,15 @@ news_event = {
 
 
   option = {
-    name = news.505.a
+    name = fallofcities.505.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.505.b
+    name = fallofcities.505.b
     trigger = { TAG = COC }
   }
   option = {
-    name = news.505.c
+    name = fallofcities.505.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -310,9 +310,9 @@ news_event = {
 
 #Fall Of Dallas (Kansas takes over Dallas)
 news_event = {
-  id = news.507
-  title = news.507.t
-  desc = news.507.d
+  id = fallofcities.507
+  title = fallofcities.507.t
+  desc = fallofcities.507.d
   picture = GFX_news_event_dallas
 
   major = yes
@@ -334,15 +334,15 @@ news_event = {
 
 
   option = {
-    name = news.507.a
+    name = fallofcities.507.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.507.b
+    name = fallofcities.507.b
     trigger = { TAG = TXT }
   }
   option = {
-    name = news.507.c
+    name = fallofcities.507.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -354,9 +354,9 @@ news_event = {
 
 #Fall Of Houston (Kansas takes over Houston)
 news_event = {
-  id = news.508
-  title = news.508.t
-  desc = news.508.d
+  id = fallofcities.508
+  title = fallofcities.508.t
+  desc = fallofcities.508.d
   picture = GFX_news_event_houston
 
   major = yes
@@ -378,15 +378,15 @@ news_event = {
 
 
   option = {
-    name = news.508.a
+    name = fallofcities.508.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.508.b
+    name = fallofcities.508.b
     trigger = { TAG = TXT }
   }
   option = {
-    name = news.508.c
+    name = fallofcities.508.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -398,9 +398,9 @@ news_event = {
 
 #Fall Of Austin (Kansas takes over Austin)
 news_event = {
-  id = news.509
-  title = news.509.t
-  desc = news.509.d
+  id = fallofcities.509
+  title = fallofcities.509.t
+  desc = fallofcities.509.d
   picture = GFX_news_event_austin
 
   major = yes
@@ -422,15 +422,15 @@ news_event = {
 
 
   option = {
-    name = news.509.a
+    name = fallofcities.509.a
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.509.b
+    name = fallofcities.509.b
     trigger = { TAG = TXT }
   }
   option = {
-    name = news.509.c
+    name = fallofcities.509.c
     trigger = {
       NOT = {
         TAG = KSK
@@ -444,9 +444,9 @@ news_event = {
 
 #Fall Of Phoneix (Cali takes Phoneix)
 news_event = {
-  id = news.510
-  title = news.510.t
-  desc = news.510.d
+  id = fallofcities.510
+  title = fallofcities.510.t
+  desc = fallofcities.510.d
   picture = GFX_news_event_phoenix
 
   major = yes
@@ -468,59 +468,15 @@ news_event = {
 
 
   option = {
-    name = news.510.a
+    name = fallofcities.510.a
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.510.b
+    name = fallofcities.510.b
     trigger = { TAG = AZA }
   }
   option = {
-    name = news.510.c
-    trigger = {
-      NOT = {
-        TAG = CAC
-        TAG = AZA
-      }
-    }
-  }
-}
-
-#Fall Of Phoneix (Cali takes Phoneix)
-news_event = {
-  id = news.510
-  title = news.510.t
-  desc = news.510.d
-  picture = GFX_news_event_phoenix
-
-  major = yes
-
-  trigger = {
-    795 = { is_controlled_by = CAC}
-    795 = { is_owned_by = AZA }
-    CAC = { has_war_with = AZA}
-    NOT = { has_global_flag = fall_of_Phoneix_california}
-  }
-
-  immediate = {
-		set_global_flag = fall_of_Phoneix_california
-	}
-
-  mean_time_to_happen = {
-		days = 2
-	}
-
-
-  option = {
-    name = news.510.a
-    trigger = { TAG = CAC }
-  }
-  option = {
-    name = news.510.b
-    trigger = { TAG = AZA }
-  }
-  option = {
-    name = news.510.c
+    name = fallofcities.510.c
     trigger = {
       NOT = {
         TAG = CAC
@@ -532,9 +488,9 @@ news_event = {
 
 #Fall Of Topeka (Cali Takes Topeka)
 news_event = {
-  id = news.511
-  title = news.511.t
-  desc = news.511.d
+  id = fallofcities.511
+  title = fallofcities.511.t
+  desc = fallofcities.511.d
   picture = GFX_news_event_topeka
 
   major = yes
@@ -556,15 +512,15 @@ news_event = {
 
 
   option = {
-    name = news.511.a
+    name = fallofcities.511.a
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.511.b
+    name = fallofcities.511.b
     trigger = { TAG = KSK }
   }
   option = {
-    name = news.511.c
+    name = fallofcities.511.c
     trigger = {
       NOT = {
         TAG = CAC
@@ -576,9 +532,9 @@ news_event = {
 
 #Fall Of Austin (Cali takes austin)
 news_event = {
-  id = news.512
-  title = news.512.t
-  desc = news.512.d
+  id = fallofcities.512
+  title = fallofcities.512.t
+  desc = fallofcities.512.d
   picture = GFX_news_event_austin
 
   major = yes
@@ -600,15 +556,15 @@ news_event = {
 
 
   option = {
-    name = news.512.a
+    name = fallofcities.512.a
     trigger = { TAG = CAC }
   }
   option = {
-    name = news.512.b
+    name = fallofcities.512.b
     trigger = { TAG = TXT }
   }
   option = {
-    name = news.512.c
+    name = fallofcities.512.c
     trigger = {
       NOT = {
         TAG = CAC

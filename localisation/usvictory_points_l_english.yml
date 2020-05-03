@@ -31,3 +31,11 @@
 ##Texas
   VICTORY_POINTS_13535:0 "Dallas"
   VICTORY_POINTS_13539:0 "Fort Worth"
+##Nevada
+#Las Vegas
+  VICTORY_POINTS_13649:0 "Las Vegas"
+  VICTORY_POINTS_13629:0 "Paradise"
+  VICTORY_POINTS_13647:0 "Henderson"
+  VICTORY_POINTS_13648:0 "Enterprise"
+  VICTORY_POINTS_4799:0 "Summerlin South"
+  VICTORY_POINTS_13673:0 "Nellis Air Force Base"

@@ -41,10 +41,12 @@ country_event = {
   option = {
     name = tex.0.a
     TXT = {
-      transfer_state = 793
-    }
-    TXT = {
-      transfer_state = 792
+      transfer_state = 893
+      transfer_state = 886
+      transfer_state = 892
+      transfer_state = 887
+      transfer_state = 891
+      transfer_state = 890
     }
   }
 }
@@ -59,10 +61,9 @@ country_event = {
   option = {
     name = tex.3.a
     TXT = {
-      transfer_state = 801
-    }
-    TXT = {
-      transfer_state = 803
+      transfer_state = 884
+      transfer_state = 885
+      transfer_state = 883
     }
   }
 }
@@ -110,11 +111,15 @@ country_event = {
       }
     }
     TXT = {
-      transfer_state = 793
-      transfer_state = 792
+      transfer_state = 893
+      transfer_state = 886
+      transfer_state = 892
+      transfer_state = 887
+      transfer_state = 891
+      transfer_state = 890
       give_guarantee = NMN
     }
-    950 = {
+    889 = {
       add_extra_state_shared_building_slots = 4
       add_building_construction = {
         type = industrial_complex
@@ -122,7 +127,7 @@ country_event = {
         instant_build = yes
       }
     }
-    375 = {
+    894 = {
       add_building_construction = {
         type = industrial_complex
         level = -4
@@ -153,13 +158,13 @@ country_event = {
     start_border_war = {
 			change_state_after_war = no
 			attacker = {
-				state = 788
+				state = 898
 				num_provinces = 2
 				on_win = tex.2
 				on_lose = tex.1
 			}
 			defender = {
-				state = 792
+				state = 891
 				num_provinces = 2
 			}
 		}
@@ -192,12 +197,13 @@ country_event = {
       }
     }
     TXT = {
-      transfer_state = 801
-      transfer_state = 803
+      transfer_state = 884
+      transfer_state = 885
+      transfer_state = 883
       give_guarantee = COC
       give_military_access = COC
     }
-    802 = {
+    879 = {
       add_extra_state_shared_building_slots = 3
       add_building_construction = {
         type = industrial_complex
@@ -205,7 +211,7 @@ country_event = {
         instant_build = yes
       }
     }
-    1002 = {
+    375 = {
       add_building_construction = {
         type = industrial_complex
         level = -3
@@ -233,13 +239,13 @@ country_event = {
     start_border_war = {
 			change_state_after_war = no
 			attacker = {
-			  state = 793
+			  state = 893
 				num_provinces = 1
 				on_win = tex.3
 				on_lose = tex.1
 			}
 			defender = {
-				state = 801
+				state = 885
 				num_provinces = 1
 			}
 		}
@@ -269,20 +275,20 @@ country_event = {
       }
     }
     TXT = {
-      transfer_state = 832
+      transfer_state = 907
     }
-    951 = {
+    374 = {
       add_extra_state_shared_building_slots = 4
       add_building_construction = {
         type = industrial_complex
-        level = 4
+        level = 2
         instant_build = yes
       }
     }
-    999 = {
+    895 = {
       add_building_construction = {
         type = industrial_complex
-        level = -4
+        level = -2
         instant_build = yes
       }
     }
@@ -313,7 +319,7 @@ country_event = {
 				on_lose = tex.1
 			}
 			defender = {
-				state = 832
+				state = 898
 				num_provinces = 1
 			}
 		}
@@ -372,7 +378,7 @@ country_event = {
 				on_lose = tex.1
 			}
 			defender = {
-				state = 381
+				state = 883
 				num_provinces = 1
 			}
 		}
@@ -417,7 +423,7 @@ country_event = {
       }
     }
     TXT = {
-      transfer_state = 896
+      transfer_state = 919
     }
   }
   option = {
@@ -439,13 +445,13 @@ country_event = {
     start_border_war = {
 			change_state_after_war = no
 			attacker = {
-				state = 832
+				state = 907
 				num_provinces = 1
 			  on_win = tex.16
 				on_lose = tex.1
 			}
 			defender = {
-				state = 896
+				state = 919
 				num_provinces = 1
 			}
 		}

@@ -177,7 +177,7 @@ focus_tree = {
 		y = 3
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = infrastructure
@@ -205,7 +205,7 @@ focus_tree = {
 		y = 4
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -233,7 +233,7 @@ focus_tree = {
 		y = 5
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -261,7 +261,7 @@ focus_tree = {
 		y = 5
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -290,7 +290,7 @@ focus_tree = {
 		y = 4
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
@@ -471,7 +471,7 @@ focus_tree = {
 			focus = TXT_reclaim_lands
 		}
 		available = {
-			owns_state = 950
+			owns_state = 886
 		}
 
 		cost = 5
@@ -483,7 +483,7 @@ focus_tree = {
 			add_resource = {
 				type = steel
 				amount = 30
-				state = 950
+				state = 886
 			}
 		}
 	}
@@ -550,9 +550,10 @@ focus_tree = {
 		}
 
 		available = {
+			owns_state = 960
+			owns_state = 959
+			owns_state = 958
 			owns_state = 371
-			owns_state = 835
-			owns_state = 834
 		}
 
 		cost = 10
@@ -561,39 +562,43 @@ focus_tree = {
 		y = 11
 
 		completion_reward = {
-			834 = {
+			960 = {
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 3
 					province = 12398
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 3
 					province = 4535
 					instant_build = yes
 				}
-			}
-			835 = {
 				add_building_construction = {
 					type = bunker
-					level = 2
-					province = 1643
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					province = 7599
+					level = 3
+					province = 13465
 					instant_build = yes
 				}
 			}
 			371 = {
 				add_building_construction = {
 					type = bunker
-					level = 4
+					level = 3
 					province = 1559
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13507
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 7599
 					instant_build = yes
 				}
 			}
@@ -609,8 +614,8 @@ focus_tree = {
 
 		available = {
 			has_completed_focus = TXT_fortify_mississippi
-			owns_state = 372
-			owns_state = 838
+			owns_state = 971
+			owns_state = 969
 		}
 
 		cost = 10
@@ -619,7 +624,7 @@ focus_tree = {
 		y = 11
 
 		completion_reward = {
-			838 = {
+			971 = {
 				add_building_construction = {
 					type = bunker
 					level = 4
@@ -627,7 +632,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			372 = {
+			969 = {
 				add_building_construction = {
 					type = bunker
 					level = 3
@@ -638,6 +643,12 @@ focus_tree = {
 					type = bunker
 					level = 3
 					province = 4625
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13617
 					instant_build = yes
 				}
 			}
@@ -785,7 +796,7 @@ focus_tree = {
 		y = 6
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -916,7 +927,7 @@ focus_tree = {
 		y = 10
 
 		completion_reward = {
-			950 = {
+			886 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -954,7 +965,7 @@ focus_tree = {
 		y = 10
 
 		completion_reward = {
-			950 = {
+			886 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -992,28 +1003,7 @@ focus_tree = {
 		y = 11
 
 		completion_reward = {
-			950 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			793 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			792 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			789 = {
+			886 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1027,7 +1017,28 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			1002 = {
+			905 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			896 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			893 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			886 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1091,7 +1102,7 @@ focus_tree = {
 		y = 12
 
 		completion_reward = {
-			951 = {
+			374 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -1129,7 +1140,7 @@ focus_tree = {
 		y = 12
 
 		completion_reward = {
-			951 = {
+			374 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1167,28 +1178,42 @@ focus_tree = {
 		y = 13
 
 		completion_reward = {
-			956 = {
+			374 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			834 = {
+			905 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			1001 = {
+			895 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
 					instant_build = yes
 				}
 			}
-			1002 = {
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			906 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			909 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1252,7 +1277,7 @@ focus_tree = {
 		y = 10
 
 		completion_reward = {
-			956 = {
+			961 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -1290,7 +1315,7 @@ focus_tree = {
 		y = 10
 
 		completion_reward = {
-			956 = {
+			961 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1328,27 +1353,6 @@ focus_tree = {
 		y = 11
 
 		completion_reward = {
-			951 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			833 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			898 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
 			375 = {
 				add_building_construction = {
 					type = infrastructure
@@ -1356,7 +1360,42 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			1002 = {
+			904 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			899 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			958 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			959 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			960 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			961 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1536,14 +1575,15 @@ focus_tree = {
 		}
 		available = {
 			OR ={
-				controls_state 792
-				controls_state = 832
+				controls_state 907
+				controls_state = 893
 			}
 		}
 		bypass = {
 			TXT = {
-				controls_state = 801
-				controls_state = 803
+				controls_state = 885
+				controls_state = 884
+				controls_state = 883
 			}
 		}
 		search_filters = {
@@ -1565,6 +1605,11 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = TXT_aid_for_centralCO
+		}
+		allowed = {
+			TXT = {
+				controls_state = 883
+			}
 		}
 		bypass = {
 			TXT = {
@@ -1595,11 +1640,11 @@ focus_tree = {
 			focus = TXT_aid_for_eastNM
 		}
 		available = {
-			controls_state = 832
+			controls_state = 907
 		}
 		bypass = {
 			TXT = {
-				controls_state = 896
+				controls_state = 919
 			}
 		}
 
@@ -1626,12 +1671,17 @@ focus_tree = {
 			focus = TXT_aid_for_panhandle
 		}
 		available = {
-			controls_state = 792
-			controls_state = 793
-			controls_state = 832
-			controls_state = 896
-			controls_state = 801
-			controls_state = 803
+			controls_state = 891
+			controls_state = 890
+			controls_state = 887
+			controls_state = 892
+			controls_state = 893
+			controls_state = 886
+			controls_state = 907
+			controls_state = 919
+			controls_state = 885
+			controls_state = 884
+			controls_state = 883
 			controls_state = 381
 		}
 
@@ -1641,22 +1691,37 @@ focus_tree = {
 		completion_reward = {
 			set_cosmetic_tag = OTR
 			hidden_effect = {
-				792 = {
+				891 = {
 					add_core_of = TXT
 				}
-				793 = {
+				890 = {
 					add_core_of = TXT
 				}
-				832 = {
+				887 = {
 					add_core_of = TXT
 				}
-				896 = {
+				892 = {
 					add_core_of = TXT
 				}
-				801 = {
+				893 = {
 					add_core_of = TXT
 				}
-				803 = {
+				886 = {
+					add_core_of = TXT
+				}
+				907 = {
+					add_core_of = TXT
+				}
+				919 = {
+					add_core_of = TXT
+				}
+				885 = {
+					add_core_of = TXT
+				}
+				884 = {
+					add_core_of = TXT
+				}
+				883 = {
 					add_core_of = TXT
 				}
 				381 = {
@@ -1706,7 +1771,7 @@ focus_tree = {
 		y = 9
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -1727,28 +1792,34 @@ focus_tree = {
 		x = 15
 		y = 10
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_building_construction = {
 					type = bunker
-					province = 5022
+					province = 13511
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = 13223
+					province = 13504
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = 13224
+					province = 13495
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = 13225
+					province = 13508
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13503
 					level = 3
 					instant_build = yes
 				}
@@ -1767,28 +1838,28 @@ focus_tree = {
 		y = 10
 
 		completion_reward = {
-			999 = {
+			895 = {
 				add_building_construction = {
 					type = bunker
-					province = 10778
+					province = 13535
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = 13226
+					province = 13539
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = 13224
+					province = 13544
 					level = 3
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					province = 3960
+					province = 13511
 					level = 3
 					instant_build = yes
 				}
@@ -1810,7 +1881,7 @@ focus_tree = {
 			375 = {
 				add_building_construction = {
 					type = bunker
-					province = 12782
+					province = 13469
 					level = 6
 					instant_build = yes
 				}
@@ -1838,7 +1909,7 @@ focus_tree = {
 		y = 11
 
 		completion_reward = {
-			1002 = {
+			375 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
@@ -1869,7 +1940,7 @@ focus_tree = {
 		y = 11
 
 		completion_reward = {
-			1000 = {
+			894 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex

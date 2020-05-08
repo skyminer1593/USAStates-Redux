@@ -1,0 +1,26 @@
+ideas = {
+  hidden_ideas = {
+    AAA_idea_wasteland = {
+      modifier = {
+        conscription = -1
+        consumer_goods_factor = 1
+        foreign_subversive_activites = 100
+        subversive_activites_upkeep = 100
+        join_faction_tension = 100
+        guarantee_cost = 100
+        production_speed_buildings_factor = -100
+        research_speed_factor	= -100
+        production_factory_max_efficiency_factor = -0.50
+        ai_desired_divisions_factor = -100
+        ai_get_ally_desire_factor = -100
+      }
+    }
+    ALL_ai_stuff = {
+      modifier = {
+        ai_desired_divisions_factor = -0.25
+        ai_get_ally_desire_factor = -60
+        conscription = -0.005
+      }
+    }
+  }
+}

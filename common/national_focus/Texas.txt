@@ -1606,7 +1606,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TXT_aid_for_centralCO
 		}
-		allowed = {
+		available = {
 			TXT = {
 				controls_state = 883
 			}

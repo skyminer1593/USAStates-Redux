@@ -133,6 +133,12 @@ focus_tree = {
     prerequisite = {
       focus = GEN_our_place
     }
+    mutually_exclusive = {
+      focus = GEN_gocommunist
+    }
+    mutually_exclusive = {
+      focus = GEN_gofascist
+    }
     cost = 10
     x = 24
     y = 1
@@ -354,6 +360,12 @@ focus_tree = {
     icon = GFX_Generic_Militant_Socialism
     prerequisite = {
       focus = GEN_our_place
+    }
+    mutually_exclusive = {
+      focus = GEN_gofascist
+    }
+    mutually_exclusive = {
+      focus = GEN_staydemo
     }
     cost = 10
     x = 30
@@ -679,6 +691,12 @@ focus_tree = {
     prerequisite = {
       focus = GEN_our_place
     }
+    mutually_exclusive = {
+      focus = GEN_gocommunist
+    }
+    mutually_exclusive = {
+      focus = GEN_staydemo
+    }
     cost = 10
     x = 36
     y = 1
@@ -751,7 +769,7 @@ focus_tree = {
     id = GEN_mobilizeeconomy
     icon = GFX_Generic_Machine_Gun
     available = {
-      threat > 10
+      threat > 0.10
     }
     prerequisite = {
       focus = GEN_gofascist
@@ -774,7 +792,7 @@ focus_tree = {
     id = GEN_mobilizeeconomy1
     icon = GFX_Generic_Industry_Tanks
     available = {
-      threat > 25
+      threat > 0.25
     }
     prerequisite = {
       focus = GEN_mobilizeeconomy
@@ -912,6 +930,46 @@ focus_tree = {
           }
         }
       }
+    }
+  }
+  focus = {
+    id = GEN_research1
+    icon = GFX_focus_research
+    prerequisite = {
+      focus = GEN_expandborders2
+      focus = GEN_solidify_influence
+      focus = GEN_getsupport_foreign
+    }
+
+    cost = 10
+    x = 30
+    y = 7
+    search_filters = {
+      FOCUS_FILTER_RESEARCH
+    }
+    completion_reward = {
+      add_research_slot = 1
+    }
+  }
+  focus = {
+    id = GEN_research2
+    icon = GFX_focus_research2
+    prerequisite = {
+      focus = GEN_research1
+    }
+
+    available = {
+      num_of_factories > 50
+    }
+
+    cost = 10
+    x = 30
+    y = 8
+    search_filters = {
+      FOCUS_FILTER_RESEARCH
+    }
+    completion_reward = {
+      add_research_slot = 1
     }
   }
   #Industrial Path

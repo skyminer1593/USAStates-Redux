@@ -6,7 +6,7 @@ state={
 		add_core_of = SDS
 		buildings = {
 			infrastructure = 4
-			indusdtrial_complex = 1
+			industrial_complex = 1
 		}
 	}
 	provinces={

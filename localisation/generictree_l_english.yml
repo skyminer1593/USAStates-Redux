@@ -171,6 +171,10 @@
   GEN_develop_nav3_desc:0 ""
   GEN_purchase_convoys:0 "Purchase Convoys"
   GEN_purchase_convoys_desc:0 ""
+  GEN_research1:0 "Public Colleges"
+  GEN_research1_desc:0 ""
+  GEN_research2:0 "Military Reasearch and Development"
+  GEN_research2_desc:0 ""
   #Army Doctrine
   GEN_army1:0 "Improve Our Army"
   GEN_army1_desc:0 ""

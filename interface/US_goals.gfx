@@ -50,6 +50,14 @@ spriteType = {
   texturefile = "gfx/interface/goals/Focus_Communist_Spy02.dds"
 }
 spriteType = {
+  name = "GFX_Focus_SOV_To_Get_Rich"
+  texturefile = "gfx/interface/goals/Focus_SOV_To_Get_Rich2.dds"
+}
+spriteType = {
+  name = "GFX_Focus_Communist_Spy"
+  texturefile = "gfx/interface/goals/Focus_Communist_Spy.dds"
+}
+spriteType = {
   name = "GFX_Focus_Commie_Cowboys"
   texturefile = "gfx/interface/goals/Focus_Commie_Cowboys.dds"
 }

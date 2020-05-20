@@ -54,9 +54,9 @@ country_event = {
 			option = {
 						name = kansas.2.a
 
-			902 = {
+			915 = {
 					add_manpower = -1000}
-			903 = {
+			976 = {
 					add_manpower = -1500 }
 
 			army_experience = 50
@@ -88,10 +88,10 @@ country_event = {
 							category = land_doctrine
 							}
 					}
-					902 = {
+					976 = {
 							add_manpower = -1500
 					}
-					903 = {
+					915 = {
 					add_manpower = -1000
 					}
 		}

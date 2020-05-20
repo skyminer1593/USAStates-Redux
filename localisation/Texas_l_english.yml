@@ -143,13 +143,14 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_chose_trotsky:0 "Texas has chosen to follow Trotsky"
 #Factions
  indrepame:0 "Independent Republics of America"
+ north_american_axis:0 "North American Axis"
 #Focuses
  TXT_texaswillagainraiseitshead:0 "Texas Will Again Raise It's Head"
  TXT_texaswillagainraiseitshead_desc:0 "Texas will again lift its head and stand among the nations. It ought to do so, for no country upon the globe can compare with it in natural advantages. -Sam Houston"
 ####Fascism
  TXT_lonestar:0 "Lone Star State"
  TXT_lonestar_desc:0 "Texas was once a nation that stood soverign in between giants. With those giants gone, we can take a new direction. With those giants gone, we have become one. Without the giants, we can rule."
-####Aggressive Fascism
+##Aggressive Fascism
  TXT_forgeourownpath:0 "With Dust and Blood"
  TXT_forgeourownpath_desc:0 "We cannot spend time slowly converting the government of our nation. The shackles of democracy will bog us down for far too long. We must find a way to throw off the chains quickly, even if it means we have to wage war on our fellow Texans. It's a means to an end."
  TXT_begin_reconstruction:0 "Begin Reconstruction"
@@ -191,9 +192,9 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_military_youthF:0 "Create Military Schools"
  TXT_military_youthF_desc:0 "The youth of the nation are the highest untouched resource when it comes to army building. If we can get to them while they're still young, we can teach them military discipline and skills earlier on in their development. This will make it easier to train them and create a larger net for people to join the military."
  TXT_fortify_mississippi:0 "Fortify the Mississippi"
- TXT_fortify_mississippi_desc:0 "To be completed"
+ TXT_fortify_mississippi_desc:0 ""
  TXT_fortify_mississippi2:0 "Finish Fortifications"
- TXT_fortify_mississippi2_desc:0 "To be completed"
+ TXT_fortify_mississippi2_desc:0 ""
 ####Diplomatic Fascism
  TXT_subversive_takeover:0 "Subversive Takeover"
  TXT_subversive_takeover_desc:0 "While the german sector of our ideology prides themselves on military might, we do not think like barbarians. We know the value of subversive activities and the wonders it can do for us. If we take our time with our governmental takeover, we can avoid countless months worth of reconstruction."

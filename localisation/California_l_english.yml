@@ -377,3 +377,20 @@
   CAC_allignthearmy_desc:0 "Davis is no idiot, he is aware of the renowned "Loyal Democratic Army Of California" and knows of the resentment of the election results, with enough bribes and pay raises, we might be able to show them that we aren't so bad."
   CAC_amilitarizedstate_desc:0 "The final stages of a militarized California are in effect, and soon Davis's plan of being a police state will become a reality and he will have full control over what anyone says, or else they might just disappear."
   CAC_adailywellnesscheck_desc:0 "Daily patrols through neighboords, police can check up on citizens to make sure they are law-abiding citizens and are legal Californians."
+
+##Custom Tooltips
+CAC_electedpresident:0 "Has elected a new president."
+lloydsway:0 "Has chosen Lloyd's army model."
+pattonsway:0 "Has chosen Patton's army model."\
+california_training_tech_effect:0 "Tech - All Infantry:\nMountains and Desert:\n§GMovement §G+10%\nAttack §G+7.5%\nDefence §G+7.5%\n\n"
+california_james_assassinate:0 "\n\n§GA successful attempt on Sinclair will result in the communist party no longer causing trouble in California.\n\n§RA failed attempt to assassinate Upton Sinclair and multiple other communist politicans in California will be attempted to secure Davis's position! If failed.. Davis will be ruined!"
+CAC_assassinationsuccess:0 "Upton Sinclair has been assassinated."
+CAC_sinclaircontestedelections:0 "Upton Sinclair has contensted elections."
+core_land:0 "Will core all lands."
+walt_disney:0 "Walt Disney"
+CAC_aworkersarmytooltip:0 "Chose a Worker's Army"
+CAC_citizenshipbyservice:0 "Chose Soldier's of the Internationale"
+CAC_militapartisans:0 "Chose Milita Partisans"
+CAC_communistspys:0 "Chose The California Civil Special Investigations Agency"
+CAC_communistfaction:0 "The People's Coalition"
+POLITICS_FRANK_MERRIAM_DESC:0 "§GFrank Finley Merriam§! (December 22, 1865 – April 25, 1955) was an American politician who served as the 28th governor of California from June 2, 1934 until January 2, 1939. Assuming the governorship at the height of the Great Depression following the death of Governor James Rolph, Merriam famously defeated the 'muck-raking' author of The Jungle, former Socialist Party member, and Democratic candidate Upton Sinclair in the California gubernatorial election in 1934. Merriam also served as the State Auditor of Iowa from 1900 to 1903, and served in both the Iowa and California state legislatures. \n\nAfter the fall of the United States. California emerged as a regional superpower. Frank Merriam still in power during this time held a emergency election which he won in 1935, during this time he stabilized California and stated that another election shall take place in the February 1936 to reassure the people California would not turn to the ideas of communism and fascism."

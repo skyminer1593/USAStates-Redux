@@ -21,7 +21,19 @@ state={
 		}
 		add_core_of = MAM
 		victory_points = {
-			13961 25
+			13961 30
+		}
+		victory_points = {
+			13964 5
+		}
+		victory_points = {
+			13969 5
+		}
+		victory_points = {
+			6739 5
+		}
+		victory_points = {
+			13960 5
 		}
 	}
 

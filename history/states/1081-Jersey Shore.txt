@@ -19,6 +19,9 @@ state={
 			}
 		}
 		add_core_of = NJN
+		victory_points = {
+			9864 5
+		}
 	}
 
 	provinces={

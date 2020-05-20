@@ -17,6 +17,18 @@ state={
 
 		}
 		add_core_of = VTV
+		victory_points = {
+			14061 25
+		}
+		victory_points = {
+			14058 5
+		}
+		victory_points = {
+			14059 5
+		}
+		victory_points = {
+			14066 5
+		}
 	}
 	provinces={
 		14058 14059 14061 14066

@@ -17,8 +17,26 @@ state={
 			dockyard = 2
 		}
 		add_core_of = NJN
+		victory_points = {
+			13882 10
+		}
+		victory_points = {
+			13875 25
+		}
+		victory_points = {
+			13869 5
+		}
+		victory_points = {
+			6882 5
+		}
+		victory_points = {
+			13886 5
+		}
+
 	}
-	
+
+
+
 	provinces={
 		6882 13869 13875 13882 13886
 	}

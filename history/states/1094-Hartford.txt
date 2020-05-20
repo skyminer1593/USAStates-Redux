@@ -16,6 +16,25 @@ state={
 			industrial_complex = 3
 		}
 		add_core_of = CTC
+		victory_points = {
+			13926 25
+		}
+		victory_points = {
+			13931 5
+		}
+		victory_points = {
+			13917 5
+		}
+		victory_points = {
+			13914 5
+		}
+		victory_points = {
+			13921 5
+		}
+		victory_points = {
+			13934 5
+		}
+
 	}
 	provinces={
 		13914 13917 13921 13926 13931 13934

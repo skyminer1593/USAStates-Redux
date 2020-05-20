@@ -17,6 +17,24 @@ state={
 			air_base = 4
 		}
 		add_core_of = NHN
+		victory_points = {
+			13988 10
+		}
+		victory_points = {
+			733 25
+		}
+		victory_points = {
+			14016 5
+		}
+		victory_points = {
+			14007 5
+		}
+		victory_points = {
+			13997 5
+		}
+		victory_points = {
+			13989 5
+		}
 	}
 	provinces={
 		733 13983 13988 13989 13996 13997 14001 14007 14016

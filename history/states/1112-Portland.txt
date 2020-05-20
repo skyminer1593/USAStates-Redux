@@ -21,6 +21,18 @@ state={
 			}
 		}
 		add_core_of = MEM
+		victory_points = {
+			14011 25
+		}
+		victory_points = {
+			14028 5
+		}
+		victory_points = {
+			14017 5
+		}
+		victory_points = {
+			14002 5
+		}
 	}
 
 	provinces={

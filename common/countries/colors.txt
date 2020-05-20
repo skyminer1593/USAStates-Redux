@@ -435,7 +435,7 @@ D15 = {
 
 ALA = {
 	color = rgb { 0 38 186 }
-	color_ui = { 0 38 186 }
+	color_ui = rgb { 0 38 186 }
 }
 
 AKA = {
@@ -505,7 +505,7 @@ INI = {
 
 IAI = {
 	color = rgb { 255 101 0 }
-	color_ui = rgb { 255 1011 0 }
+	color_ui = rgb { 255 101 0 }
 }
 
 KSK = {
@@ -850,8 +850,8 @@ SIN={
 	color_ui = rgb { 0 200 0 }
 }
 OME={
-	color = { 0 50 0 }
-	color_ui = rgb { 0 50 0 }
+	color = rgb { 104 152 83 }
+	color_ui = rgb { 135 198 108 }
 }
 SON={
 	color = { 0 50 200 }

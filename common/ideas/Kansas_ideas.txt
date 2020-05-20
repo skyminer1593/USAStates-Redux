@@ -525,6 +525,22 @@ ideas = {
 				monthly_population = -0.25
 			}
 		}
+		KSK_agricultural_reform = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = generic_agrarian_society
+
+			modifier = {
+				monthly_population = 0.10
+				consumer_goods_factor = -0.05
+			}
+		}
   }
 
  #########################POLITICAL ADVISORS####################################

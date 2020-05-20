@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = NUN
 		victory_points = {
-			1712 1 
+			7813 20
 		}
 	}
 

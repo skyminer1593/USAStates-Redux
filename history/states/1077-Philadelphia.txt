@@ -21,6 +21,9 @@ state={
 			}
 		}
 		add_core_of = PAP
+		victory_points = {
+			13848 25
+		}
 	}
 
 	provinces={

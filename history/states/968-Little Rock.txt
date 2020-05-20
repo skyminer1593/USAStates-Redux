@@ -9,9 +9,12 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 		}
+		victory_points = {
+			13623 20
+		}
 	}
 	provinces={
-		13615 13616 13619 13623 13624 13630 13631 
+		13615 13616 13619 13623 13624 13630 13631
 	}
 	manpower=750148
 	buildings_max_level_factor=1.000

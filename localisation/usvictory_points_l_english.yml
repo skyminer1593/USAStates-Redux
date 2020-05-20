@@ -1,5 +1,17 @@
 ﻿l_english:
 ##VICTORY_POINTS_
+##Alabama
+  VICTORY_POINTS_13496:0 "Mobile"
+##Alaska
+  VICTORY_POINTS_15341:0 "Juneau"
+##Alberta
+  VICTORY_POINTS_14896:0 "Edmonton"
+##Arkansas
+  VICTORY_POINTS_13623:0 "Little Rock"
+##Arizona
+  VICTORY_POINTS_13568:0 "Phoenix"
+##British Columbia
+  VICTORY_POINTS_14387:0 "Victoria"
 ##California
 #Sacramento
   VICTORY_POINTS_13760:0 "Sacramento"
@@ -36,9 +48,26 @@
   VICTORY_POINTS_13914:0 "Wethersfield"
   VICTORY_POINTS_13921:0 "West Hartford"
   VICTORY_POINTS_13934:0 "Bloomfield"
+##Colorado
+  VICTORY_POINTS_13816:0 "Denver"
+##Florida
+  VICTORY_POINTS_13476:0 "Tallahassee"
+##Georgia
+  VICTORY_POINTS_13572:0 "Atlanta"
+##Idaho
+  VICTORY_POINTS_13993:0 "Boise"
+##Indiana
+  VICTORY_POINTS_13836:0 "Indiannapolis"
+##Illinois
+  VICTORY_POINTS_12697:0 "Springfield"
+##Iowa
+  VICTORY_POINTS_13939:0 "Des Moines"
+##Tennessee
+  VICTORY_POINTS_13679:0 "Nashville"
 ##Texas
   VICTORY_POINTS_13535:0 "Dallas"
   VICTORY_POINTS_13539:0 "Fort Worth"
+  VICTORY_POINTS_13504:0 "Austin"
 ##Nevada
 #Las Vegas
   VICTORY_POINTS_13649:0 "Las Vegas"
@@ -47,13 +76,21 @@
   VICTORY_POINTS_13648:0 "Enterprise"
   VICTORY_POINTS_4799:0 "Summerlin South"
   VICTORY_POINTS_13673:0 "Nellis Air Force Base"
+##Louisiana
+  VICTORY_POINTS_1453:0 "Baton Rouge"
 ##Maine
-  VICTORY_POINTS_14078:0 "Augusta"
+  VICTORY_POINTS_7462:0 "Augusta"
 #Portland
   VICTORY_POINTS_14011:0 "Portland"
   VICTORY_POINTS_14028:0 "Falmouth"
   VICTORY_POINTS_14017:0 "Westbrook"
   VICTORY_POINTS_14002:0 "Scarborough"
+##Kansas
+  VICTORY_POINTS_13767:0 "Topeka"
+##Labrador
+  VICTORY_POINTS_14904:0 "Labrador City"
+##Manitoba
+  VICTORY_POINTS_4872:0 "Winnipeg"
 ##Massachusetts
 #Boston
   VICTORY_POINTS_13961:0 "Boston"
@@ -61,6 +98,22 @@
   VICTORY_POINTS_13969:0 "Malden"
   VICTORY_POINTS_6732:0 "Watertown"
   VICTORY_POINTS_13960:0 "Newton"
+#Michigan
+  VICTORY_POINTS_6769:0 "Lansing"
+##Minnesota
+  VICTORY_POINTS_14132:0 "Minneapolis"
+##Mississippi
+  VICTORY_POINTS_13526:0 "Jackson"
+##Missouri
+  VICTORY_POINTS_1621:0 "Jefferson City"
+##Montana
+  VICTORY_POINTS_14250:0 "Helena"
+##Nebraska
+  VICTORY_POINTS_13871:0 "Lincoln"
+##Newfoundland
+  VICTORY_POINTS_14282:0 "St. Johns"
+##New Brunswick
+  VICTORY_POINTS_14166:0 "Fredericton"
 ##New Hampshire
 #Concord
   VICTORY_POINTS_13988:0 "Manchester"
@@ -78,6 +131,8 @@
   VICTORY_POINTS_13869:0 "Elizabeth"
   VICTORY_POINTS_13886:0 "Paterson"
   VICTORY_POINTS_6882:0 "Union"
+##New Mexico
+  VICTORY_POINTS_13666:0 "Santa Fe"
 ##New York
   VICTORY_POINTS_9693:0 "Albany"
   VICTORY_POINTS_11722:0 "Saratoga Springs"
@@ -92,8 +147,40 @@
   VICTORY_POINTS_13872:0 "Howard Beach"
   VICTORY_POINTS_13876:0 "Queens"
   VICTORY_POINTS_859:0 "Long Island"
+##North Carolina
+  VICTORY_POINTS_13660:0 "Raleigh"
+##Northwest Territories
+  VICTORY_POINTS_15806:0 "Yellowknife"
+##North Dakota
+  VICTORY_POINTS_14224:0 "Bismarck"
+##Nunavut
+  VICTORY_POINTS_7813:0 "Iqaluit"
+##Ohio
+  VICTORY_POINTS_13850:0 "Columbus"
+##Ontario
+  VICTORY_POINTS_14024:0 "Toronto"
+##Oklahoma
+  VICTORY_POINTS_13641:0 "Oklahoma City"
+##Oregon
+  VICTORY_POINTS_4328:0 "Salem"
+##Pennsylvania
+  VICTORY_POINTS_13848:0 "Philadelphia"
+#Prince Edward's Island
+  VICTORY_POINTS_14185:0 "Charlottetown"
+##Quebec
+  VICTORY_POINTS_14240:0 "Quebec"
 ##Rhode Island
   VICTORY_POINTS_11830:0 "Providence"
+##Sasketchewan
+  VICTORY_POINTS_12663:0 "Regina"
+##South Carolina
+  VICTORY_POINTS_13548:0 "Charleston"
+##South Dakota
+  VICTORY_POINTS_1875:0 "Pierre"
+##Utah
+  VICTORY_POINTS_13873:0 "Salt Lake City"
+##Virginia
+  VICTORY_POINTS_13737:0 "Richmond"
 ##Vermont
   VICTORY_POINTS_14041:0 "Burlington"
   VICTORY_POINTS_9675:0 "Bennington"
@@ -102,3 +189,13 @@
   VICTORY_POINTS_14058:0 "Berlin"
   VICTORY_POINTS_14059:0 "East Montpelier"
   VICTORY_POINTS_14066:0 "Calais"
+##Washington
+  VICTORY_POINTS_14234:0 "Olympia"
+##West Virginia
+  VICTORY_POINTS_13770:0 "Charleston"
+##Wisconsin
+  VICTORY_POINTS_14023:0 "Milwaukee"
+##Wyoming
+  VICTORY_POINTS_13902:0 "Cheyenne"
+##Yukon
+  VICTORY_POINTS_15617:0 "Whitehorse"

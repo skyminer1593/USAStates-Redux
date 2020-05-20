@@ -15,13 +15,16 @@ state={
 			industrial_complex = 6
 		}
 		victory_points = {
-			6855 5 
+			6855 5
 		}
 		add_core_of = OHO
+		victory_points = {
+			13850 25
+		}
 	}
 
 	provinces={
-		6855 13843 13844 13850 13854 13862 
+		6855 13843 13844 13850 13854 13862
 	}
 	manpower=6646694
 	buildings_max_level_factor=1.000

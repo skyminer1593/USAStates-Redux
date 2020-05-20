@@ -13,9 +13,12 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 		}
+		victory_points = {
+			13993 20
+		}
 	}
 	provinces={
-		9616 10556 13976 13977 13978 13991 13993 14004 14019 14025 14042 
+		9616 10556 13976 13977 13978 13991 13993 14004 14019 14025 14042
 	}
 	manpower=826570
 	buildings_max_level_factor=1.000

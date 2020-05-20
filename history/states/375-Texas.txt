@@ -18,13 +18,13 @@ state={
 		}
 		add_core_of = TXT
 		victory_points = {
-			5085 1 
+			13504 25
 		}
 
 	}
 
 	provinces={
-		7836 13495 13503 13504 13508 13511 
+		7836 13495 13503 13504 13508 13511
 	}
 	manpower=1124712
 	buildings_max_level_factor=1.000

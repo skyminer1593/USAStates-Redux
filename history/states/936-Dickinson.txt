@@ -10,11 +10,11 @@ state={
 		}
 		add_core_of = NDN
 		victory_points = {
-			14424 20
+			14224 20
 		}
 	}
 	provinces={
-		6722 7877 12566 14161 14162 14205 14224 14262 
+		6722 7877 12566 14161 14162 14205 14224 14262
 	}
 	manpower=124550
 	buildings_max_level_factor=1.000

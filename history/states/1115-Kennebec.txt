@@ -15,9 +15,6 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = MEM
-		victory_points = {
-			14078 25
-		}
 	}
 	provinces={
 		10318 12459 14040 14078 14096 14118

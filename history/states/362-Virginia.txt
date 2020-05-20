@@ -16,22 +16,13 @@ state={
 		}
 		add_core_of = VAV
 		victory_points = {
-			11841 15 
-		}
-		victory_points = {
-			13258 3 
-		}
-		victory_points = {
-			13260 3 
-		}
-		victory_points = {
-			13252 3 
+			13737 25 
 		}
 
 	}
 
 	provinces={
-		13732 13736 13737 13746 13752 
+		13732 13736 13737 13746 13752
 	}
 	manpower=2551054
 	buildings_max_level_factor=1.000

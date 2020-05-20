@@ -10,6 +10,9 @@ state={
 			industrial_complex = 3
 			dockyard = 2
 		}
+		victory_points = {
+			14185 15
+		}
 	}
 	provinces={
 		4360 14183 14185 14194 14195 14217

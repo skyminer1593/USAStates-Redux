@@ -17,13 +17,13 @@ state={
 		}
 		add_core_of = KYK
 		victory_points = {
-			1445 15 
+			1445 20 
 		}
 
 	}
 
 	provinces={
-		1445 4452 
+		1445 4452
 	}
 	manpower=2614588
 	buildings_max_level_factor=1.000

@@ -520,7 +520,7 @@ country_event = {
         ideology = democratic
         size = 0.5
         states = {
-          788 898 999 1001 1003
+          896 905 906 895 899 900
         }
       }
       random_other_country = {
@@ -528,7 +528,7 @@ country_event = {
 					original_tag = TXT
 					has_government = democratic
 				}
-        set_capital = 999
+        set_capital = 895
 				load_oob = "TXT_dem_Civil_War"
 				set_equipment_fraction = 0.5
 				set_stability = 0.23

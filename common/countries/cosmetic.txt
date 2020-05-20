@@ -162,3 +162,7 @@ RRG = {
   color = rgb { 207 44 39 }
   color_ui = rgb { 207 44 39 }
 }
+USA = {
+  color = rgb { 67 123 237 }
+	color_ui = rgb { 87 160 255 }
+}

@@ -46,16 +46,16 @@ focus_tree = {
 			start_border_war = {
 			change_state_after_war = no
 				attacker = {
-					state = 902
-					num_provinces = 1
+					state = 915
+					num_provinces = 3
 
 					on_win = kansas.2
 					on_lose = kansas.3
 				}
 
 				defender = {
-					state = 903
-					num_provinces = 1
+					state = 976
+					num_provinces = 3
 
 				}
 
@@ -203,41 +203,48 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-				831 = {
+			915 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-					}
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-				383 = {
+			}
+			922 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-					}
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-				829 = {
+			}
+			923 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-					}
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-				896 = {
+			}
+			914 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-					}
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-				830 = {
+			}
+			383 = {
 				add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-					}
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
+			}
+			917 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -267,11 +274,11 @@ focus_tree = {
 					}
 				}
 				random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
 					}
 				}
 	}
@@ -297,7 +304,7 @@ focus_tree = {
 			add_resource = {
 				type = steel
 				amount = 25
-				state = 831
+				state = 915
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = harry_darby
@@ -321,7 +328,7 @@ focus_tree = {
 			available_if_capitulated = no
 
 			completion_reward = {
-					831 = {
+					915 = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 					type = arms_factory
@@ -350,7 +357,28 @@ focus_tree = {
 			available_if_capitulated = no
 
 			completion_reward = {
-					831 = {
+					915 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+						}
+					}
+					922 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+						}
+					}
+					914 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+						}
+					}
+					918 = {
 					add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -358,27 +386,6 @@ focus_tree = {
 						}
 					}
 					383 = {
-					add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-						}
-					}
-					829 = {
-					add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-						}
-					}
-					896 = {
-					add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-						}
-					}
-					830 = {
 					add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -408,7 +415,7 @@ focus_tree = {
 				add_resource = {
 				type = aluminium
 				amount = 15
-				state = 829
+				state = 914
 					}
 				}
 
@@ -608,7 +615,7 @@ focus_tree = {
 
 			completion_reward = {
 			add_research_slot = 1
-			831 = {
+			915 = {
 				add_manpower = 800000
 			}
 			830 = {
@@ -827,7 +834,7 @@ focus_tree = {
 									instant_build = yes
 							}
 					}
-					829 = {
+					915 = {
 						add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = industrial_complex
@@ -1832,7 +1839,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			831 = {
+			915 = {
 				add_building_construction = {
 					type = bunker
 					level = 2
@@ -1843,7 +1850,7 @@ focus_tree = {
 					}
 				}
 			}
-			902 = {
+			922 = {
 				add_building_construction = {
 					type = bunker
 					province = 7834
@@ -1851,7 +1858,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			830 = {
+			921 = {
 				add_building_construction = {
 					type = bunker
 					level = 2
@@ -1862,7 +1869,7 @@ focus_tree = {
 					}
 				}
 			}
-			896 = {
+			917 = {
 				add_building_construction = {
 					type = bunker
 					level = 2
@@ -1902,7 +1909,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_state_claim = 903
+			add_state_claim = 976
 			create_wargoal = {
 				type = annex_everything
 				target = MOM
@@ -1936,11 +1943,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_state_claim = 802
+			add_state_claim = 885
 			add_state_claim = 801
-			add_state_claim = 382
+			add_state_claim = 880
+			add_state_claim = 879
 			create_wargoal = {
-				type = annex_everything
+				type = take_state_focus
 				target = COC
 			}
 		}
@@ -2027,31 +2035,62 @@ focus_tree = {
 
 		available = {
 			date > 1940.01.01
-			controls_state = 828
-			controls_state = 384
-			controls_state = 827
-			controls_state = 802
+			controls_state = 880
+			controls_state = 879
 			controls_state = 382
-			controls_state = 801
-			controls_state = 832
-			controls_state = 833
-			controls_state = 374
-			controls_state = 903
+			controls_state = 885
+			controls_state = 929
+			controls_state = 930
+			controls_state = 384
+			controls_state = 928
+			controls_state = 924
+			controls_state = 925
+			controls_state = 926
+			controls_state = 927
+			controls_state = 976
+			controls_state = 373
+			controls_state = 974
+			controls_state = 973
+			controls_state = 975
+			controls_state = 977
+			controls_state = 978
+			controls_state = 912
+			controls_state = 913
+			controls_state = 911
+			controls_state = 910
+			controls_state = 908
+			controls_state = 909
+			controls_state = 907
 		}
 
 		completion_reward = {
 			add_stability = 0.30
-			add_state_core = 828
-			add_state_core = 384
-			add_state_core = 827
-			add_state_core = 802
+			add_state_core = 880
+			add_state_core = 879
 			add_state_core = 382
-			add_state_core = 801
-			add_state_core = 832
-			add_state_core = 833
-			add_state_core = 374
-			add_state_core = 903
-
+			add_state_core = 885
+			add_state_core = 929
+			add_state_core = 930
+			add_state_core = 384
+			add_state_core = 928
+			add_state_core = 924
+			add_state_core = 925
+			add_state_core = 926
+			add_state_core = 927
+			add_state_core = 976
+			add_state_core = 373
+			add_state_core = 974
+			add_state_core = 973
+			add_state_core = 975
+			add_state_core = 977
+			add_state_core = 978
+			add_state_core = 912
+			add_state_core = 913
+			add_state_core = 911
+			add_state_core = 910
+			add_state_core = 908
+			add_state_core = 909
+			add_state_core = 907
 		}
 	}
 }

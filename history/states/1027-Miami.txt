@@ -1,6 +1,10 @@
 state={
 	id=1027
 	name="Miami"
+	resources = {
+		aluminium = 13.000
+		steel = 6.000
+	}
 	history = {
 		owner = FLF
 		add_core_of = FLF
@@ -10,7 +14,7 @@ state={
 		}
 	}
 	provinces={
-		1843 1913 9834 
+		1843 1913 9834
 	}
 	manpower=1246521
 	buildings_max_level_factor=1.000

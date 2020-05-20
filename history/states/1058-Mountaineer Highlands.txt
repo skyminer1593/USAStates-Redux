@@ -1,6 +1,9 @@
 state={
 	id=1058
 	name="Moutaineer Highlands"
+	resources = {
+		steel = 24.000
+	}
 	history = {
 		owner = WVW
 		add_core_of = WVW
@@ -9,7 +12,7 @@ state={
 		}
 	}
 	provinces={
-		3941 6958 9923 11888 
+		3941 6958 9923 11888
 	}
 	manpower=60124
 	buildings_max_level_factor=1.000

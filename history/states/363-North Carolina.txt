@@ -2,7 +2,9 @@
 state={
 	id=363
 	name="Piedmont Triad"
-
+	resources = {
+		aluminium = 4.000
+	}
 	history={
 		owner = NCN
 		buildings = {
@@ -13,16 +15,16 @@ state={
 		}
 		add_core_of = NCN
 		victory_points = {
-			10096 1 
+			10096 1
 		}
 		victory_points = {
-			10081 3 
+			10081 3
 		}
 
 	}
 
 	provinces={
-		10081 10468 12445 
+		10081 10468 12445
 	}
 	manpower=2057491
 	buildings_max_level_factor=1.000

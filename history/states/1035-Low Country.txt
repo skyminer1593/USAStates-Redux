@@ -1,6 +1,10 @@
 state={
 	id=1035
 	name="Low Country"
+	resources = {
+		steel = 27.000
+		oil = 3.000
+	}
 	history = {
 		owner = SCS
 		add_core_of = SCS
@@ -9,7 +13,7 @@ state={
 		}
 	}
 	provinces={
-		1547 3994 7202 10029 13536 
+		1547 3994 7202 10029 13536
 	}
 	manpower=60124
 	buildings_max_level_factor=1.000

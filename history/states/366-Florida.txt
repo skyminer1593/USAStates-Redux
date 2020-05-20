@@ -3,7 +3,9 @@ state={
 	id=366
 	name="Florida Plains"
 	manpower = 1468210
-	
+	resources = {
+		oil = 12.000
+	}
 	state_category = city
 
 	history={
@@ -18,5 +20,5 @@ state={
 	provinces={
 		12752 7388 866 10489
 	}
-	
+
 }

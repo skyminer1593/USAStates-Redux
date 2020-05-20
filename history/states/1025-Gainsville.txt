@@ -1,6 +1,9 @@
 state={
 	id=1025
 	name="Gainsville"
+	resources = {
+		oil = 23.000
+	}
 	history = {
 		owner = FLF
 		add_core_of = FLF
@@ -10,7 +13,7 @@ state={
 		}
 	}
 	provinces={
-		1556 12353 12381 
+		1556 12353 12381
 	}
 	manpower=521341
 	buildings_max_level_factor=1.000

@@ -1,6 +1,9 @@
 state={
 	id=1040
 	name="Metrolina"
+	resources = {
+		steel = 23.000
+	}
 	history = {
 		owner = NCN
 		add_core_of = NCN
@@ -10,7 +13,7 @@ state={
 		}
 	}
 	provinces={
-		7138 10096 10495 13621 
+		7138 10096 10495 13621
 	}
 	manpower=201540
 	buildings_max_level_factor=1.000

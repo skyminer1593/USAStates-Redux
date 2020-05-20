@@ -1,6 +1,9 @@
 state={
 	id=1051
 	name="Bluridge Highlands"
+	resources = {
+		chromium = 6.000
+	}
 	history = {
 		owner = VAV
 		add_core_of = VAV
@@ -10,7 +13,7 @@ state={
 		}
 	}
 	provinces={
-		1506 3925 10412 11841 
+		1506 3925 10412 11841
 	}
 	manpower=315410
 	buildings_max_level_factor=1.000

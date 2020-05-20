@@ -1,6 +1,9 @@
 state={
 	id=1057
 	name="Northern Panhandle"
+	resources = {
+		steel = 21.000
+	}
 	history = {
 		owner = WVW
 		add_core_of = WVW
@@ -10,7 +13,7 @@ state={
 		}
 	}
 	provinces={
-		801 3975 6850 
+		801 3975 6850
 	}
 	manpower=102104
 	buildings_max_level_factor=1.000

@@ -1,5 +1,9 @@
 state={
 	id=1026
+	resources = {
+		oil = 14.000
+		steel = 20.000
+	}
 	name="Orlando"
 	history = {
 		owner = FLF
@@ -10,7 +14,7 @@ state={
 		}
 	}
 	provinces={
-		1572 1584 12439 
+		1572 1584 12439
 	}
 	manpower=641312
 	buildings_max_level_factor=1.000

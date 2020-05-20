@@ -1,6 +1,10 @@
 state={
 	id=1046
 	name="Inner Banks"
+	resources = {
+		steel = 12.000
+		oil = 2.000
+	}
 	history = {
 		owner = NCN
 		add_core_of = NCN
@@ -10,7 +14,7 @@ state={
 		}
 	}
 	provinces={
-		4168 6943 
+		4168 6943
 	}
 	manpower=102457
 	buildings_max_level_factor=1.000

@@ -1,6 +1,9 @@
 state={
 	id=1042
 	name="North Carolinan Mountains"
+	resources = {
+		chromium = 12.000
+	}
 	history = {
 		owner = NCN
 		add_core_of = NCN
@@ -9,7 +12,7 @@ state={
 		}
 	}
 	provinces={
-		7643 9967 
+		7643 9967
 	}
 	manpower=12040
 	buildings_max_level_factor=1.000

@@ -1,6 +1,10 @@
 state={
 	id=996
 	name="Rock River Region"
+	resources = {
+		oil = 21.000
+		steel = 42.000
+	}
 	history = {
 		owner = ILI
 		add_core_of = ILI
@@ -10,7 +14,7 @@ state={
 		}
 	}
 	provinces={
-		6737 11589 12312 12368 
+		6737 11589 12312 12368
 	}
 	manpower=201432
 	buildings_max_level_factor=1.000

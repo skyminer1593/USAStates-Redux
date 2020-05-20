@@ -2,7 +2,10 @@
 state={
 	id=364
 	name="South Central"
-
+	resources = {
+		steel = 14.000
+		aluminium = 10.000
+	}
 	history={
 		owner = SCS
 		buildings = {
@@ -15,7 +18,7 @@ state={
 			4491 5
 		}
 		victory_points = {
-			7012 3 
+			7012 3
 		}
 
 	}

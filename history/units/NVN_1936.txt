@@ -84,7 +84,7 @@ units = {
 	}
 division= {
 		name = "2nd Guard of Nevada"
-		location = 13244
+		location = 13649
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -92,7 +92,7 @@ division= {
 	}
 division= {
 		name = "3rd Guard of Nevada"
-		location = 13245
+		location = 13673
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -100,7 +100,7 @@ division= {
 	}
 division= {
 		name =  "4th Guard of Nevada"
-		location = 13246
+		location = 13647
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3

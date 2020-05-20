@@ -76,7 +76,7 @@ units = {
 	# I Army Corps #
 	division= {
 		name = "1st Capital National Guard"
-		location = 13267
+		location = 13794
 		division_template = "National Guard Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -84,7 +84,7 @@ units = {
 	}
 	division= {
 		name = "2nd Capital National Guard"
-		location = 13267
+		location = 13794
 		division_template = "National Guard Division"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
@@ -92,7 +92,7 @@ units = {
 	}
 	division= {
 		name = "3nd Capital National Guard"
-		location = 13267
+		location = 13794
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6

@@ -21,7 +21,7 @@ division_template = {
 division_template = {
 	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
 
-	regiments = {						
+	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
@@ -67,16 +67,16 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+		engineer = { x = 0 y = 0 }
 	}
 	priority = 0
 }
 units = {
 	### 1st Army -- note: Armies only paper organizations in 1936 ###
 	# I Army Corps #
-	division= {			
-		name = "1st Rhode Islander National Guard"		
-		location = 9832
+	division= {
+		name = "1st Rhode Islander National Guard"
+		location = 11830
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3

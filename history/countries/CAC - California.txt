@@ -142,6 +142,7 @@ set_politics = {
 }
 add_ideas = {
 	CAC_aloyaldemocraticarmy
+	CAC_dustbowlmigration
 }
 set_popularities = {
 	democratic = 71

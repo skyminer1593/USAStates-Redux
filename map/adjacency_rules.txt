@@ -263,3 +263,159 @@ adjacency_rule
 	icon = 11366
 	offset = { 5 0 -6 }
 }
+#St.Lawrence Canal
+adjacency_rule
+{
+	name = "ST_LAWRENCE_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6778 598 3602 7345 14128 14136 4417 14175 14191 14221 14226 14227 14240 14239 7291 14198 9601 14174 14154 14146 14115 4270 6625 3605 14279 14259 }
+		
+	icon = 12149
+	offset = { 2 0 0 }
+}
+#Welland Canal
+adjacency_rule
+{
+	name = "ERIE_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 749 11654 11695 3763 }
+		
+	icon = 749
+	offset = { 5 0 -6 }
+}
+#St. Mary's Falls
+adjacency_rule
+{
+	name = "LAKE_SUPERIOR_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 12582 5205 }
+		
+	icon = 12582
+	offset = { 5 0 -6 }
+}
+#St. Clair/Detroit River
+adjacency_rule
+{
+	name = "LAKE_ERIE_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 13955 13156 9667 9711 9724 13968 13962 13947 }
+		
+	icon = 13955
+	offset = { 5 0 -6 }
+}

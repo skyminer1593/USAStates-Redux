@@ -1,4 +1,13 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+##Redux
+8642;13157;sea;4345;-1;-1;-1;-1;ST_LAWRENCE_CANAL;St-Lawrence-Canal
+13154;13199;sea;749;-1;-1;-1;-1;LAKE_ERIE_CANAL;Lake-Erie-Canal
+13155;13159;sea;5205;-1;-1;-1;-1;LAKE_SUPERIOR_CANAL;Lake-Superior-Canal
+8518;13154;sea;11654;-1;-1;-1;-1;ERIE_CANAL;Erie-Canal
+
+
+
+
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas

@@ -87,7 +87,17 @@
   VICTORY_POINTS_14017:0 "Westbrook"
   VICTORY_POINTS_14002:0 "Scarborough"
 ##Kansas
-  VICTORY_POINTS_13767:0 "Topeka"
+  VICTORY_POINTS_13767:0 "Lawrence"
+  VICTORY_POINTS_13780:0 "Topeka"
+  VICTORY_POINTS_13799:0 "Manhattan"
+  VICTORY_POINTS_13724:0 "Wichita"
+  VICTORY_POINTS_12024:0 "Dodge City"
+  VICTORY_POINTS_13744:0 "Garden City"
+#Kansas City Kansas
+  VICTORY_POINTS_13777:0 "West Kansas City"
+  VICTORY_POINTS_13758:0 "Overland Park"
+  VICTORY_POINTS_13768:0 "Olathe"
+  VICTORY_POINTS_13789:0 "Shawnee"
 ##Labrador
   VICTORY_POINTS_14904:0 "Labrador City"
 ##Manitoba

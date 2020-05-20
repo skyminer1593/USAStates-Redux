@@ -6,10 +6,11 @@ state={
 		add_core_of = VAV
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 		}
 	}
 	provinces={
-		951 10343 11873 
+		951 10343 11873
 	}
 	manpower=130142
 	buildings_max_level_factor=1.000

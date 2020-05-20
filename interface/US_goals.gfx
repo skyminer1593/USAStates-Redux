@@ -1274,10 +1274,6 @@ spriteType = {
   texturefile = "gfx/interface/goals/GFX_Generic_Industry_04.dds"
 }
 spriteType = {
-  name = "GFX_Generic_Navy"
-  texturefile = "gfx/interface/goals/GFX_Generic_Navy.dds"
-}
-spriteType = {
   name = "GFX_Generic_Africa02"
   texturefile = "gfx/interface/goals/Generic_Africa02.dds"
 }
@@ -2542,8 +2538,8 @@ spriteType = {
   texturefile = "gfx/interface/goals/GFX_Generic_Industry_04.dds"
 }
 spriteType = {
-  name = "GFX_Generic_Navy"
-  texturefile = "gfx/interface/goals/GFX_Generic_Navy.dds"
+  name = "GFX_Generic_Navy1"
+  texturefile = "gfx/interface/goals/GFX_Generic_Navy1.dds"
 }
 spriteType = {
   name = "GFX_Focus_Down_in_Flames"

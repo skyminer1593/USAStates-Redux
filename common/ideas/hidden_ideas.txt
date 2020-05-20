@@ -10,14 +10,18 @@ ideas = {
         guarantee_cost = 100
         production_speed_buildings_factor = -100
         research_speed_factor	= -100
-        production_factory_max_efficiency_factor = -0.50
+        production_factory_max_efficiency_factor = -100
         ai_desired_divisions_factor = -100
         ai_get_ally_desire_factor = -100
+        enemy_justify_war_goal_time = 100
+        justify_war_goal_time = 100
+        trade_opinion_factor = -100
+        local_resources_factor = -1
       }
     }
     ALL_ai_stuff = {
       modifier = {
-        ai_desired_divisions_factor = -0.25
+        ai_desired_divisions_factor = -0.15
         ai_get_ally_desire_factor = -60
         conscription = -0.005
       }

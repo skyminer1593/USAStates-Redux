@@ -655,7 +655,7 @@ UTU = {
 
 VTV = {
 	color = rgb { 30 150 34 }
-	color_ui = { 30 150 34 }
+	color_ui = rgb { 30 150 34 }
 }
 
 VAV = {

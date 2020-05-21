@@ -142,7 +142,10 @@ set_politics = {
 }
 add_ideas = {
 	CAC_aloyaldemocraticarmy
-	CAC_dustbowlmigration
+}
+add_timed_idea = {
+	idea = CAC_dustbowlmigration
+	days = 420
 }
 set_popularities = {
 	democratic = 71

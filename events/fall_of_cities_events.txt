@@ -10,8 +10,8 @@ news_event = {
   major = yes
 
   trigger = {
-    903 = { is_controlled_by = KSK}
-    903 = { is_owned_by = MOM }
+    976 = { is_controlled_by = KSK}
+    976 = { is_owned_by = MOM }
     KSK = { has_war_with = MOM}
     NOT = { has_global_flag = fall_of_kc_kansas }
   }
@@ -54,8 +54,8 @@ news_event = {
   major = yes
 
   trigger = {
-    902 = { is_controlled_by = MOM}
-    902 = { is_owned_by = KSK }
+    915 = { is_controlled_by = MOM}
+    915 = { is_owned_by = KSK }
     MOM = { has_war_with = KSK}
     NOT = { has_global_flag = fall_of_kc_missouri }
   }
@@ -98,8 +98,8 @@ news_event = {
   major = yes
 
   trigger = {
-    975 = { is_controlled_by = CAC}
-    975 = { is_owned_by = NVN }
+    807 = { is_controlled_by = CAC}
+    807 = { is_owned_by = NVN }
     CAC = { has_war_with = NVN}
     NOT = { has_global_flag = fall_of_las_vegas }
   }
@@ -142,8 +142,8 @@ news_event = {
   major = yes
 
   trigger = {
-    798 = { is_controlled_by = KSK}
-    798 = { is_owned_by = CAC }
+    803 = { is_controlled_by = KSK}
+    803 = { is_owned_by = CAC }
     KSK = { has_war_with = CAC}
     NOT = { has_global_flag = fall_of_la_kansas }
   }
@@ -186,8 +186,8 @@ news_event = {
   major = yes
 
   trigger = {
-    967 = { is_controlled_by = KSK}
-    967 = { is_owned_by = CAC }
+    798 = { is_controlled_by = KSK}
+    798 = { is_owned_by = CAC }
     KSK = { has_war_with = CAC}
     NOT = { has_global_flag = fall_of_sacramento_kansas }
   }
@@ -230,8 +230,8 @@ news_event = {
   major = yes
 
   trigger = {
-    968 = { is_controlled_by = KSK}
-    968 = { is_owned_by = CAC }
+    800 = { is_controlled_by = KSK}
+    800 = { is_owned_by = CAC }
     KSK = { has_war_with = CAC}
     NOT = { has_global_flag = fall_of_San_Francisco_kansas }
   }
@@ -274,8 +274,8 @@ news_event = {
   major = yes
 
   trigger = {
-    802 = { is_controlled_by = KSK}
-    802 = { is_owned_by = COC }
+    879 = { is_controlled_by = KSK}
+    879 = { is_owned_by = COC }
     KSK = { has_war_with = COC}
     NOT = { has_global_flag = fall_of_Denver_kansas }
   }
@@ -318,8 +318,8 @@ news_event = {
   major = yes
 
   trigger = {
-    898 = { is_controlled_by = KSK}
-    898 = { is_owned_by = TXT }
+    895 = { is_controlled_by = KSK}
+    895 = { is_owned_by = TXT }
     KSK = { has_war_with = TXT}
     NOT = { has_global_flag = fall_of_Dallas_kansas }
   }
@@ -362,8 +362,8 @@ news_event = {
   major = yes
 
   trigger = {
-    790 = { is_controlled_by = KSK}
-    790 = { is_owned_by = TXT }
+    894 = { is_controlled_by = KSK}
+    894 = { is_owned_by = TXT }
     KSK = { has_war_with = TXT}
     NOT = { has_global_flag = fall_of_Houston_kansas }
   }
@@ -452,8 +452,8 @@ news_event = {
   major = yes
 
   trigger = {
-    795 = { is_controlled_by = CAC}
-    795 = { is_owned_by = AZA }
+    864 = { is_controlled_by = CAC}
+    864 = { is_owned_by = AZA }
     CAC = { has_war_with = AZA}
     NOT = { has_global_flag = fall_of_Phoneix_california}
   }
@@ -496,8 +496,8 @@ news_event = {
   major = yes
 
   trigger = {
-    831 = { is_controlled_by = CAC}
-    831 = { is_owned_by = KSK }
+    922 = { is_controlled_by = CAC}
+    922 = { is_owned_by = KSK }
     CAC = { has_war_with = KSK}
     NOT = { has_global_flag = fall_of_topeka_california}
   }
@@ -540,8 +540,8 @@ news_event = {
   major = yes
 
   trigger = {
-    1002 = { is_controlled_by = CAC}
-    1002 = { is_owned_by = TXT }
+    375 = { is_controlled_by = CAC}
+    375 = { is_owned_by = TXT }
     CAC = { has_war_with = TXT }
     NOT = { has_global_flag = fall_of_austin_california}
   }

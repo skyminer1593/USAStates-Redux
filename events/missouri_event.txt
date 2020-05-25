@@ -12,7 +12,7 @@ country_event = {
     name = missouri.3.a
 
     KSK = {
-    transfer_state = 903
+    transfer_state = 976
     }
   }
 

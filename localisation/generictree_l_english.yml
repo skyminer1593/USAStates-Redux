@@ -60,6 +60,9 @@
   GEN.3.t:0 "[FROM.GetName] Declines Our Invite"
   GEN.3.d:0 ""
   GEN.3.a:0 "A shame"
+  GEN.4.t:0 "[FROM.GetName] is justifying on us!"
+  GEN.4.d:0 "[FROM.GetName] has decided it in their best interest to get public support to invade our rightful lands. We must prepare our troops on [FROM.GetName]'s border and prepare our defenses. (This event is a workaround to HOI limitations)"
+  GEN.4.a:0 "Prepare the Defenses!"
   #Country Flags
   conservatism_won:0 "Conservatives won the election"
   liberalism_won:0 "Liberals won the election"

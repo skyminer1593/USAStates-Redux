@@ -586,10 +586,11 @@ focus_tree = {
             is_subject_of = ROOT
           }
         }
+        country_event = GEN.4
         ROOT = {
           create_wargoal= {
             target = PREV
-            type = puppet_wargoal_focus
+            type = annex_everything
           }
         }
       }
@@ -891,6 +892,7 @@ focus_tree = {
             is_subject_of = ROOT
           }
         }
+        country_event = GEN.4
         ROOT = {
           create_wargoal= {
             target = PREV
@@ -923,6 +925,7 @@ focus_tree = {
             is_subject_of = ROOT
           }
         }
+        country_event = GEN.4
         ROOT = {
           create_wargoal= {
             target = PREV

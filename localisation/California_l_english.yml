@@ -49,6 +49,14 @@
  CAC_anewmp:0 "A New "Military" Police"
  CAC_fundrightwingnews:0 "Hollywood Propaganda"
  CAC_policeforceempowered:0 "Police Force Empowered"
+ CAC_democratic_party:0 "California Republican Party"
+ CAC_democratic_party_long:0 "California Republican Party"
+ CAC_fascism_party:0 "California Independent Party"
+ CAC_fascism_party_long:0 "California Independent Party"
+ CAC_communism_party:0 "Californian Marxist Party"
+ CAC_communism_party_long:0 "Californian Marxist Party"
+ CAC_neutrality_party:0 "The Military"
+ CAC_neutrality_party_long:0 "The Military"
 ##Factions
  california_democratic_faction:0 "Pacific Defense Federation"
 ##Events

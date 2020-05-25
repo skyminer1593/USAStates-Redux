@@ -24,14 +24,14 @@ division_template = {
 units = {
   division = {
     name = "Civilian Militia Dallas"
-    location = 10778
+    location = 13535
     division_template = "Civilian Militia"
     start_experience_factor = 0.25
     start_equipment_factor = 0.5
   }
   division = {
     name = "Civilian Militia Fort Worth"
-    location = 3960
+    location = 13539
     division_template = "Civilian Militia"
     start_experience_factor = 0.25
     start_equipment_factor = 0.5
@@ -45,21 +45,21 @@ units = {
   }
   division = {
     name = "Civilian Militia Amarillo"
-    location = 3972
+    location = 12848
     division_template = "Civilian Militia"
     start_experience_factor = 0.25
     start_equipment_factor = 0.5
   }
   division = {
     name = "Civilian Militia Dallas"
-    location = 10778
+    location = 13535
     division_template = "Civilian Militia"
     start_experience_factor = 0.25
     start_equipment_factor = 0.5
   }
   division = {
     name = "Civilian Militia Fort Worth"
-    location = 3960
+    location = 13539
     division_template = "Civilian Militia"
     start_experience_factor = 0.25
     start_equipment_factor = 0.5
@@ -73,7 +73,7 @@ units = {
   }
   division = {
     name = "Civilian Militia Amarillo"
-    location = 3972
+    location = 12848
     division_template = "Civilian Militia"
     start_experience_factor = 0.25
     start_equipment_factor = 0.5

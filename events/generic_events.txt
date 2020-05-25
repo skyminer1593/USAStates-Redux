@@ -65,3 +65,14 @@ country_event = {
     name = GEN.3.a
   }
 }
+country_event = {
+  id = GEN.4
+  title = GEN.4.t
+  desc = GEN.4.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = GEN.4.a
+  }
+}

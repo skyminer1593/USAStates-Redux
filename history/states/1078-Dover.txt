@@ -12,6 +12,15 @@ state={
 		arms_factory = 2
 		}
 		add_core_of = DED
+		victory_points = {
+			13814 25
+		}
+		victory_points = {
+			13825 5
+		}
+		victory_points = {
+			13812 5
+		}
 	}
 
 	provinces={

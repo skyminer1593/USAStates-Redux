@@ -14,6 +14,12 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = PAP
+		victory_points = {
+			11799 10
+		}
+		victory_points = {
+			9820 5
+		}
 	}
 	provinces={
 		891 894 3897 9820 11799

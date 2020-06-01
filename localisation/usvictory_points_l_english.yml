@@ -51,6 +51,12 @@
   VICTORY_POINTS_13934:0 "Bloomfield"
 ##Colorado
   VICTORY_POINTS_13816:0 "Denver"
+##Delaware
+  VICTORY_POINTS_13806:0 "Wilmington"
+#Dover
+  VICTORY_POINTS_13814:0 "Dover"
+  VICTORY_POINTS_13825:0 "Kenton"
+  VICTORY_POINTS_13814:0 "Pearson's Corner"
 ##Florida
   VICTORY_POINTS_13476:0 "Tallahassee"
 ##Georgia
@@ -63,29 +69,6 @@
   VICTORY_POINTS_12697:0 "Springfield"
 ##Iowa
   VICTORY_POINTS_13939:0 "Des Moines"
-##Tennessee
-  VICTORY_POINTS_13679:0 "Nashville"
-##Texas
-  VICTORY_POINTS_13535:0 "Dallas"
-  VICTORY_POINTS_13539:0 "Fort Worth"
-  VICTORY_POINTS_13504:0 "Austin"
-##Nevada
-#Las Vegas
-  VICTORY_POINTS_13649:0 "Las Vegas"
-  VICTORY_POINTS_13629:0 "Paradise"
-  VICTORY_POINTS_13647:0 "Henderson"
-  VICTORY_POINTS_13648:0 "Enterprise"
-  VICTORY_POINTS_4799:0 "Summerlin South"
-  VICTORY_POINTS_13673:0 "Nellis Air Force Base"
-##Louisiana
-  VICTORY_POINTS_1453:0 "Baton Rouge"
-##Maine
-  VICTORY_POINTS_7462:0 "Augusta"
-#Portland
-  VICTORY_POINTS_14011:0 "Portland"
-  VICTORY_POINTS_14028:0 "Falmouth"
-  VICTORY_POINTS_14017:0 "Westbrook"
-  VICTORY_POINTS_14002:0 "Scarborough"
 ##Kansas
   VICTORY_POINTS_13767:0 "Lawrence"
   VICTORY_POINTS_13780:0 "Topeka"
@@ -98,6 +81,37 @@
   VICTORY_POINTS_13758:0 "Overland Park"
   VICTORY_POINTS_13768:0 "Olathe"
   VICTORY_POINTS_13789:0 "Shawnee"
+##Tennessee
+  VICTORY_POINTS_13679:0 "Nashville"
+##Texas
+  VICTORY_POINTS_13535:0 "Dallas"
+  VICTORY_POINTS_13539:0 "Fort Worth"
+  VICTORY_POINTS_13504:0 "Austin"
+##Louisiana
+  VICTORY_POINTS_1453:0 "Baton Rouge"
+##Maine
+  VICTORY_POINTS_7462:0 "Augusta"
+#Portland
+  VICTORY_POINTS_14011:0 "Portland"
+  VICTORY_POINTS_14028:0 "Falmouth"
+  VICTORY_POINTS_14017:0 "Westbrook"
+  VICTORY_POINTS_14002:0 "Scarborough"
+##Maryland
+  VICTORY_POINTS_13797:0 "Annapolis"
+  VICTORY_POINTS_13804:0 "Bethesda"
+  VICTORY_POINTS_13811:0 "Frederick"
+  VICTORY_POINTS_9758:0 "Chestertown"
+#Baltimore
+  VICTORY_POINTS_13805:0 "Baltimore"
+  VICTORY_POINTS_3957:0 "Mount Airy"
+##Nevada
+#Las Vegas
+  VICTORY_POINTS_13649:0 "Las Vegas"
+  VICTORY_POINTS_13629:0 "Paradise"
+  VICTORY_POINTS_13647:0 "Henderson"
+  VICTORY_POINTS_13648:0 "Enterprise"
+  VICTORY_POINTS_4799:0 "Summerlin South"
+  VICTORY_POINTS_13673:0 "Nellis Air Force Base"
 ##Labrador
   VICTORY_POINTS_14904:0 "Labrador City"
 ##Manitoba
@@ -175,6 +189,8 @@
 ##Oregon
   VICTORY_POINTS_4328:0 "Salem"
 ##Pennsylvania
+  VICTORY_POINTS_
+#Philadelphia
   VICTORY_POINTS_13848:0 "Philadelphia"
 #Prince Edward's Island
   VICTORY_POINTS_14185:0 "Charlottetown"

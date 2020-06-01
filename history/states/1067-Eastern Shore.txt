@@ -12,6 +12,9 @@ state={
 			dockyard = 4
 		}
 		add_core_of = MDM
+		victory_points = {
+			9758 10
+		}
 	}
 
 	provinces={

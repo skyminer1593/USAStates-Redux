@@ -14,8 +14,21 @@ state={
 		}
 		add_core_of = MDM
 		victory_points = {
-			13797 15
+			13797 20
 		}
+		victory_points = {
+			13805 30
+		}
+		victory_points = {
+			3957 5
+		}
+		victory_points = {
+			13804 5
+		}
+		victory_points = {
+			13811 5
+		}
+
 	}
 
 	provinces={

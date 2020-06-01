@@ -16,6 +16,9 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = DED
+		victory_points = {
+			13806 15
+		}
 	}
 
 	provinces={

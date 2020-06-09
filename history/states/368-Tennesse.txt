@@ -15,13 +15,13 @@ state={
 		}
 		add_core_of = TNT
 		victory_points = {
-			1758 3 
+			12670 5
 		}
 
 	}
 
 	provinces={
-		10281 10824 12501 12670 
+		10281 10824 12501 12670
 	}
 	manpower=216555
 	buildings_max_level_factor=1.000

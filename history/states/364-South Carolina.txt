@@ -15,10 +15,13 @@ state={
 		}
 		add_core_of = SCS
 		victory_points = {
-			4491 5
+			4491 10
 		}
 		victory_points = {
-			7012 3
+			7012 5
+		}
+		victory_points = {
+			7134 5
 		}
 
 	}

@@ -5,11 +5,15 @@ state={
 		owner = ALA
 		add_core_of = ALA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			5059 15
 		}
 	}
 	provinces={
-		5059 
+		5059
 	}
 	manpower=12034
 	buildings_max_level_factor=1.000

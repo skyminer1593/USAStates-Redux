@@ -8,9 +8,15 @@ state={
 			infrastructure = 5
 			dockyard = 2
 		}
+		victory_points = {
+			7668 10
+		}
+		victory_points = {
+			4464 15
+		}
 	}
 	provinces={
-		4464 7668 
+		4464 7668
 	}
 	manpower=110254
 	buildings_max_level_factor=1.000

@@ -15,7 +15,13 @@ state={
 		}
 		add_core_of = ILI
 		victory_points = {
-			12697 20
+			12697 25
+		}
+		victory_points = {
+			12497 10
+		}
+		victory_points = {
+			720 5
 		}
 
 	}

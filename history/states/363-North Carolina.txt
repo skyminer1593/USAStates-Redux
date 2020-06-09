@@ -15,9 +15,6 @@ state={
 		}
 		add_core_of = NCN
 		victory_points = {
-			10096 1
-		}
-		victory_points = {
 			10081 3
 		}
 

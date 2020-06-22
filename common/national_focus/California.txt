@@ -61,7 +61,7 @@ focus_tree = {
 		x = 5
 		y = 0
 		completion_reward = {
-					986 = {
+					802 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -97,7 +97,7 @@ focus_tree = {
 		x = 3
 		y = 1
 			completion_reward = {
-					986 = {
+					802 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -108,7 +108,7 @@ focus_tree = {
 					add_resource = {
 							type = tungsten
 							amount = 25
-							state = 986
+							state = 802
 						}
 				}
 
@@ -2504,22 +2504,14 @@ focus_tree = {
 		x = 19
 		y = 11
 			available = {
-					controls_state = 806
-					controls_state = 385
-					controls_state = 807
-					controls_state = 941
-					controls_state = 808
-					controls_state = 914
-					controls_state = 810
-					controls_state = 386
-					controls_state = 809
-					controls_state = 985
-					controls_state = 812
-					controls_state = 998
-					controls_state = 991
-					controls_state = 463
-					controls_state = 813
-				}
+				controls_state = 802
+				controls_state = 803
+				controls_state = 800
+				controls_state = 798
+				controls_state = 814
+				controls_state = 821
+				controls_state = 463
+			}
 			completion_reward = {
 					unlock_decision_tooltip = {
 							decision = pacific_states_of_america

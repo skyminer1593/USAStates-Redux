@@ -852,15 +852,13 @@ focus_tree = {
 		x = 10
 		y = 7
 		completion_reward = {
-			every_neighbor_country = {
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					country_event = disunitedstates.5
-				}
-			}
 			create_faction = north_american_axis
+			every_neighbor_country = {
+				limit = {
+					has_government = fascism
+				}
+				country_event = disunitedstates.5
+			}
 		}
 	}
 	focus = {

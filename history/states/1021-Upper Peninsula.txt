@@ -10,9 +10,12 @@ state={
 				naval_base = 2
 			}
 		}
+		victory_points = {
+			709 5
+		}
 	}
 	provinces={
-		709 751 4854 5205 10599 
+		709 751 4854 5205 10599
 	}
 	manpower=311361
 	buildings_max_level_factor=1.000

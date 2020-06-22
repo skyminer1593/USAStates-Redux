@@ -8,7 +8,6 @@
   VICTORY_POINTS_4622:0 "Tuscaloosa"
   VICTORY_POINTS_7640:0 "Dothan"
   VICTORY_POINTS_860:0 "Phenix City"
-
 #Mobile
   VICTORY_POINTS_13496:0 "Mobile"
   VICTORY_POINTS_10520:0 "Foley"
@@ -198,7 +197,19 @@
   VICTORY_POINTS_6732:0 "Watertown"
   VICTORY_POINTS_13960:0 "Newton"
 #Michigan
+#Detroit
+  VICTORY_POINTS_13962:0 "Detroit"
+  VICTORY_POINTS_13968:0 "Warren"
+  VICTORY_POINTS_6710:0 "Southfield"
+  VICTORY_POINTS_13957:0 "Dearborn Heights"
+  VICTORY_POINTS_13947:0 "Taylor"
+#Not Thick Cities
   VICTORY_POINTS_6769:0 "Lansing"
+  VICTORY_POINTS_11714:0 "Grand Rapids"
+  VICTORY_POINTS_9724:0 "Sterling Heights"
+  VICTORY_POINTS_11669:0 "Flint"
+  VICTORY_POINTS_709:0 "Crystal Falls"
+  VICTORY_POINTS_11685:0 "Kalamazoo"
 ##Minnesota
   VICTORY_POINTS_14132:0 "Minneapolis"
 ##Mississippi
@@ -357,10 +368,19 @@
 ##Utah
   VICTORY_POINTS_13873:0 "Salt Lake City"
 ##Virginia
-  VICTORY_POINTS_13737:0 "Richmond"
+ #Richmond
+  VICTORY_POINTS_13746:0 "Richmond"
+  VICTORY_POINTS_13752:0 "Glen Allen"
+  VICTORY_POINTS_13737:0 "Mechanicsville"
+  VICTORY_POINTS_13732:0 "Bensley"
+  VICTORY_POINTS_13736:0 "Wilkson Terrace"
+  #Not Thick Cities
   VICTORY_POINTS_9931:0 "Danville"
   VICTORY_POINTS_1506:0 "Roanoke"
   VICTORY_POINTS_10412:0 "Lynchburg"
+  VICTORY_POINTS_873:0 "Arlington"
+  VICTORY_POINTS_11873:0 "Charlottesville"
+  VICTORY_POINTS_865:0 "Newport News"
 ##Vermont
   VICTORY_POINTS_14041:0 "Burlington"
   VICTORY_POINTS_9675:0 "Bennington"
@@ -389,7 +409,7 @@
 ##Wisconsin
 
 #Milwaukee
-  VICTORY_POINTS_14023:0 "Milwaukee"
+  VICTORY_POINTS_9657:0 "Milwaukee"
 ##Wyoming
   VICTORY_POINTS_13902:0 "Cheyenne" #20
   VICTORY_POINTS_13967:0 "Casper" #19

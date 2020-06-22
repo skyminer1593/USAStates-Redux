@@ -16,9 +16,20 @@ state={
 		}
 		add_core_of = VAV
 		victory_points = {
-			13737 25 
+			13746 25
 		}
-
+		victory_points = {
+			13752 5
+		}
+		victory_points = {
+			13737 5
+		}
+		victory_points = {
+			13732 5
+		}
+		victory_points = {
+			13736 5
+		}
 	}
 
 	provinces={

@@ -1,0 +1,11 @@
+factions = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+
+	}
+	visible = {
+		has_completed_focus = GEN_formfaction
+	}
+}

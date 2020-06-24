@@ -51,7 +51,7 @@ spriteType = {
 }
 spriteType = {
   name = "GFX_Focus_SOV_To_Get_Rich"
-  texturefile = "gfx/interface/goals/Focus_SOV_To_Get_Rich2.dds"
+  texturefile = "gfx/interface/goals/Focus_SOV_To_Get_Rich.dds"
 }
 spriteType = {
   name = "GFX_Focus_Communist_Spy"

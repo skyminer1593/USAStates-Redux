@@ -57,9 +57,12 @@
  CAC_communism_party_long:0 "Californian Marxist Party"
  CAC_neutrality_party:0 "The Military"
  CAC_neutrality_party_long:0 "The Military"
+
+
 ##Factions
  california_democratic_faction:0 "Pacific Defense Federation"
 ##Events
+
  california.1.t:0 "The 1936 Election"
   california.1.d:0 "The New California Republic's second election is on its way! We have 3 main canidates who have a chance of winning. We have James E. Davis, a police officer that has the rank of Chief of Police but has had reports of corruption and anti-semitic views, we have the incumbent republican canidate Frank Merriam, and then we have the unpopular communist canidate Upton Sinclair. Who will lead our glorious state into prosperity?"
   california.1.a:0 "James E. Davis wins the election!"
@@ -300,12 +303,19 @@
   CAC_extendpresidentalpowers:0 "Extend Presidental Powers"
   CAC_alaskapsa:0 "Meetings With Alaska"
   CAC_sweepingtaxreforms:0 "Establish A Classless Society"
+  CAC_sweepingtaxreforms_desc:0 "Class has been the downfall of many nations.. California will not make this same mistake. In order for California to prosper and truly be equal we must establish a classless society."
   CAC_publicworksprogram:0 "Public Works Program"
+  CAC_publicworksprogram_desc:0 "In each park, every street! There will be new recreational activites that show the joy of socialism and communism! There will be new statues of communist figureheads!"
   CAC_guaranteedpensions:0 "Guaranteed Pensions"
+  CAC_guaranteedpensions_desc:0 "If we guarantee every man who has worked for the Worker's Republic a pension, every person will prosper and live a wonderful life."
   CAC_endpovertyincaliforniaplans:0 ""End Poverty In California" Campaign"
+  CAC_endpovertyincaliforniaplans_desc:0 "The End Poverty in California movement (EPIC) was a political campaign started in 1934 by socialist writer Upton Sinclair. The movement formed the basis for Sinclair’s campaign for Governor of California in 1934 but will now with is victory in the election. The plan called for a massive public works program, sweeping tax reform, and guaranteed pensions. It gained major popular support, with thousands joining End Poverty Leagues across the state."
   CAC_collectivizefarmland:0 "To Each According To Their Needs"
+  CAC_collectivizefarmland_desc:0 "From each according to their abilities..."
   CAC_seizeidlefactories:0 "From Each According To Their Abilities"
+  CAC_seizeidlefactories_desc:0 "To each according to their needs..."
   CAC_finishtheplan:0 "A Great Society"
+  CAC_finishtheplan_desc:0 "Upton Sinclair has finished the plan! Poverty in California is almost completely gone now! Every family has a house, a car, anything they could wish for! The food on the other hand...."
   CAC_establishthepeoplesarmy:0 "Establish The People's Army"
   CAC_citizenshipbyservicearmy:0 "Soldiers of the Internationale"
   CAC_citizenshipbyservicearmy_desc:0 "As we expand our borders, we must remember the many people who will be under our rule. While some will remain loyal to their former state, others are simply proletarians who suffered under their bourgeoisie masters. These masses may be persuaded to join our cause and spread the revolution from coast to coast! Yesterday, they were merely workers under the boot of misguided ideology. Tomorrow, they will be our soldiers bringing glory to the Great Red Bear!"
@@ -389,7 +399,7 @@
 ##Custom Tooltips
 CAC_electedpresident:0 "Has elected a new president."
 lloydsway:0 "Has chosen Lloyd's army model."
-pattonsway:0 "Has chosen Patton's army model."\
+pattonsway:0 "Has chosen Patton's army model."
 california_training_tech_effect:0 "Tech - All Infantry:\nMountains and Desert:\n§GMovement §G+10%\nAttack §G+7.5%\nDefence §G+7.5%\n\n"
 california_james_assassinate:0 "\n\n§GA successful attempt on Sinclair will result in the communist party no longer causing trouble in California.\n\n§RA failed attempt to assassinate Upton Sinclair and multiple other communist politicans in California will be attempted to secure Davis's position! If failed.. Davis will be ruined!"
 CAC_assassinationsuccess:0 "Upton Sinclair has been assassinated."

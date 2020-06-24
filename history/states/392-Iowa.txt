@@ -8,24 +8,21 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
-
 		}
 		add_core_of = IAI
 		victory_points = {
-			1770 3 
+			7306 15
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 5
-
-			}
-
+		victory_points = {
+			11971 10
 		}
-
+		victory_points = {
+			4691 5
+		}
 	}
 
 	provinces={
-		4691 7306 7458 7539 11971 12418 
+		4691 7306 7458 7539 11971 12418
 	}
 	manpower=130938
 	buildings_max_level_factor=1.000

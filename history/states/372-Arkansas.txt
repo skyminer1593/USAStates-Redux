@@ -11,17 +11,21 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
-
 		}
 		add_core_of = ARA
 		victory_points = {
-			1646 1 
+			4567 15
 		}
-
+		victory_points = {
+			13643 10
+		}
+		victory_points = {
+			13635 15
+		}
 	}
 
 	provinces={
-		4567 4597 7586 10477 13626 13635 13643 13665 
+		4567 4597 7586 10477 13626 13635 13643 13665
 	}
 	manpower=254481
 	buildings_max_level_factor=1.000

@@ -21,6 +21,20 @@
   VICTORY_POINTS_14896:0 "Edmonton"
 ##Arkansas
   VICTORY_POINTS_13623:0 "Little Rock"
+  VICTORY_POINTS_13631:0 "North Little Rock"
+  VICTORY_POINTS_13624:0 "McAlmont"
+  VICTORY_POINTS_13616:0 "College Station"
+  VICTORY_POINTS_13615:0 "Woodyardville"
+  VICTORY_POINTS_13619:0 "Alexander"
+  VICTORY_POINTS_13630:0 "Cammack Village"
+#Not THick Cities
+  VICTORY_POINTS_4567:0 "Fayetteville"
+  VICTORY_POINTS_4625:0 "Jonesboro"
+  VICTORY_POINTS_7543:0 "Pine Bluff"
+  VICTORY_POINTS_13643:0 "Fort Smith"
+  VICTORY_POINTS_13581:0 "Hot Springs"
+  VICTORY_POINTS_13557:0 "El Dorado"
+  VICTORY_POINTS_13635:0 "Conway"
 ##Arizona
   VICTORY_POINTS_13568:0 "Phoenix"
 ##British Columbia
@@ -161,7 +175,20 @@
   VICTORY_POINTS_13539:0 "Fort Worth"
   VICTORY_POINTS_13504:0 "Austin"
 ##Louisiana
+#New Orleans
+  VICTORY_POINTS_7552:0 "New Orleans"
+  VICTORY_POINTS_13459:0 "Metairie"
+  VICTORY_POINTS_13455:0 "Harvey"
+  VICTORY_POINTS_13449:0 "Chalmette"
+  VICTORY_POINTS_13456:0 "Little Woods"
+#Not Thick Cities
   VICTORY_POINTS_1453:0 "Baton Rouge"
+  VICTORY_POINTS_13518:0 "Shreveport"
+  VICTORY_POINTS_1559:0 "Monroe"
+  VICTORY_POINTS_4507:0 "Lafayette"
+  VICTORY_POINTS_12313:0 "Lake Charles"
+  VICTORY_POINTS_1643:0 "Alexandria"
+  VICTORY_POINTS_13448:0 "New Iberia"
 ##Maine
   VICTORY_POINTS_7462:0 "Augusta"
 #Portland

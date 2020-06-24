@@ -407,9 +407,22 @@
   VICTORY_POINTS_13770:0 "Blackhawk"
 
 ##Wisconsin
-
 #Milwaukee
   VICTORY_POINTS_9657:0 "Milwaukee"
+  VICTORY_POINTS_14010:0 "Kenosha"
+  VICTORY_POINTS_14023:0 "Waukesha"
+  VICTORY_POINTS_14037:0 "Menomonee Falls"
+  VICTORY_POINTS_14039:0 "Hartford"
+  VICTORY_POINTS_14014:0 "Eagle"
+  VICTORY_POINTS_13999:0 "Whitewater"
+  VICTORY_POINTS_13995:0 "Janesville"
+#Not Thick Cities
+  VICTORY_POINTS_12357:0 "Sheboygan"
+  VICTORY_POINTS_4166:0 "Green Bay"
+  VICTORY_POINTS_12456:0 "Madison"
+  VICTORY_POINTS_10526:0 "Eau Claire"
+  VICTORY_POINTS_926:0 "Oshkosh"
+  VICTORY_POINTS_7776:0 "Solon Springs"
 ##Wyoming
   VICTORY_POINTS_13902:0 "Cheyenne" #20
   VICTORY_POINTS_13967:0 "Casper" #19

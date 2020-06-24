@@ -254,7 +254,21 @@
   VICTORY_POINTS_13521:0 "Richland"
   VICTORY_POINTS_13523:0 "Alta Woods"
 ##Missouri
+#East Kansas City
+  VICTORY_POINTS_10717:0 "East Kansas City"
+  VICTORY_POINTS_13803:0 "Gladstone"
+  VICTORY_POINTS_13796:0 "Liberty"
+  VICTORY_POINTS_13790:0 "Independence"
+  VICTORY_POINTS_13783:0 "Blue Springs"
+  VICTORY_POINTS_13769:0 "Lee's Summit"
+  VICTORY_POINTS_13764:0 "Grandview"
+#Not Thick Cities
   VICTORY_POINTS_1621:0 "Jefferson City"
+  VICTORY_POINTS_7607:0 "Columbia"
+  VICTORY_POINTS_13707:0 "Springfield"
+  VICTORY_POINTS_13695:0 "Joplin"
+  VICTORY_POINTS_10391:0 "St. Joseph"
+  VICTORY_POINTS_4569:1 "St. Louis"
 ##Montana
   VICTORY_POINTS_14250:0 "Helena"
 ##Nebraska

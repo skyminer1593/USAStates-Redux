@@ -250,7 +250,23 @@
   VICTORY_POINTS_709:0 "Crystal Falls"
   VICTORY_POINTS_11685:0 "Kalamazoo"
 ##Minnesota
+#Minneapolis and Saint Paul
   VICTORY_POINTS_14132:0 "Minneapolis"
+  VICTORY_POINTS_14122:0 "St. Paul"
+  VICTORY_POINTS_14121:0 "Bloomington"
+  VICTORY_POINTS_14131:0 "Minnetonka"
+  VICTORY_POINTS_14149:0 "Maple Grove"
+  VICTORY_POINTS_14144:0 "Roseville"
+#Not Thick Cities
+  VICTORY_POINTS_4664:0 "Rochester"
+  VICTORY_POINTS_14101:0 "St. Cloud"
+  VICTORY_POINTS_1734:0 "Duluth"
+  VICTORY_POINTS_12588:0 "Bemidji"
+  VICTORY_POINTS_9880:0 "Mankato"
+  VICTORY_POINTS_1867:0 "Marshall"
+  VICTORY_POINTS_10719:0 "Wilmar"
+  VICTORY_POINTS_10615:0 "Fergus Falls"
+  VICTORY_POINTS_14237:0 "Grand Rapids"
 ##Mississippi
   VICTORY_POINTS_7668:0 "Biloxi"
   VICTORY_POINTS_4464:0 "Gulfport"

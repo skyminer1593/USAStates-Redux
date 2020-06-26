@@ -7,9 +7,12 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
+		victory_points = {
+			12588 10
+		}
 	}
 	provinces={
-		12588 14288 14355 
+		12588 14288 14355
 	}
 	manpower=34120
 	buildings_max_level_factor=1.000

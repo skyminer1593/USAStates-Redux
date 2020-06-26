@@ -15,13 +15,14 @@ state={
 		}
 		add_core_of = MNM
 		victory_points = {
-			1866 5 
+			1734 5
 		}
-
+		victory_points = {
+			14237 5
+		}
 	}
-
 	provinces={
-		1734 6767 7896 14237 
+		1734 6767 7896 14237
 	}
 	manpower=163952
 	buildings_max_level_factor=1.000

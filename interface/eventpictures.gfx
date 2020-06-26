@@ -2216,4 +2216,28 @@ spriteTypes = {
 		name = "GFX_revoltionary_direction"
 		texturefile = "gfx/event_pictures/TXT_revolutionary_path.dds"
 	}
+	spritetype = {
+		name = "GFX_report_event_genericsoldiers1"
+		texturefile = "gfx/event_pictures/report_event_genericsoldiers1.dds"
+	}
+	spritetype = {
+		name = "GFX_report_event_genericsoldiers2"
+		texturefile = "gfx/event_pictures/report_event_genericsoldiers2.dds"
+	}
+	spritetype = {
+		name = "GFX_report_event_genericsoldiers3"
+		texturefile = "gfx/event_pictures/report_event_genericsoldiers3.dds"
+	}
+	spritetype = {
+		name = "GFX_report_event_genericsoldiers4"
+		texturefile = "gfx/event_pictures/report_event_genericsoldiers4.dds"
+	}
+	spritetype = {
+		name = "GFX_report_event_genericsoldiers5"
+		texturefile = "gfx/event_pictures/report_event_genericsoldiers5.dds"
+	}
+	spritetype = {
+		name = "GFX_report_event_genericsoldiers6"
+		texturefile = "gfx/event_pictures/report_event_genericsoldiers6.dds"
+	}
 }

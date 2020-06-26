@@ -1,4 +1,3 @@
-
 state={
 	id=375
 	name="Austin"
@@ -18,11 +17,21 @@ state={
 		}
 		add_core_of = TXT
 		victory_points = {
-			13504 25
+			13495 25
 		}
-
+		victory_points = {
+			13504 5
+		}
+		victory_points = {
+			7836 5
+		}
+		victory_points = {
+			13511 5
+		}
+		victory_points = {
+			13508 5
+		}
 	}
-
 	provinces={
 		7836 13495 13503 13504 13508 13511
 	}

@@ -9,9 +9,24 @@ state={
 			industrial_complex = 3
 			dockyard = 4
 		}
+		victory_points = {
+			13447 20
+		}
+		victory_points = {
+			10337 5
+		}
+		victory_points = {
+			13451 5
+		}
+		victory_points = {
+			13468 5
+		}
+		victory_points = {
+			13460 5
+		}
 	}
 	provinces={
-		10337 13447 13451 13460 13468 
+		10337 13447 13451 13460 13468
 	}
 	manpower=1756500
 	buildings_max_level_factor=1.000

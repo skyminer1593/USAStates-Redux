@@ -964,17 +964,20 @@ focus_tree = {
 		}
 		x = 9
 		y = 3
-			completion_reward = {
-					798 = {
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = arms_factory
-									level = 2
-									instant_build = yes
-								}
-						}
+		completion_reward = {
+			798 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
 				}
-
+			add_popularity = {
+    		ideology = fascism
+    		popularity = 0.05	
+			}
+		}
 	}
 	focus = {
 		id = CAC_givethepolicemorepower
@@ -1250,10 +1253,10 @@ focus_tree = {
 			completion_reward = {
 					add_ideas = CAC_lesscorptaxidea
 					798 = {
-							add_extra_state_shared_building_slots = 2
+							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
-									level = 2
+									level = 1
 									instant_build = yes
 								}
 						}
@@ -1479,7 +1482,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAC_dockyards1
-		icon = GFX_Generic_Espionage
+		icon = GFX_Generic_Monopoly
 		cost = 10.00
 		prerequisite = {
 			focus = CAC_militarymodernization
@@ -1487,7 +1490,7 @@ focus_tree = {
 		x = 21
 		y = 4
 			completion_reward = {
-					add_ideas = CAC_spyidea
+					add_ideas = CAC_encouragedcapitalism
 				}
 
 	}
@@ -1520,31 +1523,27 @@ focus_tree = {
 		ai_will_do = {
 			factor = 75
 		}
-
 		available = {
 			has_army_manpower = {
 				size > 95000
 			}
 			threat > 0.10
 		}
-
-
 		completion_reward = {
 			add_ideas = CAC_local_security
-			add_political_power = 120
 			set_rule = {
 				can_create_factions = yes
-				}
+			}
 			set_rule = {
 				can_send_volunteers = yes
 				}
-					create_faction = "california_democratic_faction"
-					hidden_effect = {
-						news_event = {
-							hours = 6
-							id = genericfocusnews.1
-							}
-						}
+			create_faction = "california_democratic_faction"
+			hidden_effect = {
+				news_event = {
+					hours = 6
+					id = genericfocusnews.1
+					}
+				}
 			}
 
 	}
@@ -1999,7 +1998,7 @@ focus_tree = {
 	focus = {
 		id = CAC_citizenshipbyservicearmy
 		icon = GFX_Generic_Socialist_Volunteers
-		cost = 10
+		cost = 5.8
 
 		available = {
 			has_country_flag = CAC_citizenshipbyservice
@@ -2024,7 +2023,7 @@ focus_tree = {
 	focus = {
 		id = CAC_aworkersarmy
 		icon = GFX_Generic_Army_Focus_Red02
-		cost = 10
+		cost = 5.8
 
 		available = {
 			has_country_flag = CAC_aworkersarmytooltip
@@ -2135,7 +2134,7 @@ focus_tree = {
 	focus = {
 		id = CAC_agreatcalifornia
 		icon = GFX_Generic_Liberation
-		cost = 10
+		cost = 2.9
 
 		prerequisite = {
 			focus = CAC_foreignaffairs
@@ -2245,7 +2244,7 @@ focus_tree = {
 		}
 
 		prerequisite = {
-			 focus = CAC_arizonawargoalcommunism
+			focus = CAC_arizonawargoalcommunism
 		}
 
 		x = 29
@@ -2259,6 +2258,52 @@ focus_tree = {
 			create_wargoal = {
 					type = annex_everything
 					target = SON
+			}
+		}
+	}
+	focus = {
+		id = CAC_coresocialistland
+		icon = GFX_Generic_Authority
+		cost = 10
+
+		prerequisite = {
+			focus = CAC_utahwargoalcommunism
+		}
+
+		prerequisite = {
+			focus = CAC_arizonawargoalcommunism
+		}
+
+		x = 29
+		y = 15
+
+		completion_reward = {
+			custom_effect_tooltip = californiacoreland.tt
+			hidden_effect = {
+				add_state_core = 807
+				add_state_core = 379
+				add_state_core = 810
+				add_state_core = 808
+				add_state_core = 809
+				add_state_core = 866
+				add_state_core = 1155
+				add_state_core = 856
+				add_state_core = 864
+				add_state_core = 863
+				add_state_core = 862
+				add_state_core = 377
+				add_state_core = 380
+				add_state_core = 861
+				add_state_core = 858
+				add_state_core = 860
+				add_state_core = 859
+				add_state_core = 857
+				add_state_core = 855
+				add_state_core = 484
+				add_state_core = 1147
+				add_state_core = 483
+				add_state_core = 865
+				add_state_core = 1148
 			}
 		}
 	}
@@ -2511,16 +2556,24 @@ focus_tree = {
 				controls_state = 814
 				controls_state = 821
 				controls_state = 463
+				controls_state = 815
+				controls_state = 820
+				controls_state = 834
 			}
 			completion_reward = {
-					unlock_decision_tooltip = {
-							decision = pacific_states_of_america
-							show_effect_tooltip = yes
-							show_modifiers = yes
+				unlock_decision_tooltip = {
+					decision = pacific_states_of_america
+					show_effect_tooltip = yes
+					show_modifiers = yes
+					}
+				hidden_effect = {
+					news_event = {
+						hours = 48
+						id = genericfocusnews.2
 						}
+					}
 				}
-
-	}
+			}
 	focus = {
 		id = CAC_amilitarypowerhouse
 		icon = GFX_goal_generic_army_tanks
@@ -2683,269 +2736,7 @@ focus_tree = {
 					remove_ideas = CAC_unstablepolitics
 					add_political_power = -100
 				}
-
 	}
-
-	focus = {
-		id = CAC_DavissMarch
-		icon = GFX_Generic_Revanchism02
-		cost = 15.00
-		prerequisite = {
-			focus = CAC_noopposition
-		}
-		x = 13
-		y = 5
-		bypass = {
-				NVN = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = NVN
-					}
-				}
-
-	}
-
-	focus = {
-		id = CAC_DavissMarch2
-		icon = GFX_Generic_Revanchism02
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_DavissMarch
-		}
-		x = 8
-		y = 6
-		bypass = {
-				UTU = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = UTU
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_DavissMarch3
-		icon = GFX_Generic_Revanchism02
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_DavissMarch
-		}
-		x = 10
-		y = 6
-		bypass = {
-				WYW = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = WYW
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_DavissMarch7
-		icon = GFX_Generic_Revanchism02
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_DavissMarch2
-		}
-		prerequisite = {
-			focus = CAC_DavissMarch3
-		}
-		x = 9
-		y = 7
-		bypass = {
-				TXT = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = TXT
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_DavissMarch4
-		icon = GFX_Generic_Revanchism02
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_DavissMarch
-		}
-		x = 12
-		y = 6
-		bypass = {
-				COC = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = COC
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_DavissMarch5
-		icon = GFX_Generic_Revanchism02
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_DavissMarch
-		}
-		bypass = {
-				AZA = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-		x = 14
-		y = 6
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = AZA
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_DavissMarch6
-		icon = GFX_Generic_Revanchism02
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_DavissMarch4
-		}
-		prerequisite = {
-			focus = CAC_DavissMarch5
-		}
-		bypass = {
-				NMN = {
-						OR = {
-								exists = no
-								AND = {
-										is_in_faction_with = ROOT
-									}
-							}
-					}
-			}
-		x = 13
-		y = 7
-			completion_reward = {
-				create_wargoal = {
-						type = annex_everything
-						target = NMN
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_thetruesuccessortotheunitedstates
-		icon = GFX_Generic_Ultranationalist_Government
-		cost = 15.00
-		prerequisite = {
-			focus = CAC_DavissMarch3
-		}
-		prerequisite = {
-			focus = CAC_DavissMarch2
-		}
-		prerequisite = {
-			focus = CAC_DavissMarch6
-		}
-		prerequisite = {
-			focus = CAC_allignthearmy
-		}
-		x = 11
-		y = 8
-			completion_reward = {
-				add_ideas = CAC_internationalrecognitionidea
-				set_rule = {
-					can_create_factions = yes
-					}
-				}
-	}
-
-	focus = {
-		id = CAC_cooperationwithgermany
-		icon = GFX_focus_chi_mission_to_germany
-		cost = 15.00
-		prerequisite = {
-			focus = CAC_thetruesuccessortotheunitedstates
-		}
-		mutually_exclusive = {
-			focus = CAC_cooperationwithjapan
-		}
-		x = 10
-		y = 9
-			completion_reward = {
-				GER = {
-					country_event = generic.2
-				}
-			}
-	}
-
-	focus = {
-		id = CAC_cooperationwithjapan
-		icon = GFX_focus_chi_collaboration_with_the_japanese
-		cost = 15.00
-		prerequisite = {
-			focus = CAC_thetruesuccessortotheunitedstates
-		}
-		mutually_exclusive = {
-			focus = CAC_cooperationwithgermany
-		}
-		x = 12
-		y = 9
-			completion_reward = {
-					create_faction = CAC_japanalliancefaction
-					add_to_faction = JAP
-					}
-		}
-
-
 	focus = {
 		id = CAC_allignthearmy
 		icon = GFX_Generic_Coalition_Army
@@ -2959,9 +2750,7 @@ focus_tree = {
 					add_ideas = CAC_allignthearmyidea
 					remove_ideas = CAC_unloyalarmy
 				}
-
 	}
-
 	focus = {
 		id = CAC_navalindustry1
 		icon = GFX_goal_generic_construct_naval_dockyard

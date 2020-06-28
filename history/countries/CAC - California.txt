@@ -145,7 +145,7 @@ add_ideas = {
 }
 add_timed_idea = {
 	idea = CAC_dustbowlmigration
-	days = 420
+	days = 420 #funny weed
 }
 set_popularities = {
 	democratic = 71
@@ -159,6 +159,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
+		foundingfatherofcalifornia
 	}
 }
 

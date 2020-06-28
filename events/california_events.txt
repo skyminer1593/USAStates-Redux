@@ -1,4 +1,5 @@
 ﻿add_namespace = california
+add_namespace = californiaarmy
 
 # Election Of California
 country_event = {
@@ -18,9 +19,6 @@ country_event = {
           picture = "Portrait_CAC_James E Davis.dds"
           expire = "1965.1.1"
           ideology = rexism
-			traits = {
-
-            }
         }
 
 		set_politics = {
@@ -98,7 +96,7 @@ country_event = {
     option = {
       name = california.2.a
 
-		973 = {
+		801 = {
 			add_building_construction = {
 				type = bunker
 				level = 3
@@ -108,17 +106,17 @@ country_event = {
 					all_provinces = yes
 					limit_to_border = yes
 				}
-      		}
+      }
 		}
-    974 = {
+    802 = {
 		add_building_construction = {
 			type = bunker
         level = 3
         instant_build = yes
           province = {
-				     all_provinces = yes
-             limit_to_border = yes
-           }
+          all_provinces = yes
+          limit_to_border = yes
+          }
       }
     }
   }
@@ -126,7 +124,7 @@ country_event = {
     option = {
       name = california.2.b
 
-		798 = {
+		378 = {
 			add_building_construction = {
 				type = bunker
                 level = 2
@@ -138,7 +136,7 @@ country_event = {
 			}
 		}
 
-		799 = {
+		797 = {
 			add_building_construction = {
 				type = bunker
 				level = 2
@@ -150,7 +148,7 @@ country_event = {
 			}
 		}
 
-		967 = {
+		799 = {
             add_building_construction = {
 				type = bunker
 				level = 2
@@ -163,7 +161,7 @@ country_event = {
 		}
 
 
-		797 = {
+		804 = {
             add_building_construction = {
                 type = bunker
                 level = 2
@@ -174,21 +172,6 @@ country_event = {
 				}
 			}
 		}
-
-		378 = {
-            add_building_construction = {
-                type = bunker
-                level = 2
-                instant_build = yes
-                province = {
-                    all_provinces = yes
-                    limit_to_border = yes
-				}
-			}
-		}
-
-
-
     }
 }
 
@@ -777,9 +760,7 @@ country_event = {
   title = california.31.t
   desc = california.31.d
   picture = GFX_report_event_finnish_letter
-
   is_triggered_only = yes
-
   option = {
     name = california.31.a
     create_wargoal = {
@@ -787,5 +768,115 @@ country_event = {
       target = ORO
       }
     }
-
   }
+  country_event = {
+    id = california.32
+    title = california.32.t
+    desc = california.32.d
+    picture = GFX_report_event_ANZAC_day
+    is_triggered_only = yes
+    option = {
+      name = california.32.a
+      add_manpower = 500
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 120
+        producer = CAC
+      }
+      }
+    }
+
+#California Army Events Shit
+country_event = { #1st,2ndInf Divison Disappear, starts country flag
+  id = californiaarmy.1
+  title = californiaarmy.1.t
+  desc = californiaarmy.1.d
+  picture = GFX_report_event_generic_panzer_attack
+  fire_only_once = yes
+  mean_time_to_happen = { days = 80}
+  trigger = {
+		tag = CAC
+    has_country_leader = {
+      name = "James E. Davis"
+      ruling_only = yes
+    }
+  }
+  option = {
+    name = californiaarmy.1.a
+    delete_unit_template_and_units = {
+      division_template = "Infantry Division"
+    }
+    hidden_effect = {
+      set_country_flag = CAC_armycivilwar1
+      country_event = {
+        id = californiaarmy.2
+        days = 35
+        random = 48
+    }
+    }
+  }
+}
+country_event = { #AZA Desertion
+  id = californiaarmy.2
+  title = californiaarmy.2.t
+  desc = californiaarmy.2.d
+  picture = GFX_report_event_dead_soldiers
+  is_triggered_only = yes
+  option = {
+    name = californiaarmy.2.a
+    add_manpower = -500
+    add_equipment_to_stockpile = {
+      type = infantry_equipment
+      amount = -120
+      producer = CAC
+    }
+    AZA = {
+      country_event = {
+        id = california.32
+        days = 1
+        random = 1
+      }
+    }
+  }
+}
+country_event = { #Riots in San Diego
+  id = californiaarmy.4
+  title = californiaarmy.4.t
+  desc = californiaarmy.4.d
+  picture = GFX_report_event_generic_panzer_attack
+  fire_only_once = yes
+  mean_time_to_happen = { days = 35}
+  trigger = {
+		tag = CAC
+    has_country_leader = {
+      name = "James E. Davis"
+      ruling_only = yes
+    }
+    has_country_flag = CAC_armycivilwar1
+  }
+  option = {
+    name = californiaarmy.4.a #Allow the peaceful protest
+    add_stability = -0.05
+    }
+  option = {
+    name = californiaarmy.4.b #Send in law enforcement
+    add_stability = 0.01
+    add_political_power = -50
+    }
+  }
+#The Patton Revolution, Civil War
+country_event = {
+  id = californiaarmy.3
+  title = californiaarmy.3.t
+  desc = californiaarmy.3.d
+  picture = GFX_report_event_genericsoldiers6
+  is_triggered_only = yes
+  option = { #Davis support
+    name = californiaarmy.3.a
+  }
+  option = { #Play as CLFD [Military]
+    name = californiaarmy.3.b
+  }
+}
+#Notes
+#Need some more lead up events, work on the overall lore/detail of PGC

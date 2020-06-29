@@ -174,59 +174,6 @@ country_event = {
   }
 }
 country_event = {
-  id = tex.7
-  title = tex.7.t
-  desc = tex.7.d
-
-  is_triggered_only = yes
-
-  option = {
-    name = tex.7.a
-    ai_chance = {
-      base = 10
-      modifier = {
-        factor = 30
-        has_government = democratic
-      }
-      modifier = {
-        factor = 30
-        strength_ratio = {
-          tag = FROM
-          ratio > 1.5
-        }
-      }
-    }
-    TXT = {
-      transfer_state = 884
-      transfer_state = 885
-      transfer_state = 883
-      give_guarantee = COC
-      give_military_access = COC
-    }
-    879 = {
-      add_extra_state_shared_building_slots = 3
-      add_building_construction = {
-        type = industrial_complex
-        level = 3
-        instant_build = yes
-      }
-    }
-    375 = {
-      add_building_construction = {
-        type = industrial_complex
-        level = -3
-        instant_build = yes
-      }
-    }
-  }
-  option = {
-    name = tex.7.b
-    TXT = {
-      country_event = tex.8
-    }
-  }
-}
-country_event = {
   id = tex.8
   title = tex.8.t
   desc = tex.8.d
@@ -672,6 +619,343 @@ country_event = {
       }
     }
   }
+  country_event = { #Send offer to UTU and NMN
+    id = tex.25
+    title = tex.25.t
+    desc = tex.25.d
+    picture = GFX_report_event_canada_treaty
+
+    is_triggered_only = yes
+
+    option = { #Country joins
+      name = tex.25.a
+      ai_chance = {
+        base = 60
+      }
+      if = {
+        limit = {
+          original_tag = UTU
+        }
+        TXT = {
+          set_country_flag = UTU_partition
+          country_event = tex.30
+          give_military_access = UTU
+        }
+        UTU = {
+          give_military_access = TXT
+        }
+      }
+      if = {
+        limit = {
+          original_tag = NMN
+        }
+        TXT = {
+          set_country_flag = NMN_partition
+          country_event = tex.30
+          give_military_access = NMN
+        }
+        NMN = {
+          give_military_access = TXT
+        }
+      }
+    }
+    option = { #Country refuses
+      name = tex.25.b
+      ai_chance = {
+        base = 40
+      }
+      if = {
+        limit = {
+          original_tag = UTU
+        }
+        TXT = {
+          set_country_flag = notUTU_partition
+          country_event = tex.26
+        }
+      }
+      if = {
+        limit = {
+          original_tag = NMN
+        }
+        TXT = {
+          set_country_flag = notNMN_partition
+          country_event = tex.26
+        }
+      }
+    }
+  }
+  country_event = { #Texas gets response and sends demand
+    id = tex.26
+    title = tex.26.t
+    desc = tex.26.d
+    picture = GFX_report_event_ast_planning
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.26.a
+      COC = {
+        if = {
+          limit = {
+            NOT = {
+              has_country_flag = texan_demands
+            }
+          }
+          country_event = tex.27
+          set_country_flag = texan_demands
+        }
+      }
+    }
+    option = {
+      name = tex.26.b
+    }
+  }
+  country_event = { #COC gets demand
+    id = tex.27
+    title = tex.27.t
+    desc = tex.27.d
+    picture = GFX_report_event_british_artillery
+
+    is_triggered_only = yes
+
+    option = { #COC folds
+      name = tex.27.a
+      TXT = {
+        transfer_state = 885
+        transfer_state = 884
+        transfer_state = 883
+        give_guarantee = COC
+      }
+      if = {
+        limit = {
+          TXT = {
+            has_country_flag = UTU_partition
+          }
+        }
+        UTU = {
+          transfer_state = 882
+          give_guarantee = COC
+        }
+      }
+      if = {
+        limit = {
+          TXT = {
+            has_country_flag = NMN_partition
+          }
+        }
+        NMN = {
+          transfer_state = 881
+          give_guarantee = COC
+        }
+      }
+    }
+    option = { #COC stands
+      name = tex.27.b
+      if = {
+        limit = {
+          TXT = {
+            has_country_flag = UTU_partition
+          }
+          load_oob = COC_texcoalition
+        }
+      }
+      if = {
+        limit = {
+          TXT = {
+            has_country_flag = NMN_partition
+          }
+        }
+        load_oob = COC_texcoalition
+      }
+      load_oob = COC_texcoalition
+      885 = {
+        add_claim_by = TXT
+      }
+      884 = {
+        add_claim_by = TXT
+      }
+      883 = {
+        add_claim_by = TXT
+      }
+      882 = {
+        add_claim_by = UTU
+      }
+      881 = {
+        add_claim_by = NMN
+      }
+      TXT = {
+        country_event = tex.28
+      }
+    }
+  }
+  country_event = { #Texas recieves refusal
+    id = tex.28
+    title = tex.28.t
+    desc = tex.28.d
+    picture = GFX_report_event_bunker_01
+
+    is_triggered_only = yes
+
+    option = { #Texas declares war
+      name = tex.28.a
+      declare_war_on = {
+        type = take_state_focus
+        target = COC
+        generator = {
+          885 884 883
+        }
+      }
+      UTU = {
+        if = {
+          limit = {
+            TXT = {
+              has_country_flag = UTU_partition
+            }
+          }
+          country_event = tex.29
+        }
+      }
+      NMN = {
+        if = {
+          limit = {
+            TXT = {
+              has_country_flag = NMN_partition
+            }
+          }
+          country_event = tex.29
+        }
+      }
+    }
+    option = {
+      name = tex.28.b
+      add_stability = -0.05
+      add_war_support = -0.10
+      add_opinion_modifier = {
+        target = UTU
+        modifier = large_decrease
+      }
+      add_opinion_modifier = {
+        target = NMN
+        modifier = large_decrease
+      }
+    }
+  }
+  country_event = { #Texan call to arms
+    id = tex.29
+    title = tex.29.t
+    desc = tex.29.d
+    picture = GFX_event_genericsoldiers3
+
+    is_triggered_only = yes
+
+    option = {
+      if = {
+        limit = {
+          original_tag = UTU
+        }
+        declare_war_on = {
+          target = COC
+          type = take_state_focus
+          generator = {
+            882
+          }
+        }
+      }
+      if = {
+        limit = {
+          original_tag = NMN
+        }
+        declare_war_on = {
+          target = COC
+          type = take_state_focus
+          generator = {
+            881
+          }
+        }
+      }
+    }
+  }
+  country_event = { #Signs treaty
+    id = tex.30
+    title = tex.30.t
+    desc = tex.30.d
+    picture = GFX_report_event_canada_treaty
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.30.a
+      if = {
+        limit = {
+          COC = {
+            NOT = {
+              has_country_flag = texan_demands
+            }
+          }
+        }
+        COC = {
+          country_event = tex.27
+        }
+      }
+    }
+  }
+  country_event = { #Colorado chooses to surrender
+    id = tex.31
+    title = tex.31.t
+    desc = tex.31.d
+    picture = GFX_report_event_genericsoldiers4
+
+    fire_only_once = yes
+    trigger = {
+      COC = {
+        surrender_progress > 0.80
+      }
+    }
+
+    option = {
+      name = tex.31.a
+      ai_will_do = {
+        base = 90
+      }
+      TXT = {
+        country_event = tex.32
+      }
+    }
+    option = {
+      ai_will_do = {
+        base = 10
+      }
+      name = tex.31.b
+    }
+  }
+  country_event = {
+    id = tex.32
+    title = tex.32.t
+    desc = tex.32.d
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+
+    option = {
+      name = tex.32.a
+      COC = {
+        white_peace = TXT
+        white_peace = UTU
+        white_peace = NMN
+      }
+      UTU = {
+        transfer_state = 882
+      }
+      NMN = {
+        transfer_state = 881
+      }
+      TXT = {
+        transfer_state = 885
+        transfer_state = 884
+        transfer_state = 883
+      }
+    }
+  }
 
 ##### News Events
 news_event = {
@@ -679,6 +963,7 @@ news_event = {
   title = texasnews.5.t
   desc = texasnews.5.d
   picture = GFX_news_event_capitol_stormed
+  major = yes
   is_triggered_only = yes
 
   option = {
@@ -690,6 +975,7 @@ news_event = {
   title = texasnews.1.t
   desc = texasnews.1.d
   picture = GFX_news_event_003
+  major = yes
   is_triggered_only = yes
 
   option = {
@@ -701,6 +987,7 @@ news_event = {
   title = texasnews.2.t
   desc = texasnews.2.d
   picture = GFX_news_event_003
+  major = yes
   is_triggered_only = yes
 
   option = {

@@ -1260,7 +1260,7 @@ focus_tree = {
 			focus = TXT_to_baton_rouge
 		}
 		available = {
-			OKO = {
+			LAL = {
 				is_puppet_of = TXT
 			}
 		}
@@ -1475,7 +1475,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TXT_democratic_coalition
 		}
-		cost = 10
+		cost = 5
 
 		x = 17
 		y = 3
@@ -1520,8 +1520,12 @@ focus_tree = {
 		}
 		bypass = {
 			TXT = {
-				controls_state = 792
-				controls_state = 793
+				controls_state = 891
+				controls_state = 890
+				controls_state = 887
+				controls_state = 892
+				controls_state = 893
+				controls_state = 886
 			}
 		}
 		search_filters = {
@@ -1547,7 +1551,7 @@ focus_tree = {
 		}
 		bypass = {
 			TXT = {
-				controls_state = 832
+				controls_state = 907
 			}
 		}
 		search_filters = {
@@ -1566,7 +1570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = TXT_aid_for_centralCO
-		icon = GFX_Generic_Factory_Complex
+		icon = GFX_TXT_Assimilate_Colorado
 		cost = 10
 		prerequisite = {
 			focus = TXT_hope_for_the_republic
@@ -1592,8 +1596,11 @@ focus_tree = {
 		y = 5
 
 		completion_reward = {
-			COC = {
-				country_event = tex.7
+			UTU = {
+				country_event = tex.25
+			}
+			NMN = {
+				country_event = tex.25
 			}
 		}
 	}
@@ -2398,7 +2405,70 @@ focus_tree = {
 			add_ideas = TXT_idea_expand_intel
 		}
 	}
+	focus = {
+		id = TXT_handson
+		icon = GFX_Generic_Volunteer_Corps
 
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_expand_intellegence
+		}
+		mutually_exclusive = {
+			focus = TXT_handsoff
+		}
+
+		x = 30
+		y = 8
+
+		completion_reward = {
+			unlock_decision_category_tooltip = TXT_hands_on
+		}
+	}
+	focus = {
+		id = TXT_handsoff
+		icon = GFX_Generic_Revolutionary_Republic
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_expand_intellegence
+		}
+		mutually_exclusive = {
+			focus = TXT_handson
+		}
+
+		x = 24
+		y = 8
+
+		completion_reward = {
+			unlock_decision_category_tooltip = TXT_hands_off
+		}
+	}
+	focus = {
+		id = TXT_arms_foreign
+		icon = GFX_Generic_Industry_Planes
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_handsoff
+		}
+
+		x = 23
+		y = 9
+
+		completion_reward = {
+			895 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 	####Path of Stalinism
 	focus = {
 		id = TXT_stalinism

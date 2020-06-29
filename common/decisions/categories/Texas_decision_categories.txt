@@ -1,0 +1,12 @@
+TXT_hands_on = {
+  icon = GFX_decision_generic_ignite_civil_war
+  allowed = {
+    has_completed_focus = TXT_handson
+  }
+}
+TXT_hands_off = {
+  icon = GFX_decision_generic_civil_support
+  allowed = {
+    has_completed_focus = TXT_handsoff
+  }
+}

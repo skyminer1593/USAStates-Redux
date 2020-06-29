@@ -6,11 +6,17 @@ state={
 		add_core_of = SDS
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1	
+			industrial_complex = 1
+		}
+		victory_points = {
+			3750 10
+		}
+		victory_points = {
+			14072 5
 		}
 	}
 	provinces={
-		1747 3750 4839 14051 14072 14073 14089 
+		1747 3750 4839 14051 14072 14073 14089
 	}
 	manpower=835572
 	buildings_max_level_factor=1.000

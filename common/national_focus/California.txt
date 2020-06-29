@@ -291,7 +291,7 @@ focus_tree = {
 		x = 4
 		y = 2
 			completion_reward = {
-					968 = {
+					800 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = arms_factory
@@ -300,7 +300,29 @@ focus_tree = {
 								}
 						}
 				}
-
+	}
+	focus = {
+		id = CAC_genericindustry13
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_genericindustry8
+		}
+		prerequisite = {
+			focus = CAC_genericindustry11
+		}
+		x = 6
+		y = 3
+			completion_reward = {
+					797 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
 	}
 	focus = {
 		id = CAC_genericindustry6
@@ -722,7 +744,7 @@ focus_tree = {
 		x = 8
 		y = 2
 			completion_reward = {
-					797 = {
+					378 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = dockyard
@@ -785,7 +807,6 @@ focus_tree = {
 								}
 						}
 				}
-
 	}
 	focus = {
 		id = CAC_genericindustry9

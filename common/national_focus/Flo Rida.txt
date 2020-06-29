@@ -778,10 +778,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = FLF_acallforsomethinggreater
 			focus = FLF_aunitedright
-			focus = FLF_asocialistnation
 			focus = flmonarchy_ethos
 		}
-		x = 16
+		x = 17
 		y = 1
 			available_if_capitulated = yes
 			available = {
@@ -827,46 +826,13 @@ focus_tree = {
 			completion_reward = {
 					add_ideas = FLF_Restoration_Projects
 				}
-
-	}
-	focus = {
-		id = FLF_asocialistnation
-		icon = GFX_goal_generic_war_with_comintern
-		cost = 5.00
-		prerequisite = {
-			focus = FLF_anewgovernment
-		}
-		mutually_exclusive = {
-			focus = FLF_patrioticrestoration
-			focus = FLF_aunitedright
-			focus = FLF_acallforsomethinggreater
-			focus = flmonarchy_ethos
-		}
-		x = 18
-		y = 1
-			available_if_capitulated = yes
-			ai_will_do = {
-					factor = 10
-
-				}
-			completion_reward = {
-					set_politics = {
-							ruling_party = democratic
-							elections_allowed = yes
-						}
-					add_popularity = {
-						ideology = democratic
-						popularity = 0.10
-					}
-				}
-
 	}
 	focus = {
 		id = FLF_welfareprogram
 		icon = GFX_focus_generic_military_academy
 		cost = 10.00
 		prerequisite = {
-			focus = FLF_asocialistnation
+			focus = FLF_patrioticrestoration
 		}
 		x = 18
 		y = 2
@@ -946,7 +912,6 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FLF_patrioticrestoration
-			focus = FLF_asocialistnation
 			focus = FLF_acallforsomethinggreater
 			focus = FLF_aunitedright
 		}
@@ -1112,7 +1077,6 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FLF_patrioticrestoration
-			focus = FLF_asocialistnation
 			focus = flmonarchy_ethos
 			focus = FLF_aunitedright
 		}
@@ -1203,7 +1167,6 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FLF_patrioticrestoration
-			focus = FLF_asocialistnation
 			focus = flmonarchy_ethos
 			focus = FLF_acallforsomethinggreater
 		}

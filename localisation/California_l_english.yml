@@ -200,6 +200,9 @@
   californiaarmy.4.d:0 "Test"
   californiaarmy.4.a:0 "Let the rabblers rabble."
   californiaarmy.4.b:0 "Send in the local police immediatly to stop this little assembly."
+  californiaarmy.5.t:0 "Skirmish On The Colorado River!"
+  californiaarmy.5.d:0 "Arizonan troops have begun to fire on Californian patrols on the river. We have returned fire and it seems like this may be the start of a war!"
+  californiaarmy.5.a:0 "Call in more reinforcements!"
 
 ##Focuses
   CAC_politicalstate:0 "The 1936 Election"
@@ -316,6 +319,8 @@
   CAC_genericindustry11:0 "Arms Factories In San Francisco"
   CAC_genericindustry11_desc:0 "Without constantly building arms factories to defend our great country, we will rot.. We must build more for the sake of our sovereignty!"
   CAC_genericindustry10_desc:0 "With Eminent domain, the state has the clear right to take private property for public use.. We can exploit this for our economy."
+  CAC_genericindustry13:0 "Sierra Arms Complex"
+  CAC_genericindustry13_desc:0 "The Sierra Army Depot is one of California's biggest army depots, we should focus on expanding it for further military production."
   CAC_incorporatethepolice:0 "Incorporate The Police In The Military"
   CAC_airbaseexpansion:0 "Expand Sierra Army Depot"
   CAC_airbaseexpansion_desc:0 "The small military equipment storage area is quite small, we should expand it to use it for future operations during wartime."

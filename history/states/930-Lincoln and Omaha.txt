@@ -1,6 +1,6 @@
 state={
 	id=930
-	name="Lincoln and Omaha"
+	name="Lincoln"
 	history = {
 		owner = NEN
 		add_core_of = NEN
@@ -10,7 +10,22 @@ state={
 			arms_factory = 1
 		}
 		victory_points = {
-			13871 20
+			13880 20
+		}
+		victory_points = {
+			13871 5
+		}
+		victory_points = {
+			13879 5
+		}
+		victory_points = {
+			13899 5
+		}
+		victory_points = {
+			13905 5
+		}
+		victory_points = {
+			13901 5
 		}
 	}
 	provinces={

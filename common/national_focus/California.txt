@@ -1543,9 +1543,14 @@ focus_tree = {
 					hours = 6
 					id = genericfocusnews.1
 					}
-				}
+			CAC = {
+				add_ai_strategy = { type = conquer id = "ORO" value = 200}
+				add_ai_strategy = { type = conquer id = "HIH" value = 200}
+				add_ai_strategy = { type = conquer id = "AKA" value = 200}
+				add_ai_strategy = { type = conquer id = "WAW" value = 200}
 			}
-
+			}
+			}
 	}
 	focus = {
 		id = CAC_militaryexpansion1

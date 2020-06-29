@@ -3,7 +3,7 @@ state={
 	name="Central Colorado"
 
 	resources={
-		tungsten=15	
+		tungsten=15
 		chromium= 7.000
 	}
 
@@ -14,9 +14,18 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 		}
+		victory_points = {
+			13735 15
+		}
+		victory_points = {
+			13795 5
+		}
+		victory_points = {
+			1827 15
+		}
 	}
 	provinces={
-		1827 10588 13735 13740 13762 13776 13795 13821 13846 
+		1827 10588 13735 13740 13762 13776 13795 13821 13846
 	}
 	manpower=124036
 	buildings_max_level_factor=1.000

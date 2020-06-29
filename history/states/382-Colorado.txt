@@ -11,23 +11,21 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
 		}
 		add_core_of = COC
 		victory_points = {
-			1809 5 
+			7780 15
 		}
 		victory_points = {
-			7780 3 
+			1809 5
 		}
 		victory_points = {
-			12642 5 
+			13741 5
 		}
-
 	}
 
 	provinces={
-		1809 7780 11772 12570 12642 13720 13741 13857 
+		1809 7780 11772 12570 12642 13720 13741 13857
 	}
 	manpower=1035790
 	buildings_max_level_factor=1.000

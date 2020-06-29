@@ -47,6 +47,8 @@ focus_tree = {
         tag = SDS
         tag = TNT
         tag = TXT
+        tag = KYK
+        tag = DCD
         tag = VTV
         tag = VAV
         tag = WAW
@@ -93,7 +95,7 @@ focus_tree = {
         tag = TAU
         tag = SIN
       }
-		}
+	}
   }
   initial_show_position = {
 		focus = GEN_our_place

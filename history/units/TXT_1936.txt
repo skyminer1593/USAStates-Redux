@@ -120,41 +120,290 @@ units = {
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
 	}
-	navy = {
-		name = "Texan Fleet"
-		base = 12410
-		location = 12410 # Place
-		ship = { name = "USS STUPID" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } }
-		air_wings = {
-		cv_fighter_equipment_0 =  { owner = "USA" amount = 9 }
-		cv_nav_bomber_equipment_1 =  { owner = "USA" amount = 24 }
+	if = {
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		navy = {
+			name = "Texan Fleet"
+			base = 10337
+			location = 10337 # Place
+			ship = {
+				name = "TXS Archer"
+				definition = carrier
+				equipment = {
+					carrier_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "TXT" amount = 9 }
+					cv_nav_bomber_equipment_1 =  { owner = "TXT" amount = 24 }
+				}
+			}
+			ship = {
+				name = "TXS Dallas"
+				definition = battleship
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Austin"
+				definition = battleship
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Houston"
+				definition = battleship
+				equipment = {
+					battleship_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS El Paso"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Antonio"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Archer"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Zavala"
+				definition = heavy_cruiser
+				equipment = {
+					heavy_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Potomac"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Jacinto"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Bernard"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Wharton"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Louisville"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Baytown"
+				definition = light_cruiser
+				equipment = {
+					light_cruiser_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Wichita"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Corpus Christi"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Lubbock"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Odessa"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Pecos"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Laredo"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS McAllen"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Brownsville"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS San Marcos"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Abeline"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Waco"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Tyler"
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
+			ship = {
+				name = "TXS Beaumont" 
+				definition = destroyer
+				equipment = {
+					destroyer_1 = {
+						amount = 1
+						owner = TXT
+					}
+				}
+			}
 		}
 	}
-		ship = { name = "USS STUPID" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS STUPID" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS STUPID" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Mango" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Mango" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Mango" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Mango" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Orange" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Orange" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Orange" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Orange" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Orange" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Orange" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Poopoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
-	}
-	}
+}

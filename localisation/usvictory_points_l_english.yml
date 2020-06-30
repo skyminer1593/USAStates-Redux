@@ -370,6 +370,20 @@
   VICTORY_POINTS_4569:1 "St. Louis"
 ##Montana
   VICTORY_POINTS_14250:0 "Helena"
+  VICTORY_POINTS_14213:0 "Montana City"
+  VICTORY_POINTS_14212:0 "Unionville"
+  VICTORY_POINTS_14249:0 "Helena Valley West Central"
+  VICTORY_POINTS_4860:0 "Helena Valley Southeast"
+  VICTORY_POINTS_14274:0 "Helena Valley Northwest"
+#Not Thick Cities
+  VICTORY_POINTS_14092:0 "Butte"
+  VICTORY_POINTS_14245:0 "Missoula"
+  VICTORY_POINTS_14038:0 "Great Falls"
+  VICTORY_POINTS_12585:0 "Billings"
+  VICTORY_POINTS_14151:0 "Miles City"
+  VICTORY_POINTS_10593:0 "Chinook"
+  VICTORY_POINTS_10706:0 "Sidney"
+  VICTORY_POINTS_14223:0 "Lewistown"
 ##Nebraska
   VICTORY_POINTS_13880:0 "Lincoln"
   VICTORY_POINTS_13871:0 "Rockeby"

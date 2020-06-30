@@ -1,4 +1,3 @@
-
 state={
 	id=849
 	name="North Central Idaho"
@@ -13,9 +12,18 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 		}
+		victory_points = {
+			14064 5
+		}
+		victory_points = {
+			14071 5
+		}
+		victory_points = {
+			14107 5
+		}
 	}
 	provinces={
-		7845 14053 14064 14071 14107 14108 
+		7845 14053 14064 14071 14107 14108
 	}
 	manpower=52146
 	buildings_max_level_factor=1.000

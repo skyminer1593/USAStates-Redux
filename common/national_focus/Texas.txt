@@ -2426,6 +2426,24 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = TXT_prepareintervention
+		icon = GFX_Generic_War_Propaganda04
+		prerequisite = {
+			focus = TXT_handson
+		}
+		cost = 5
+
+		x = 31s
+		y = 9
+
+		completion_reward = {
+			set_rule = {
+				can_send_volunteers = yes
+			}
+			add_ideas = TXT_foreign_intervention
+		}
+	}
+	focus = {
 		id = TXT_handsoff
 		icon = GFX_Generic_Revolutionary_Republic
 
@@ -2465,6 +2483,66 @@ focus_tree = {
 					type = arms_factory
 					level = 2
 					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_propaganda_targeting
+		icon = GFX_Generic_Radio_Broadcast
+		prerequisite = {
+			focus = TXT_handsoff
+		}
+
+		cost = 10
+		x = 25
+		y = 9
+
+		completion_reward = {
+			add_ideas = TXT_idea_propaganda_targeting
+		}
+	}
+	focus = {
+		id = TXT_destabilizationcampaign
+		icon = GFX_Focus_Communist_Spy02
+		prerequisite = {
+			focus = TXT_propaganda_targeting
+		}
+
+		cost = 10
+		x = 25
+		y = 10
+
+		completion_reward = {
+			every_neighbor_country = {
+				if = {
+					limit = {
+						NOT = {
+							has_government = communism
+						}
+					}
+					add_stability = -0.02
+				}
+			}
+			add_ideas = TXT_destabilization_initiative
+		}
+	}
+	focus = {
+		id = TXT_american_beacon
+		icon = GFX_Generic_Communist_Propaganda
+		prerequisite = {
+			focus = TXT_propaganda_targeting
+		}
+
+		cost = 10
+		x = 27
+		y = 10
+
+		completion_reward = {
+			every_neighbor_country = {
+				add_timed_idea = {
+					idea = communist_influence
+					days = 550
 				}
 			}
 		}

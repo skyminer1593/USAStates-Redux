@@ -759,7 +759,53 @@ ideas = {
 				drift_defence_factor = 0.10
 			}
 		}
+		TXT_idea_propaganda_targeting = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
 
+			removal_cost = -1
+
+			modifier = {
+				boost_ideology_mission_factor = 0.30
+				propaganda_mission_factor = 0.20
+			}
+		}
+		TXT_destabilization_initiative = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				operative_slot = 1
+				propaganda_mission_factor = 0.10
+			}
+		}
+		TXT_foreign_intervention = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				send_volunteers_tension = -0.15
+				send_volunteer_divisions_required = -0.25
+				send_volunteer_size = 3
+			}
+		}
+		
 	}
 ##########Political Advisors###############
 	political_advisor = {

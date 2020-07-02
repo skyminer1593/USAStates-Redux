@@ -2149,10 +2149,8 @@ focus_tree = {
 
 		completion_reward = {
 			every_country = {
-				if = {
-					limit = {
-						has_government = communism
-					}
+				limit = {
+					has_government = communism
 				}
 				add_opinion_modifier = {
 					target = TXT
@@ -2322,6 +2320,11 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
+		bypass = {
+			has_idea = extensive_conscription
+			has_idea = all_adults_serve
+			has_idea = scraping_the_barrel
+		}
 		cost = 10
 
 		prerequisite = {
@@ -2433,7 +2436,7 @@ focus_tree = {
 		}
 		cost = 5
 
-		x = 31s
+		x = 31
 		y = 9
 
 		completion_reward = {
@@ -2441,6 +2444,35 @@ focus_tree = {
 				can_send_volunteers = yes
 			}
 			add_ideas = TXT_foreign_intervention
+		}
+	}
+	focus = {
+		id = TXT_perpetualwarfare
+		icon = GFX_Generic_Machine_Gun02
+		prerequisite = {
+			focus = TXT_prepareintervention
+		}
+		cost = 10
+		x = 31
+		y = 10
+
+		completion_reward = {
+			add_ideas = TXT_stateperpetualwarfare
+		}
+	}
+	focus = {
+		id = TXT_gunineveryhand
+		icon = GFX_goal_generic_small_arms
+		prerequisite = {
+			focus = TXT_handson
+		}
+		cost = 10
+
+		x = 29
+		y = 9
+
+		completion_reward = {
+			add_ideas = TXT_cheap_guns
 		}
 	}
 	focus = {
@@ -2521,7 +2553,7 @@ focus_tree = {
 							has_government = communism
 						}
 					}
-					add_stability = -0.02
+					add_stability = -0.05
 				}
 			}
 			add_ideas = TXT_destabilization_initiative

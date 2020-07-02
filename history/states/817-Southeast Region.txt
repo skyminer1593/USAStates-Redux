@@ -10,9 +10,24 @@ state={
 			industrial_complex = 1
 			air_base = 5
 		}
+		victory_points = {
+			10155 10
+		}
+		victory_points = {
+			4747 10
+		}
+		victory_points = {
+			12214 5
+		}
+		victory_points = {
+			14222 10
+		}
+		victory_points = {
+			10687 5
+		}
 	}
 	provinces={
-		4747 10155 10327 10687 10690 12155 12214 12673 14160 14171 14211 14222 
+		4747 10155 10327 10687 10690 12155 12214 12673 14160 14171 14211 14222
 	}
 	manpower=233295
 	buildings_max_level_factor=1.000

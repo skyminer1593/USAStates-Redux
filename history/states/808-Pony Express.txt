@@ -14,12 +14,15 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
+		victory_points = {
+			13775 5
+		}
 	}
 
 	provinces={
-		10591 12399 13771 13774 13775 13782 13810 13817 13818 13828 13845 
+		10591 12399 13771 13774 13775 13782 13810 13817 13818 13828 13845
 	}
-	
+
 	manpower=31057
 	buildings_max_level_factor=1.000
 	state_category = rural

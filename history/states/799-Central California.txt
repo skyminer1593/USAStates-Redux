@@ -14,11 +14,14 @@ state={
 			industrial_complex = 1
 			dockyard = 1
 		}
+		victory_points = {
+			1601 5
+		}
 		add_core_of = CAC
 	}
-	
+
 	provinces={
-		710 1432 1601 6694 6699 6876 13709 13765 
+		710 1432 1601 6694 6699 6876 13709 13765
 	}
 	manpower=677248
 	buildings_max_level_factor=1.000

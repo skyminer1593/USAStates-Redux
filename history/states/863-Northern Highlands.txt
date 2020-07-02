@@ -8,18 +8,19 @@ state={
 	history={
 		owner = AZA
 		add_core_of = AZA
-
-		victory_points = { 
-			7747 10 
-		}
-
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1			
+			industrial_complex = 1
+		}
+		victory_points = {
+			7747 5 
+		}
+		victory_points = {
+			13611 5
 		}
 	}
 	provinces={
-		4796 6897 7747 13550 13553 13583 13589 13594 13609 13611 
+		4796 6897 7747 13550 13553 13583 13589 13594 13609 13611
 	}
 	manpower=159723
 	buildings_max_level_factor=1.000

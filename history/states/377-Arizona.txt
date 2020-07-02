@@ -14,17 +14,20 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 2
-
 		}
 		add_core_of = AZA
 		victory_points = {
-			12765 10 
+			12765 15
 		}
-
+		victory_points = {
+			13676 5
+		}
+		victory_points = {
+			13685 5
+		}
 	}
-
 	provinces={
-		7821 10573 12765 13676 13678 13685 
+		7821 10573 12765 13676 13678 13685
 	}
 	manpower=435572
 	buildings_max_level_factor=1.000

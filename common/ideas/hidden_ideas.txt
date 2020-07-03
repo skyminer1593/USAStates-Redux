@@ -19,13 +19,13 @@ ideas = {
         local_resources_factor = -1
         production_factory_start_efficiency_factor = -50
         production_factory_efficiency_gain_factor = -50
+        resistance_target = -1
       }
     }
     ALL_ai_stuff = {
       modifier = {
         ai_desired_divisions_factor = -0.15
         ai_get_ally_desire_factor = -60
-        conscription = -0.005
       }
     }
   }

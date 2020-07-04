@@ -2421,7 +2421,7 @@ focus_tree = {
 			focus = TXT_handsoff
 		}
 
-		x = 30
+		x = 32
 		y = 8
 
 		completion_reward = {
@@ -2434,7 +2434,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TXT_handson
 		}
-		cost = 5
+		cost = 10
 
 		x = 31
 		y = 9
@@ -2447,13 +2447,28 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = TXT_homelessconscripts
+		icon = GFX_Generic_Socialist_Propaganda
+		prerequisite = {
+			focus = TXT_prepareintervention
+		}
+		cost = 10
+
+		x = 31
+		y = 10
+
+		completion_reward = {
+			add_ideas = TXT_homelessconscription
+		}
+	}
+	focus = {
 		id = TXT_perpetualwarfare
 		icon = GFX_Generic_Machine_Gun02
 		prerequisite = {
 			focus = TXT_prepareintervention
 		}
 		cost = 10
-		x = 31
+		x = 29
 		y = 10
 
 		completion_reward = {
@@ -2468,7 +2483,7 @@ focus_tree = {
 		}
 		cost = 10
 
-		x = 29
+		x = 33
 		y = 9
 
 		completion_reward = {
@@ -2587,7 +2602,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		offset = {
-			x = -7
+			x = -10
 			y = 0
 			trigger = {
 				NOT = {
@@ -2606,7 +2621,7 @@ focus_tree = {
 			has_country_flag = TXT_chose_stalin
 		}
 
-		x = 33
+		x = 36
 		y = 6
 
 		completion_reward = {
@@ -2620,7 +2635,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -7
+			x = -10
 			y = 0
 			trigger = {
 				NOT = {
@@ -2635,7 +2650,7 @@ focus_tree = {
 			focus = TXT_stalinism
 		}
 
-		x = 33
+		x = 36
 		y = 7
 
 		completion_reward = {
@@ -2652,7 +2667,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -7
+			x = -10
 			y = 0
 			trigger = {
 				NOT = {
@@ -2667,7 +2682,7 @@ focus_tree = {
 			focus = TXT_replicate_five_year
 		}
 
-		x = 35
+		x = 38
 		y = 8
 
 		completion_reward = {

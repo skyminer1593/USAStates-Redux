@@ -110,8 +110,8 @@ robert_bobbitt:0 "Robert L. Bobbit"
  texasnews.2.d:0 "In a speech held by James Allred, he has denounced Californian ideals. He believes that they're not following true to preserving peace and they should reduce their aggression. Whether he will take action against California and her people is yet to be seen. The Californian high command has yet to respond publicly, but if relations sour, it could lead to horrible outcomes. We can only hope to restore stability and peace in the Americas. In time, we will see."
  texasnews.2.a:0 "And so it begins..."
 #Tooltips
- TXT_generalsupport:0 "§GGain the support of generals.§! /n Will give your government more influence."
- TXT_army_support:0 "§GGain support of the army.§! /n Will give your government more influence."
+ TXT_generalsupport:0 "§GGain the support of generals.§! \nWill give your government more influence."
+ TXT_army_support:0 "§GGain support of the army.§! \nWill give your government more influence."
  TXT_weaker_allies:0 "You decide to focus on puppeting weaker neighbors"
  TXT_stronger_allies:0 "You decide to focus on allying stronger neighbors"
  #Autonomy
@@ -162,6 +162,7 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_foreign_intervention:0 "Foreign Intervention Doctrine"
  TXT_cheap_guns:0 "In Every Hand a Gun"
  TXT_stateperpetualwarfare:0 "State of Perpetual Warfare"
+ TXT_homelessconscription:0 "Conscripting the Homeless"
 
  #Research Boosts
  TXT_commie_doctrine:0 "A New Doctrine"
@@ -373,7 +374,8 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_destabilizationcampaign_desc:0 ""
  TXT_american_beacon:0 "American Beacon of Communism"
  TXT_american_beacon_desc:0 ""
-
+ TXT_homelessconscripts:0 "Conscript the Homeless"
+ TXT_homelessconscripts_desc:0 ""
 ##Stalinism
  TXT_stalinism:0 "Stability with Stalin"
  TXT_stalinism_desc:0 "It is clear that Stalin has the stronger grip on the world and has a better view on communism. His quick sucession after the death of Lenin shows the finesse and leadership of him. He is one of the most powerful men in the world and we could use him as an ally, even if it's only unofficial. We must follow our comrade to the edges of the earth and create a new world order."

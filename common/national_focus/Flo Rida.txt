@@ -1277,11 +1277,7 @@ focus_tree = {
 				}
 			completion_reward = {
 				unlock_decision_tooltip = confederate_states
-				add_war_support = 0.05
-				create_wargoal = {
-					type = annex_everything
-					target = ALA
-					}
+				add_war_support = 0.10
 				}
 
 	}

@@ -20,6 +20,7 @@ ideas = {
         production_factory_start_efficiency_factor = -50
         production_factory_efficiency_gain_factor = -50
         resistance_target = -1
+        compliance_gain = -1
       }
     }
     ALL_ai_stuff = {

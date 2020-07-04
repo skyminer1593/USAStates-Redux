@@ -93,6 +93,7 @@ set_convoys = 20
 }
 	add_ideas = {
 		AAA_idea_wasteland
+		disarmed_nation
 	}
 	set_politics = {
 		ruling_party = neutrality

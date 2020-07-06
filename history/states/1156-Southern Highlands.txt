@@ -1,0 +1,20 @@
+state={
+	id=1156
+	name="Southern Highlands"
+	history = {
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7747 5 
+		}
+	}
+	provinces={
+		4796 7747 13550 13553 
+	}
+	manpower=214231
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -45,3 +45,31 @@ csa_versus_union = {
 		desc = "RULE_OPTION_CENTRALIZED_CSAUNION_DESC"
 	}
 }
+formation_united_states = {
+	name = "FORMATION_USA"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_NO_USA"
+		desc = "RULE_OPTION_NO_USA_DESC"
+	}
+	option = {
+		name = FORMED_USA
+		text = "RULE_OPTION_USA"
+		desc = "RULE_OPTION_USA_DESC"
+	}
+}
+formation_confederate_states = {
+	name = "FORMATION_CSA"
+	group = RULE_GROUP_GAME_SETUP
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_NO_CSA"
+		desc = "RULE_OPTION_NO_CSA_DESC"
+	}
+	option = {
+		name = FORMED_CSA
+		text = "RULE_OPTION_CSA"
+		desc = "RULE_OPITON_CSA_DESC"
+	}
+}

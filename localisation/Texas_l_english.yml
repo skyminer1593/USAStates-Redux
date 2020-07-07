@@ -383,6 +383,19 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_replicate_five_year_desc:0 "Joseph Stalin's 5 year plans have been very successful in bringing the Soviet Union to the forefront of the world in industrial capacity. While following his doctrine, we could create a plan modeled after his and make tweaks to try and improve it to make it more efficient. If we can do this properly, we may be able to catch up with the nations that were more heavily invested into by the former United States."
  TXT_destroy_american_dream:0 "Destroy the American Dream"
  TXT_destroy_american_dream_desc:0 "With the American nation out of the picture, the dream has been proclaimed dead. While this is mostly true, there is word that there are still American loyalists in Texas. We need to put the last nail in the coffin for this 'American Dream' and finally end the support for an American state and 'capitalist paradise'"
+#Industrial
+ TXT_beginindustrialization:0 "Industrialization Campaign"
+ TXT_beginindustrialization_desc:0 ""
+ TXT_civiliandevelopment:0 "Focus on Civilian Development"
+ TXT_civiliandevelopment_desc:0 ""
+ TXT_infrastructure1:0 "National Infrastructure Development"
+ TXT_infrastructure1_desc:0 ""
+ TXT_rural_infra:0 "Focus on Rural Infrastructure" ##Will lead to path with Texaco for increased oil
+ TXT_rural_infra_desc:0 ""
+ TXT_urban_infra:0 "Focus on Urban Infrastructure"
+ TXT_urban_infra_desc:0 ""
+ TXT_militarydevelopment:0 "Focus on Military Development"
+ TXT_militarydevelopment_desc:0 ""
 
  #Dudes that are so cool they get a Tooltip
  POLITICS_EDWIN_WALKER_DESC:0 "§GEdwin Walker§! (November 10, 1909 – October 31, 1993) was an was a United States Army officer who served in World War II and the Korean War. He became known for his staunch conservative political opinions and was criticized by U.S. President Dwight D. Eisenhower for promoting a personal political opinion while in uniform."

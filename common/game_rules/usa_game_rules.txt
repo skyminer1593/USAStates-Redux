@@ -6,7 +6,7 @@
 #	name = "TEXT_KEY_FOR_NAME"
 #	required_dlc = "Name of the Required DLC"
 #	desc = "TEXT_KEY_FOR_LONG_DESC"
-#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups
 #	icon = gfx_option_token							# Optional icon
 #	option = {										# Unless other specified, the first option is the default option
 #		name = option_token
@@ -21,11 +21,11 @@
 #	}
 # }
 
- ##   ##  #   # ###      ## ### ### #  # ###  
-#    #  # ## ## #       #   #    #  #  # #  # 
-# ## #### # # # ##       #  ##   #  #  # ###  
-#  # #  # #   # #         # #    #  #  # #    
- ##  #  # #   # ###     ##  ###  #   ##  #    
+ ##   ##  #   # ###      ## ### ### #  # ###
+#    #  # ## ## #       #   #    #  #  # #  #
+# ## #### # # # ##       #  ##   #  #  # ###
+#  # #  # #   # #         # #    #  #  # #
+ ##  #  # #   # ###     ##  ###  #   ##  #
 csa_versus_union = {
 	name = "CSA_VERSUS_UNION"
 	group = "RULE_GROUP_GAME_SETUP"
@@ -43,5 +43,33 @@ csa_versus_union = {
 		name = CENTRALIZED_CSAUNION
 		text = "RULE_OPTION_CENTRALIZED_CSAUNION"
 		desc = "RULE_OPTION_CENTRALIZED_CSAUNION_DESC"
+	}
+}
+formation_united_states = {
+	name = "FORMATION_USA"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_NO_USA"
+		desc = "RULE_OPTION_NO_USA_DESC"
+	}
+	option = {
+		name = FORMED_USA
+		text = "RULE_OPTION_USA"
+		desc = "RULE_OPTION_USA_DESC"
+	}
+}
+formation_confederate_states = {
+	name = "FORMATION_CSA"
+	group = RULE_GROUP_GAME_SETUP
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_NO_CSA"
+		desc = "RULE_OPTION_NO_CSA_DESC"
+	}
+	option = {
+		name = FORMED_CSA
+		text = "RULE_OPTION_CSA"
+		desc = "RULE_OPITON_CSA_DESC"
 	}
 }

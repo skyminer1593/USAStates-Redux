@@ -798,10 +798,35 @@ country_event = { #Oregon Event
       }
       }
     }
+  country_event = { #arizona skirmish victory
+    id = california.33
+    title = california.33.t
+    desc = california.33.d
+    picture = GFX_report_event_ANZAC_day
+    is_triggered_only = yes
+    option = {
+      name = california.33.a
+      add_manpower = -500
+      army_experience = 30
+      }
+    }
+  country_event = { #arizona skirmish defeat
+    id = california.34
+    title = california.34.t
+    desc = california.34.d
+    picture = GFX_report_event_ANZAC_day
+    is_triggered_only = yes
+    option = {
+      name = california.34.a
+      add_manpower = -500
+      army_experience = -15
+      }
+    }
 
 #California Army Events Shit
 country_event = { #1st,2ndInf Divison Disappear, starts country flag
   id = californiaarmy.1
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.1" }
   title = californiaarmy.1.t
   desc = californiaarmy.1.d
   picture = GFX_report_event_generic_panzer_attack
@@ -819,6 +844,10 @@ country_event = { #1st,2ndInf Divison Disappear, starts country flag
     delete_unit_template_and_units = {
       division_template = "Infantry Division"
     }
+    add_popularity = {
+      ideology = neutrality
+      popularity = 0.01
+      }
     hidden_effect = {
       set_country_flag = CAC_armycivilwar1
       country_event = {
@@ -831,6 +860,7 @@ country_event = { #1st,2ndInf Divison Disappear, starts country flag
 }
 country_event = { #AZA Desertion
   id = californiaarmy.2
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.2" }
   title = californiaarmy.2.t
   desc = californiaarmy.2.d
   picture = GFX_report_event_dead_soldiers
@@ -838,6 +868,10 @@ country_event = { #AZA Desertion
   option = {
     name = californiaarmy.2.a
     add_manpower = -500
+    add_popularity = {
+      ideology = neutrality
+      popularity = 0.01
+      }
     add_equipment_to_stockpile = {
       type = infantry_equipment
       amount = -120
@@ -850,45 +884,46 @@ country_event = { #AZA Desertion
         random = 1
       }
     }
-    hidden_effect = {
-      country_event = {
-        id = californiaarmy.5
-        days = 65
-        random = 1
-      }
-    }
+    #hidden_effect = {
+      #country_event = {
+        #id = californiaarmy.5
+        #days = 65
+        #random = 1
+      #}
+    #}
   }
 }
-country_event = { #AZA Border Skirmish
-  id = californiaarmy.5
-  title = californiaarmy.5.t
-  desc = californiaarmy.5.d
-  picture = GFX_report_event_genericsoldiers3
-  is_triggered_only = yes
-  option = {
-    name = californiaarmy.5.a
-    start_border_war = {
-			change_state_after_war = no
-				attacker = {
-					state = 866
-					num_provinces = 2
-					on_win = california.33
-					on_lose = california.34
-				}
-				defender = {
-					state = 801
-					num_provinces = 3
-				}
-			}
-  }
-}
+#country_event = { #AZA Border Skirmish
+  #id = californiaarmy.5
+  #title = californiaarmy.5.t
+  #desc = californiaarmy.5.d
+  #picture = GFX_report_event_genericsoldiers3
+  #is_triggered_only = yes
+  #option = {
+    #name = californiaarmy.5.a
+    #start_border_war = {
+			#change_state_after_war = no
+				#attacker = {
+					#state = 866
+					#num_provinces = 2
+					#on_win = california.33
+					#on_lose = california.34
+				#}
+				#defender = {
+					#state = 801
+					#num_provinces = 3
+				#}
+			#}
+  #}
+#}
 country_event = { #Riots in San Diego
   id = californiaarmy.4
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.4" }
   title = californiaarmy.4.t
   desc = californiaarmy.4.d
-  picture = GFX_report_event_generic_panzer_attack
+  picture = GFX_report_event_crowd_in_prague
   fire_only_once = yes
-  mean_time_to_happen = { days = 35}
+  mean_time_to_happen = { days = 55}
   trigger = {
 		tag = CAC
     has_country_leader = {
@@ -900,16 +935,74 @@ country_event = { #Riots in San Diego
   option = {
     name = californiaarmy.4.a #Allow the peaceful protest
     add_stability = -0.05
+    hidden_effect = {
+      set_country_flag = californiaallowed1
     }
+  }
   option = {
     name = californiaarmy.4.b #Send in law enforcement
     add_stability = 0.01
     add_political_power = -50
+    hidden_effect = {
+      random_list = {
+        80 = {
+          country_event = californiaarmy.6
+        }
+        20 = {
+          country_event = californiaarmy.7
+        }
+      }
     }
   }
+}
+country_event = { #Violence begets violence
+  id = californiaarmy.6
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.6"}
+  title = californiaarmy.6.t
+  desc = californiaarmy.6.d
+  picture = GFX_report_event_iww_demonstration
+  is_triggered_only = yes
+  fire_only_once = yes
+  option = {
+    name = californiaarmy.6.a
+  }
+}
+country_event = { #Protestors dispersed
+  id = californiaarmy.7
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.7"}
+  title = californiaarmy.7.t
+  desc = californiaarmy.7.d
+  picture = GFX_report_event_albanian_partisans
+  is_triggered_only = yes
+  fire_only_once = yes
+  option = {
+    name = californiaarmy.7.a
+  }
+}
+country_event = { #Protest in Los Angeles (allowed peaceful protest in sandiego)
+  id = californiaarmy.8
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.8"}
+  title = californiaarmy.8.t
+  desc = californiaarmy.8.d
+  picture = GFX_report_event_albanian_partisans
+  fire_only_once = yes
+  mean_time_to_happen = { days = 30}
+  trigger = {
+    tag = CAC
+    has_country_flag = californiaallowed1
+    has_country_leader = {
+      name = "James E. Davis"
+      ruling_only = yes
+    }
+  }
+  option = {
+    name = californiaarmy.8.a
+  }
+}
 #The Patton Revolution, Civil War
 country_event = {
   id = californiaarmy.3
+  immediate = { log = "[GetDateText]: [Root.GetName]: event californiaarmy.3" }
   title = californiaarmy.3.t
   desc = californiaarmy.3.d
   picture = GFX_report_event_genericsoldiers6

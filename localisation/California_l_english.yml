@@ -13,7 +13,7 @@
   CAC_ideologyturmoilidea:0 "Regional Ideological Turmoil"
   CAC_allignthearmyidea:0 "Alligned The Army"
   CAC_internationalrecognitionidea:0 "International Recognition"
-  CAC_adailywellnesscheckidea:0 "A Daily Wellness Check"
+  CAC_adailywellnesscheckidea:0 "Daily Patrols"
   CAC_policecorruption:0 "Police Corruption"
   CAC_policecorruption_desc:0 "The Police of California are insanely corrupted with constant unjustified arrests of ethnic minorities, theft of citizens, and bribes are only some of the common things the Police do in California."
   CAC_encouragedpolicecorruption:0 "Encouraged Police Corruption"
@@ -63,10 +63,10 @@
 
 
 ##Factions
- california_democratic_faction:0 "Pacific Defense Federation"
-##Events
+  california_democratic_faction:0 "Pacific Defense Federation"
 
- california.1.t:0 "The 1936 Election"
+##Events
+  california.1.t:0 "The 1936 Election"
   california.1.d:0 "The New California Republic's second election is on its way! We have 3 main canidates who have a chance of winning. We have James E. Davis, a police officer that has the rank of Chief of Police but has had reports of corruption and anti-semitic views, we have the incumbent republican canidate Frank Merriam, and then we have the unpopular communist canidate Upton Sinclair. Who will lead our glorious state into prosperity?"
   california.1.a:0 "James E. Davis wins the election!"
   california.1.b:0 "Frank Merriam takes another term!"
@@ -196,13 +196,20 @@
   californiaarmy.3.d:0 ""An immediate restoration of democracy and justice.." George S Patton said earlier on a radio broadcast to all Californian citizens after announcing the formation of the The Californian Liberation Front for Democracy (CLFD) "The Liberation Front will not rest until [CAC.GetLeader] is out of power and California holds its rightfully eletected President.""
   californiaarmy.3.a:0 "Crush them! Make them suffer! (Stay with Davis)"
   californiaarmy.3.b:0 "For Liberty and Justice! (Play the CLFD)"
-  californiaarmy.4.t:0 "Peaceful Protests of San Diego"
-  californiaarmy.4.d:0 "Test"
-  californiaarmy.4.a:0 "Let the rabblers rabble."
-  californiaarmy.4.b:0 "Send in the local police immediatly to stop this little assembly."
+  californiaarmy.4.t:0 "Protests in San Diego!"
+  californiaarmy.4.d:0 "Tension can be felt on the streets of San Diego as throughout the day and into the night, citizens have taken to the streets to protest the government of James E. Davis. Long plagued by allegations of corruption and brutality as an officer of the LAPD, his reputation as a controversial strongman has led to the citizens of San Diego organizing a march towards San Diego's city hall, with a planned migration towards both Los Angeles and Sacramento. Organizers have stated the need for transparency and explanation for the recent shutdown of the San Diego Union-Tribune, where police arrested scores of reporters who allegedly spread anti-government material in an exposé of the Californian Armed Forces. While the protests have thusfar been peaceful, the Mayor of San Diego is asking for some sort of guidance for how to handle the growing demonstration."
+  californiaarmy.4.a:0 "We may not like it, but they have a right to voice their concerns."
+  californiaarmy.4.b:0 "I want these dissidents brought to heel! Shut it down before this gets out of control!"
   californiaarmy.5.t:0 "Skirmish On The Colorado River!"
   californiaarmy.5.d:0 "Arizonan troops have begun to fire on Californian patrols on the river. We have returned fire and it seems like this may be the start of a war!"
   californiaarmy.5.a:0 "Call in more reinforcements!"
+  californiaarmy.6.t:0 "Violence begets violence."
+  californiaarmy.6.d:0 "During the protests, local San Diego police moved in to block both sides of the streets on the San Diego City Hall using police cars and warned the protestors that the assembly was an illegal gathering and that they must disperse immediately. The majority of protestors stood strong and held there ground until tear gas canisters were shot into the crowd. During this moment protestors reportedly started to charge the riot shield wall. It was during this time that the police started to open fire on the protestors."
+  californiaarmy.6.a:0 "It was an illegal gathering, the criminals got justice."
+  californiaarmy.7.t:0 "Protestors dispersed."
+  californiaarmy.7.d:0 "placeholder"
+  californiaarmy.7.a:0 "okay"
+  californiaarmy.8.t:0 "Protests in Los Angeles"
 
 ##Focuses
   CAC_politicalstate:0 "The 1936 Election"
@@ -311,7 +318,10 @@
   CAC_relievebaja:0 "Relieve Baja"
   CAC_relievenevada:0 "Relieve Nevada"
   CAC_relievearizona:0 "Relieve Arizona"
-  
+  CAC_pacificinitative:0 "Pacific Reach Initiative"
+  CAC_pacificinitative_desc:0 "Now that we have finalized the creation of the Pacific States of America, we need to expand our sphere as a major power. Merriam's cabinet has suggested multiple expeditions of previously owned US Territories in the Pacific, such as Johnston Atoll and Midway Island. If done correctly, California would have a much greater range of operations and have a much better way of exerting its naval power."
+  CAC_PacificDefenseFederationMembershipPlan:0 "Pacific Defense Federation Membership Plan"
+  CAC_PacificDefenseFederationMembershipPlan_desc:0 "Instead of prioritizing our own personal reach, we should look towards alliances and diplomacy that would secure our position instead of useless islands in the Pacific."
   CAC_buildhawaii_desc:0 "Aiding Hawaii with military aid could be helpful in the long run and support us in future military operations, we should invest in building factories for them."
   CAC_buildhawaii2_desc:0 "Hawaii has some of the remants of the Pacific fleet from the old United States, they will obviously need dockyards to support such a fleet."
   CAC_buildhawaii3_desc:0 "Civilian aid to Hawaii will be needed if they want to prosper under our flag, we should invest factories for them."
@@ -366,7 +376,7 @@
   CAC_noopposition:0 "No Opposition"
   CAC_allignthearmy:0 "Allign The Army"
   CAC_amilitarizedstate:0 "A Militarized State"
-  CAC_adailywellnesscheck:0 "A Daily Wellness Check"
+  CAC_adailywellnesscheck:0 "Daily Patrols In Neighborhoods"
   CAC_encouragepolicecorruption:0 "Encourage Police Corruption"
   CAC_militaryroads_desc:0 "California's terrain is not suitable for transporting large amounts of supplies, this is a bad situation as we are in wartime. We must build more roads exclusively for the military!"
   CAC_oilforfactories_desc:0 "Trading oil for more military production is the obvious choice, with these new factories the army of California will be one of the best."

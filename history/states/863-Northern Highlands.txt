@@ -1,10 +1,12 @@
+
 state={
 	id=863
 	name="Northern Highlands"
 	resources={
-		chromium= 2.000
-		aluminium= 10.000
+		chromium=2.000
+		aluminium=10.000
 	}
+
 	history={
 		owner = AZA
 		add_core_of = AZA
@@ -13,16 +15,15 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			7747 5 
+			13611 5 
 		}
-		victory_points = {
-			13611 5
-		}
+
 	}
+
 	provinces={
-		4796 6897 7747 13550 13553 13583 13589 13594 13609 13611
+		6897 13583 13589 13594 13609 13611 
 	}
 	manpower=159723
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

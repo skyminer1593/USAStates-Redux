@@ -528,16 +528,17 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = formation_confederate_states
-						option = FORMED_CSA
-					}
-					has_game_rule = {
-						rule = formation_united_states
-						option = FORMED_USA
+					AND = {
+						has_game_rule = {
+							rule = formation_confederate_states
+							option = FORMED_CSA
+						}
+						has_game_rule = {
+							rule = formation_united_states
+							option = FORMED_USA
+						}
 					}
 				}
-			}
 				DCD = {
 					set_cosmetic_tag = USA
 					annex_country = {
@@ -807,3 +808,4 @@ on_actions = {
 			}
 		}
 	}
+}

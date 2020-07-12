@@ -55,9 +55,21 @@ focus_tree = {
 
 	}
 	focus = {
+		id = CAC_thecurrencyissue
+		icon = GFX_CAC_CalifornianDollar
+		cost = 2.25
+		x = 5
+		y = -1
+		completion_reward = {
+			add_political_power = -1
+			country_event = california.35
+				}
+	}
+	focus = {
 		id = CAC_genericindustry1
 		icon = GFX_Generic_Industrialization
 		cost = 7.25
+		prerequisite = { focus = CAC_thecurrencyissue}
 		x = 5
 		y = 0
 		completion_reward = {
@@ -70,7 +82,6 @@ focus_tree = {
 								}
 						}
 				}
-
 	}
 	focus = {
 		id = CAC_army1

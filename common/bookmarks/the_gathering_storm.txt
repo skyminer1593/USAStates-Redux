@@ -15,7 +15,7 @@ bookmarks = {
 			}
 			focuses = {
 				TXT_our_new_empire
-				TXT_theoldrepublic
+				TXT_texaswillagainraiseitshead
 				TXT_pathofrevolution
 			}
 		}

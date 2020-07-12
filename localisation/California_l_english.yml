@@ -1,5 +1,10 @@
 ﻿l_english:
 ##Ideas
+  CAC_californiandollar:0 "Uses Californian Tender"
+  CAC_usdollar:0 "Uses US Tender"
+  CAC_merriamdollar:0 "Merriam Dollar"
+  CAC_williambidedollar:0 "William B. Ide Dollar"
+  CAC_johnsutterdollar:0 "John Sutter Dollar"
   CAC_publicworksprogramidea:0 "Public Works Program"
   CAC_guaranteedpensionsidea:0 "Guaranteed Pensions"
   CAC_sweepingtaxreformsidea:0 "A Classless Society"
@@ -185,6 +190,15 @@
   california.32.t:0 "Deserters from the Californian Army!"
   california.32.d:0 "Mr. [AZA.GetLeader], we have multiple Californian soldiers that have deserted due to the political climate in California!"
   california.32.a:0 "Ah! More men! Add them to the ranks!"
+  california.35.t:0 "The Currency Issue"
+  california.35.d:0 "Since the Great Collapse of the United States, the tender that was used throughout the States is now practically useless since there is no federal reserve to control the tender. While some states have had no choice but to use it with local banks being filled with the United States Dollar. California has had a bit of a choice unlike other states though, the cabinet of Merriam has suggested that California begins steps towards making our own currecny. This would give us more indepedence economically and allow us to print money when needed."
+  california.35.a:0 "Begin steps towards making our own currency!"
+  california.35.b:0 "Our banks are filled too much with Benjamins. We must rely on the US Dollar."
+  california.36.t:0 "Who should be represented on the 1 Dollar Bill?"
+  california.36.d:0 "The one dollar bill we used to all know had the face of George Washington, this gave people some inspiration and celebrated past leaders. Since California has made efforts to make our own currency, we should do the same. We have 3 main options of people to put on the 1 Dollar for the Californian Currency. We have Frank Merriam who has saved California during the Great Collapse and is the current emergency Governor. We have William B. Ide who led the Bear Flag Revolt and is called the First Leader of the original Californian Republic. Lastly we have John Sutter, a immigrant from Switzerland who settled Sutter's Fort, what is now California's capital, Sacramento"
+  california.36.a:0 "Frank Merriam, the Father of California."
+  california.36.b:0 "William B Ide, the first leader of the Californian people and led the Bear Flag Revolt."
+  california.36.c:0 "John Sutter, the man who settled Sacramento."
   #CaliforniaArmyEvents
   californiaarmy.1.t:0 "The 1st and 2nd Californian Infantry Divison Deserts!"
   californiaarmy.1.d:0 "Earlier this morning in Fort San Jose, the 1st and 2nd Californian Infantry Division was to be found nowhere inside there barracks, Police searches across San Fransicso to find any soldiers of the divison have come up empty, as a result the judicial system of California has marked every single soldier a traitor apart of these divisions and gave them the charge of treason."
@@ -425,6 +439,8 @@
   CAC_beginningofpsa_desc:0 "Democracy has vanished from North America, what was federalized states of the United States are now "tribal warlords" posing as governors trying to reap as much wealth as possible from the downfall of the United States. The Pacific States of America is a plan by Frank Merriam to secure Californian democracy in the west.. It would include reaching out to several nations on the west coast about a federation under California.. As the true successors to the United States.. We must secure liberty and democracy.. By any means."
   CAC_coresocialistland:0 "Under New Management"
   CAC_coresocialistland_desc:0 "We have secured our sphere of influence, now it is time to show the new populace what life is like under our prosperous flag."
+  CAC_thecurrencyissue:0 "The Currency Issue"
+  CAC_thecurrencyissue_desc:0 "A lot of problems many states have been having since the Great Collapse is the problem with the US Dollar.. Now since there is no federal government to run the federal reserve, we are stuck with mainly useless cash that our banks are filled with. We can either try and make our own currency to maintain economic indepedence, or we can stick with the US Dollar which many other countries are forced with having to do."
 ##Custom Tooltips
 californiacoreland.tt:0 "§GWill core all newly conquered land§!."
 CAC_electedpresident:0 "Has elected a new president."

@@ -38,21 +38,14 @@ country_event = {
       ideology = democratic
       popularity = -0.10
       }
-
-
     }
-
-
     option = {
 		name = california.1.b
 		ai_chance = { base = 50 }
 		add_political_power = 75
 		add_stability = 0.05
-
 		add_ideas = { CAC_republican }
     }
-
-
     option = {
 		name = california.1.c
 		ai_chance = { base = 25 }
@@ -63,11 +56,9 @@ country_event = {
 			ruling_party = communism
 			elections_allowed = no
 		}
-
     add_ideas = { CAC_unstablepolitics }
     add_ideas = { CAC_unloyalarmy }
     remove_ideas = { CAC_aloyaldemocraticarmy}
-
     add_popularity = {
       ideology = communism
       popularity = 0.05
@@ -76,15 +67,12 @@ country_event = {
       ideology = democratic
       popularity = -0.10
       }
-
-
 		create_country_leader = {
 			name = "Upton Sinclair"
 			desc = ""
 			picture = "Portrait_CAC_Upton_Sinclair.dds"
 			expire = "1965.1.1"
 			ideology = leninism
-
 			traits = {
 			}
       }
@@ -822,6 +810,48 @@ country_event = { #Oregon Event
       army_experience = -15
       }
     }
+  country_event = { #california currency
+    id = california.35
+    title = california.35.t
+    desc = california.35.d
+    picture = GFX_report_event_finnish_letter
+    is_triggered_only = yes
+    option = { #Establish the Californian Dollar
+      name = california.35.a
+      add_political_power = 5
+      add_ideas = CAC_californiandollar
+      CAC = {
+        country_event = california.36
+      }
+      }
+    option = { #Maintain the United States Dollar
+      name = california.35.b
+      add_ideas = CAC_usdollar
+    }
+  }
+  country_event = { #california currency
+    id = california.36
+    title = california.36.t
+    desc = california.36.d
+    picture = GFX_report_event_finnish_letter
+    is_triggered_only = yes
+    option = { #Frank Merriam on the 1$
+      name = california.36.a
+      add_ideas = CAC_merriamdollar
+      add_popularity = {
+        ideology = democratic
+        popularity = 0.05
+        }
+      }
+    option = { #William B. Ide, the original founding father of the Californian Republic
+      name = california.36.b
+      add_ideas = CAC_williambidedollar
+    }
+    option = { #John Sutter The Founder of Sacremento
+      name = california.36.c
+      add_ideas = CAC_johnsutterdollar
+    }
+  }
 
 #California Army Events Shit
 country_event = { #1st,2ndInf Divison Disappear, starts country flag

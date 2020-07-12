@@ -2840,7 +2840,25 @@ SpriteType = {
   texturefile = "gfx/interface/goals/Focus_Stalin.dds"
 }
 
+############################################################################################################################
+#California
+SpriteType = {
+  name = "GFX_CAC_CalifornianDollar"
+  texturefile = "gfx/interface/goals/CAC_CalifornianDollar.dds"
+}
 
+
+
+
+#Texas
+SpriteType = {
+  name = "GFX_TXT_OldTexanRepublic"
+  texturefile = "gfx/interface/goals/TXT_OldTexanRepublic.dds"
+}
+SpriteType = {
+  name = "GFX_TXT_TexanNationalism"
+  texturefile = "gfx/interface/goals/TXT_TexanNationalism.dds"
+}
 ############################################################################################################################
 
 #Washington DC

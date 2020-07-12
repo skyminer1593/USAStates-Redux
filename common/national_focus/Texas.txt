@@ -11,7 +11,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = TXT_texaswillagainraiseitshead
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_TXT_TexanNationalism
 		cost = 3.00
 		x = 18
 		y = 0
@@ -1664,7 +1664,7 @@ focus_tree = {
 	}
 	focus = {
 		id = TXT_proclaim_republic
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_TXT_OldTexanRepublic
 		cost = 1
 		prerequisite = {
 			focus = TXT_demand_southwest_kansas

@@ -1,6 +1,8 @@
 ﻿l_english:
- BM_HISTORY_TITLE:0 "Brief History"
- OSS_NAME:0 "North America States ONLY"
- OSS_DESC:0 " Play with just the states. No Europe, Aisa, Africa, South America, and no Oceania."
- CVU_NAME:0 "Only states: CSA vs UNION"
- CVU_DESC:0 " Play as the Union or the CSA"
+    BM_HISTORY_TITLE:0 "Brief History"
+    OSS_NAME:0 "North America States ONLY"
+    OSS_DESC:0 "Play with just the states. No Europe, Aisa, Africa, South America, and no Oceania.\n\n\n §B[This bookmark makes it so the rest of the world does not exist, and it is just the states. If you are having problems with outside nations intervening, we recommend you play this mode.]§!"
+    GATHERING_STORM_DESC1:0 "The Great Collapse has come, many people thought that only such a catasprohic event such as the Civil War could cause this, but the lack of federal power has let every state become indepedent.\n\n §B[This bookmark has the states indepedent, but with Europe still in the game, If you are having problems with outside nations intervening, we recommend you play the Only States Mode Bookmark]§!"
+    GATHERING_STORM_NAME1:0 "The Great Collapse"
+    OTHER_GATHERING_STORM_DESC:0 "The Great Collapse has come, many people thought that only such a catasprohic event such as the Civil War could cause this, but the lack of federal power has let every state become indepedent."
+    OTHER_ONLY_STATES_DESC:0 "The Great Collapse has come, many people thought that only such a catasprohic event such as the Civil War could cause this, but the lack of federal power has let every state become indepedent\n\n\n §B[This bookmark makes it so the rest of the world does not exist, and it is just the states. If you are having problems with outside nations intervening, we recommend you play this mode.]§!"

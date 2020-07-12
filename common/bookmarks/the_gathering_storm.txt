@@ -14,7 +14,9 @@ bookmarks = {
 
 			}
 			focuses = {
-				
+				TXT_our_new_empire
+				TXT_theoldrepublic
+				TXT_pathofrevolution
 			}
 		}
 
@@ -22,10 +24,14 @@ bookmarks = {
 			history = "CAC_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				
+				CAC_aloyaldemocraticarmy
+				CAC_dustbowlmigration
+				CAC_local_security
 			}
 			focuses = {
-				
+				CAC_politicalstate
+				CAC_genericindustry1
+				CAC_formationofpsa
 			}
 		}
 
@@ -37,17 +43,21 @@ bookmarks = {
 				#
 			}
 			focuses = {
-				
+				KSK_bleeding_kansas
+				KSK_steel_plant
+				KSK_fascist5
 			}
 		}
 		"FLF"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "FLF_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				#
 			}
 			focuses = {
-				
+				FLF_southernpride
+				FLF_patrioticrestoration
+				FLF_alligatorbite
 			}
 		}
 

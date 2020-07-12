@@ -1,2 +1,7 @@
 ﻿l_english:
   core_land_usa:0 "Will core all of the land you've taken. Take the entire state rather than just the cities for the best effect."
+
+
+###Bookmarks
+OTHER_GATHERING_STORM_DESC:0 "The Great Collapse has come, many people thought that only such a catasprohic event such as the Civil War could cause this, but the lack of federal power has let every state become indepedent."
+OTHER_ONLY_STATES_DESC:0 "The Great Collapse has come, many people thought that only such a catasprohic event such as the Civil War could cause this, but the lack of federal power has let every state become indepedent\n\n\n §B[This bookmark makes it so the rest of the world does not exist, and it is just the states. If you are having problems with outside nations intervening, we recommend you play this mode.]§!"

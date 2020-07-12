@@ -110,8 +110,8 @@ robert_bobbitt:0 "Robert L. Bobbit"
  texasnews.2.d:0 "In a speech held by James Allred, he has denounced Californian ideals. He believes that they're not following true to preserving peace and they should reduce their aggression. Whether he will take action against California and her people is yet to be seen. The Californian high command has yet to respond publicly, but if relations sour, it could lead to horrible outcomes. We can only hope to restore stability and peace in the Americas. In time, we will see."
  texasnews.2.a:0 "And so it begins..."
 #Tooltips
- TXT_generalsupport:0 "§GGain the support of generals.§! /n Will give your government more influence."
- TXT_army_support:0 "§GGain support of the army.§! /n Will give your government more influence."
+ TXT_generalsupport:0 "§GGain the support of generals.§! \nWill give your government more influence."
+ TXT_army_support:0 "§GGain support of the army.§! \nWill give your government more influence."
  TXT_weaker_allies:0 "You decide to focus on puppeting weaker neighbors"
  TXT_stronger_allies:0 "You decide to focus on allying stronger neighbors"
  #Autonomy
@@ -162,6 +162,7 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_foreign_intervention:0 "Foreign Intervention Doctrine"
  TXT_cheap_guns:0 "In Every Hand a Gun"
  TXT_stateperpetualwarfare:0 "State of Perpetual Warfare"
+ TXT_homelessconscription:0 "Conscripting the Homeless"
 
  #Research Boosts
  TXT_commie_doctrine:0 "A New Doctrine"
@@ -176,6 +177,8 @@ robert_bobbitt:0 "Robert L. Bobbit"
 #Decisions/Categories
   TXT_hands_on:0 "Encite Permanent Revolution"
   TXT_hands_off:0 "Support Foreign Communists"
+#Advisors
+  texaco:0 "Texaco"
 #Focuses
  TXT_texaswillagainraiseitshead:0 "Texas Will Again Raise It's Head"
  TXT_texaswillagainraiseitshead_desc:0 "Texas will again lift its head and stand among the nations. It ought to do so, for no country upon the globe can compare with it in natural advantages. -Sam Houston"
@@ -373,7 +376,8 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_destabilizationcampaign_desc:0 ""
  TXT_american_beacon:0 "American Beacon of Communism"
  TXT_american_beacon_desc:0 ""
-
+ TXT_homelessconscripts:0 "Conscript the Homeless"
+ TXT_homelessconscripts_desc:0 ""
 ##Stalinism
  TXT_stalinism:0 "Stability with Stalin"
  TXT_stalinism_desc:0 "It is clear that Stalin has the stronger grip on the world and has a better view on communism. His quick sucession after the death of Lenin shows the finesse and leadership of him. He is one of the most powerful men in the world and we could use him as an ally, even if it's only unofficial. We must follow our comrade to the edges of the earth and create a new world order."
@@ -381,6 +385,19 @@ robert_bobbitt:0 "Robert L. Bobbit"
  TXT_replicate_five_year_desc:0 "Joseph Stalin's 5 year plans have been very successful in bringing the Soviet Union to the forefront of the world in industrial capacity. While following his doctrine, we could create a plan modeled after his and make tweaks to try and improve it to make it more efficient. If we can do this properly, we may be able to catch up with the nations that were more heavily invested into by the former United States."
  TXT_destroy_american_dream:0 "Destroy the American Dream"
  TXT_destroy_american_dream_desc:0 "With the American nation out of the picture, the dream has been proclaimed dead. While this is mostly true, there is word that there are still American loyalists in Texas. We need to put the last nail in the coffin for this 'American Dream' and finally end the support for an American state and 'capitalist paradise'"
+#Industrial
+ TXT_beginindustrialization:0 "Industrialization Campaign"
+ TXT_beginindustrialization_desc:0 ""
+ TXT_civiliandevelopment:0 "Focus on Civilian Development"
+ TXT_civiliandevelopment_desc:0 ""
+ TXT_infrastructure1:0 "National Infrastructure Development"
+ TXT_infrastructure1_desc:0 ""
+ TXT_rural_infra:0 "Focus on Rural Infrastructure" ##Will lead to path with Texaco for increased oil
+ TXT_rural_infra_desc:0 ""
+ TXT_urban_infra:0 "Focus on Urban Infrastructure"
+ TXT_urban_infra_desc:0 ""
+ TXT_militarydevelopment:0 "Focus on Military Development"
+ TXT_militarydevelopment_desc:0 ""
 
  #Dudes that are so cool they get a Tooltip
  POLITICS_EDWIN_WALKER_DESC:0 "§GEdwin Walker§! (November 10, 1909 – October 31, 1993) was an was a United States Army officer who served in World War II and the Korean War. He became known for his staunch conservative political opinions and was criticized by U.S. President Dwight D. Eisenhower for promoting a personal political opinion while in uniform."

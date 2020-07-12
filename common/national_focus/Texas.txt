@@ -2421,7 +2421,7 @@ focus_tree = {
 			focus = TXT_handsoff
 		}
 
-		x = 30
+		x = 32
 		y = 8
 
 		completion_reward = {
@@ -2434,7 +2434,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TXT_handson
 		}
-		cost = 5
+		cost = 10
 
 		x = 31
 		y = 9
@@ -2447,13 +2447,28 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = TXT_homelessconscripts
+		icon = GFX_Generic_Socialist_Propaganda
+		prerequisite = {
+			focus = TXT_prepareintervention
+		}
+		cost = 10
+
+		x = 31
+		y = 10
+
+		completion_reward = {
+			add_ideas = TXT_homelessconscription
+		}
+	}
+	focus = {
 		id = TXT_perpetualwarfare
 		icon = GFX_Generic_Machine_Gun02
 		prerequisite = {
 			focus = TXT_prepareintervention
 		}
 		cost = 10
-		x = 31
+		x = 29
 		y = 10
 
 		completion_reward = {
@@ -2468,7 +2483,7 @@ focus_tree = {
 		}
 		cost = 10
 
-		x = 29
+		x = 33
 		y = 9
 
 		completion_reward = {
@@ -2587,7 +2602,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		offset = {
-			x = -7
+			x = -10
 			y = 0
 			trigger = {
 				NOT = {
@@ -2606,7 +2621,7 @@ focus_tree = {
 			has_country_flag = TXT_chose_stalin
 		}
 
-		x = 33
+		x = 36
 		y = 6
 
 		completion_reward = {
@@ -2620,7 +2635,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -7
+			x = -10
 			y = 0
 			trigger = {
 				NOT = {
@@ -2635,7 +2650,7 @@ focus_tree = {
 			focus = TXT_stalinism
 		}
 
-		x = 33
+		x = 36
 		y = 7
 
 		completion_reward = {
@@ -2652,7 +2667,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -7
+			x = -10
 			y = 0
 			trigger = {
 				NOT = {
@@ -2667,12 +2682,224 @@ focus_tree = {
 			focus = TXT_replicate_five_year
 		}
 
-		x = 35
+		x = 38
 		y = 8
 
 		completion_reward = {
 			add_ideas = TXT_kill_dream
 		}
 	}
+	#Industry Tree
+	focus = {
+		id = TXT_beginindustrialization
+		icon = GFX_focus_generic_industry_2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
 
+		cost = 10
+
+		x = 45
+		y = 0
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	#Civilian Industry
+	focus = {
+		id = TXT_civiliandevelopment
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = TXT_beginindustrialization
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 40
+		y = 1
+
+		cost = 10
+
+		completion_reward = {
+			custom_effect_tooltip = GEN_civincapital
+      hidden_effect = {
+        capital_scope = {
+          add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+          }
+        }
+      }
+		}
+	}
+	focus = {
+		id = TXT_infrastructure1
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = TXT_civiliandevelopment
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 36
+		y = 2
+
+		cost = 10
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_rural_infra
+		icon = GFX_Generic_Railroads
+		prerequisite = {
+			focus = TXT_infrastructure1
+		}
+		mutually_exclusive = {
+			focus = TXT_urban_infra
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 34
+		y = 3
+
+		cost = 10
+
+		completion_reward = {
+			897 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_urban_infra
+		icon = GFX_Generic_Construction
+		prerequisite = {
+			focus = TXT_infrastructure1
+		}
+		mutually_exclusive = {
+			focus = TXT_rural_infra
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 38
+		y = 3
+
+		cost = 10
+
+		completion_reward = {
+			375 = {
+				add_building_construction  = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#Military Industry
+	focus = {
+		id = TXT_militarydevelopment
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = TXT_beginindustrialization
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 50
+		y = 1
+
+		cost = 10
+
+		completion_reward = {
+			895 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 }

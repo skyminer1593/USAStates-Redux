@@ -838,6 +838,21 @@ ideas = {
 				enemy_justify_war_goal_time = -0.15
 			}
 		}
+		TXT_homelessconscription = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.015
+				consumer_goods_factor = 0.05
+			}
+		}
 	}
 ##########Political Advisors###############
 	political_advisor = {
@@ -908,6 +923,20 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+	}
+	industrial_concern = {
+		texaco = {
+
+			allowed = {
+				original_tag = TXT
+			}
+
+			research_bonus = {
+				electronics = 0.15
+			}
+
+			traits = { industrial_concern }
 		}
 	}
 	theorist = {

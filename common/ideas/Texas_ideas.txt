@@ -925,6 +925,20 @@ ideas = {
 			}
 		}
 	}
+	industrial_concern = {
+		texaco = {
+
+			allowed = {
+				original_tag = TXT
+			}
+
+			research_bonus = {
+				electronics = 0.15
+			}
+
+			traits = { industrial_concern }
+		}
+	}
 	theorist = {
 
 		TXT_Matthew_Ochrym = {

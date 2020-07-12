@@ -1,5 +1,10 @@
 ﻿l_english:
 ##Ideas
+  CAC_californiandollar:0 "Uses Californian Tender"
+  CAC_usdollar:0 "Uses US Tender"
+  CAC_merriamdollar:0 "Merriam Dollar"
+  CAC_williambidedollar:0 "William B. Ide Dollar"
+  CAC_johnsutterdollar:0 "John Sutter Dollar"
   CAC_publicworksprogramidea:0 "Public Works Program"
   CAC_guaranteedpensionsidea:0 "Guaranteed Pensions"
   CAC_sweepingtaxreformsidea:0 "A Classless Society"
@@ -13,7 +18,7 @@
   CAC_ideologyturmoilidea:0 "Regional Ideological Turmoil"
   CAC_allignthearmyidea:0 "Alligned The Army"
   CAC_internationalrecognitionidea:0 "International Recognition"
-  CAC_adailywellnesscheckidea:0 "A Daily Wellness Check"
+  CAC_adailywellnesscheckidea:0 "Daily Patrols"
   CAC_policecorruption:0 "Police Corruption"
   CAC_policecorruption_desc:0 "The Police of California are insanely corrupted with constant unjustified arrests of ethnic minorities, theft of citizens, and bribes are only some of the common things the Police do in California."
   CAC_encouragedpolicecorruption:0 "Encouraged Police Corruption"
@@ -63,10 +68,10 @@
 
 
 ##Factions
- california_democratic_faction:0 "Pacific Defense Federation"
-##Events
+  california_democratic_faction:0 "Pacific Defense Federation"
 
- california.1.t:0 "The 1936 Election"
+##Events
+  california.1.t:0 "The 1936 Election"
   california.1.d:0 "The New California Republic's second election is on its way! We have 3 main canidates who have a chance of winning. We have James E. Davis, a police officer that has the rank of Chief of Police but has had reports of corruption and anti-semitic views, we have the incumbent republican canidate Frank Merriam, and then we have the unpopular communist canidate Upton Sinclair. Who will lead our glorious state into prosperity?"
   california.1.a:0 "James E. Davis wins the election!"
   california.1.b:0 "Frank Merriam takes another term!"
@@ -185,6 +190,15 @@
   california.32.t:0 "Deserters from the Californian Army!"
   california.32.d:0 "Mr. [AZA.GetLeader], we have multiple Californian soldiers that have deserted due to the political climate in California!"
   california.32.a:0 "Ah! More men! Add them to the ranks!"
+  california.35.t:0 "The Currency Issue"
+  california.35.d:0 "Since the Great Collapse of the United States, the tender that was used throughout the States is now practically useless since there is no federal reserve to control the tender. While some states have had no choice but to use it with local banks being filled with the United States Dollar. California has had a bit of a choice unlike other states though, the cabinet of Merriam has suggested that California begins steps towards making our own currecny. This would give us more indepedence economically and allow us to print money when needed."
+  california.35.a:0 "Begin steps towards making our own currency!"
+  california.35.b:0 "Our banks are filled too much with Benjamins. We must rely on the US Dollar."
+  california.36.t:0 "Who should be represented on the 1 Dollar Bill?"
+  california.36.d:0 "The one dollar bill we used to all know had the face of George Washington, this gave people some inspiration and celebrated past leaders. Since California has made efforts to make our own currency, we should do the same. We have 3 main options of people to put on the 1 Dollar for the Californian Currency. We have Frank Merriam who has saved California during the Great Collapse and is the current emergency Governor. We have William B. Ide who led the Bear Flag Revolt and is called the First Leader of the original Californian Republic. Lastly we have John Sutter, a immigrant from Switzerland who settled Sutter's Fort, what is now California's capital, Sacramento"
+  california.36.a:0 "Frank Merriam, the Father of California."
+  california.36.b:0 "William B Ide, the first leader of the Californian people and led the Bear Flag Revolt."
+  california.36.c:0 "John Sutter, the man who settled Sacramento."
   #CaliforniaArmyEvents
   californiaarmy.1.t:0 "The 1st and 2nd Californian Infantry Divison Deserts!"
   californiaarmy.1.d:0 "Earlier this morning in Fort San Jose, the 1st and 2nd Californian Infantry Division was to be found nowhere inside there barracks, Police searches across San Fransicso to find any soldiers of the divison have come up empty, as a result the judicial system of California has marked every single soldier a traitor apart of these divisions and gave them the charge of treason."
@@ -196,13 +210,20 @@
   californiaarmy.3.d:0 ""An immediate restoration of democracy and justice.." George S Patton said earlier on a radio broadcast to all Californian citizens after announcing the formation of the The Californian Liberation Front for Democracy (CLFD) "The Liberation Front will not rest until [CAC.GetLeader] is out of power and California holds its rightfully eletected President.""
   californiaarmy.3.a:0 "Crush them! Make them suffer! (Stay with Davis)"
   californiaarmy.3.b:0 "For Liberty and Justice! (Play the CLFD)"
-  californiaarmy.4.t:0 "Peaceful Protests of San Diego"
-  californiaarmy.4.d:0 "Test"
-  californiaarmy.4.a:0 "Let the rabblers rabble."
-  californiaarmy.4.b:0 "Send in the local police immediatly to stop this little assembly."
+  californiaarmy.4.t:0 "Protests in San Diego!"
+  californiaarmy.4.d:0 "Tension can be felt on the streets of San Diego as throughout the day and into the night, citizens have taken to the streets to protest the government of James E. Davis. Long plagued by allegations of corruption and brutality as an officer of the LAPD, his reputation as a controversial strongman has led to the citizens of San Diego organizing a march towards San Diego's city hall, with a planned migration towards both Los Angeles and Sacramento. Organizers have stated the need for transparency and explanation for the recent shutdown of the San Diego Union-Tribune, where police arrested scores of reporters who allegedly spread anti-government material in an exposé of the Californian Armed Forces. While the protests have thusfar been peaceful, the Mayor of San Diego is asking for some sort of guidance for how to handle the growing demonstration."
+  californiaarmy.4.a:0 "We may not like it, but they have a right to voice their concerns."
+  californiaarmy.4.b:0 "I want these dissidents brought to heel! Shut it down before this gets out of control!"
   californiaarmy.5.t:0 "Skirmish On The Colorado River!"
   californiaarmy.5.d:0 "Arizonan troops have begun to fire on Californian patrols on the river. We have returned fire and it seems like this may be the start of a war!"
   californiaarmy.5.a:0 "Call in more reinforcements!"
+  californiaarmy.6.t:0 "Violence begets violence."
+  californiaarmy.6.d:0 "During the protests, local San Diego police moved in to block both sides of the streets on the San Diego City Hall using police cars and warned the protestors that the assembly was an illegal gathering and that they must disperse immediately. The majority of protestors stood strong and held there ground until tear gas canisters were shot into the crowd. During this moment protestors reportedly started to charge the riot shield wall. It was during this time that the police started to open fire on the protestors."
+  californiaarmy.6.a:0 "It was an illegal gathering, the criminals got justice."
+  californiaarmy.7.t:0 "Protestors dispersed."
+  californiaarmy.7.d:0 "placeholder"
+  californiaarmy.7.a:0 "okay"
+  californiaarmy.8.t:0 "Protests in Los Angeles"
 
 ##Focuses
   CAC_politicalstate:0 "The 1936 Election"
@@ -311,7 +332,10 @@
   CAC_relievebaja:0 "Relieve Baja"
   CAC_relievenevada:0 "Relieve Nevada"
   CAC_relievearizona:0 "Relieve Arizona"
-  
+  CAC_pacificinitative:0 "Pacific Reach Initiative"
+  CAC_pacificinitative_desc:0 "Now that we have finalized the creation of the Pacific States of America, we need to expand our sphere as a major power. Merriam's cabinet has suggested multiple expeditions of previously owned US Territories in the Pacific, such as Johnston Atoll and Midway Island. If done correctly, California would have a much greater range of operations and have a much better way of exerting its naval power."
+  CAC_PacificDefenseFederationMembershipPlan:0 "Pacific Defense Federation Membership Plan"
+  CAC_PacificDefenseFederationMembershipPlan_desc:0 "Instead of prioritizing our own personal reach, we should look towards alliances and diplomacy that would secure our position instead of useless islands in the Pacific."
   CAC_buildhawaii_desc:0 "Aiding Hawaii with military aid could be helpful in the long run and support us in future military operations, we should invest in building factories for them."
   CAC_buildhawaii2_desc:0 "Hawaii has some of the remants of the Pacific fleet from the old United States, they will obviously need dockyards to support such a fleet."
   CAC_buildhawaii3_desc:0 "Civilian aid to Hawaii will be needed if they want to prosper under our flag, we should invest factories for them."
@@ -366,7 +390,7 @@
   CAC_noopposition:0 "No Opposition"
   CAC_allignthearmy:0 "Allign The Army"
   CAC_amilitarizedstate:0 "A Militarized State"
-  CAC_adailywellnesscheck:0 "A Daily Wellness Check"
+  CAC_adailywellnesscheck:0 "Daily Patrols In Neighborhoods"
   CAC_encouragepolicecorruption:0 "Encourage Police Corruption"
   CAC_militaryroads_desc:0 "California's terrain is not suitable for transporting large amounts of supplies, this is a bad situation as we are in wartime. We must build more roads exclusively for the military!"
   CAC_oilforfactories_desc:0 "Trading oil for more military production is the obvious choice, with these new factories the army of California will be one of the best."
@@ -415,6 +439,8 @@
   CAC_beginningofpsa_desc:0 "Democracy has vanished from North America, what was federalized states of the United States are now "tribal warlords" posing as governors trying to reap as much wealth as possible from the downfall of the United States. The Pacific States of America is a plan by Frank Merriam to secure Californian democracy in the west.. It would include reaching out to several nations on the west coast about a federation under California.. As the true successors to the United States.. We must secure liberty and democracy.. By any means."
   CAC_coresocialistland:0 "Under New Management"
   CAC_coresocialistland_desc:0 "We have secured our sphere of influence, now it is time to show the new populace what life is like under our prosperous flag."
+  CAC_thecurrencyissue:0 "The Currency Issue"
+  CAC_thecurrencyissue_desc:0 "A lot of problems many states have been having since the Great Collapse is the problem with the US Dollar.. Now since there is no federal government to run the federal reserve, we are stuck with mainly useless cash that our banks are filled with. We can either try and make our own currency to maintain economic indepedence, or we can stick with the US Dollar which many other countries are forced with having to do."
 ##Custom Tooltips
 californiacoreland.tt:0 "§GWill core all newly conquered land§!."
 CAC_electedpresident:0 "Has elected a new president."

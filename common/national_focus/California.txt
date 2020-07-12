@@ -55,9 +55,21 @@ focus_tree = {
 
 	}
 	focus = {
+		id = CAC_thecurrencyissue
+		icon = GFX_CAC_CalifornianDollar
+		cost = 2.25
+		x = 5
+		y = -1
+		completion_reward = {
+			add_political_power = -1
+			country_event = california.35
+				}
+	}
+	focus = {
 		id = CAC_genericindustry1
 		icon = GFX_Generic_Industrialization
 		cost = 7.25
+		prerequisite = { focus = CAC_thecurrencyissue}
 		x = 5
 		y = 0
 		completion_reward = {
@@ -70,7 +82,6 @@ focus_tree = {
 								}
 						}
 				}
-
 	}
 	focus = {
 		id = CAC_army1
@@ -93,6 +104,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = CAC_genericindustry1
+		}
+		available = {
+			has_country_flag = CAC_electedpresident
 		}
 		x = 3
 		y = 1
@@ -413,6 +427,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CAC_genericindustry1
 		}
+		available = {
+			has_country_flag = CAC_electedpresident
+		}
 		x = 5
 		y = 1
 			completion_reward = {
@@ -686,6 +703,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = CAC_genericindustry1
+		}
+		available = {
+			has_country_flag = CAC_electedpresident
 		}
 		x = 8
 		y = 1
@@ -1110,8 +1130,12 @@ focus_tree = {
 		x = 15
 		y = 4
 			completion_reward = {
-				add_ideas = CAC_encouragedpolicecorruption
-				remove_ideas = CAC_policecorruption
+				effect_tooltip = {
+					swap_ideas = {
+						remove_idea = CAC_policecorruption
+						add_idea = CAC_encouragedpolicecorruption
+					}
+				}
 			}
 	}
 
@@ -2556,7 +2580,6 @@ focus_tree = {
 			completion_reward = {
 					country_event = california.19
 				}
-
 	}
 
 	focus = {
@@ -2599,7 +2622,38 @@ focus_tree = {
 						}
 					}
 				}
-			}
+		}
+
+	focus = {
+		id = CAC_pacificinitative
+		icon = GFX_Generic_Naval_Treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_formationofpsa
+		}
+		mutually_exclusive = {
+			focus = CAC_PacificDefenseFederationMembershipPlan
+		}
+		x = 21
+		y = 12
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CAC_PacificDefenseFederationMembershipPlan
+		icon = GFX_Generic_Pass_Legislation
+		cost = 10.00
+		prerequisite = {
+			focus = CAC_formationofpsa
+		}
+		mutually_exclusive = {
+			focus = CAC_pacificinitative
+		}
+		x = 17
+		y = 12
+		completion_reward = {
+		}
+	}
 	focus = {
 		id = CAC_amilitarypowerhouse
 		icon = GFX_goal_generic_army_tanks
@@ -2743,39 +2797,6 @@ focus_tree = {
 					}
 			}
 		}
-	}
-
-	focus = {
-		id = CAC_noopposition
-		icon = GFX_Generic_Ripping_Papers
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_statecontrolledmedia
-		}
-		available = {
-			fascism > 0.25
-			has_political_power > 100
-		}
-		x = 11
-		y = 4
-			completion_reward = {
-					remove_ideas = CAC_unstablepolitics
-					add_political_power = -100
-				}
-	}
-	focus = {
-		id = CAC_allignthearmy
-		icon = GFX_Generic_Coalition_Army
-		cost = 10.00
-		prerequisite = {
-			focus = CAC_noopposition
-		}
-		x = 11
-		y = 5
-			completion_reward = {
-					add_ideas = CAC_allignthearmyidea
-					remove_ideas = CAC_unloyalarmy
-				}
 	}
 	focus = {
 		id = CAC_navalindustry1

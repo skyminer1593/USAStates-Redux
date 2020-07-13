@@ -1,0 +1,22 @@
+add_namespace = stateflavor
+
+country_event = { #1938 New England Hurricane
+	id = stateflavor.1
+	title = stateflavor.1.t
+	desc = stateflavor.1.d
+	picture = GFX_report_event_oahu_withdraws
+	fire_only_once = yes
+	trigger = {
+		date > 1938.9.10
+		OR = {
+			original_tag = NYN
+			original_tag = CTC
+		}
+	}
+	option = {
+		name = stateflavor.1.a
+		add_stability = -0.01
+		add_war_support = -0.05
+		add_manpower = -30
+	}
+}

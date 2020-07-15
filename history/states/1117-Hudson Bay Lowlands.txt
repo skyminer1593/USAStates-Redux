@@ -6,6 +6,9 @@ state={
 		add_core_of = ONO
 		buildings = {
 			infrastructure = 3
+			4753 = {
+				naval_base = 2
+			}
 		}
 	}
 	provinces={

@@ -2383,6 +2383,12 @@ focus_tree = {
 			set_rule = {
 				can_create_factions = yes
 				}
+			hidden_effect = {
+				news_event = {
+					hours = 6
+					id = genericfocusnews.3
+					}
+			}
 		}
 	}
 

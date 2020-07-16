@@ -44,3 +44,24 @@ news_event = {
     trigger = { TAG = CAC }
   }
 }
+#California announces regional defense of communism
+news_event = {
+  id = genericfocusnews.3
+  title = genericfocusnews.3.t
+  desc = genericfocusnews.3.d
+  picture = GFX_news_event_generic_bombers
+  is_triggered_only = yes
+  major = yes
+  option = {
+    name = genericfocusnews.3.a
+    trigger = {
+      NOT = {
+        TAG = CAC
+      }
+    }
+  }
+  option = {
+    name = genericfocusnews.3.b
+    trigger = { TAG = CAC }
+  }
+}

@@ -23,6 +23,20 @@ ideas = {
               justify_war_goal_time = 1
             }
           }
+    CAC_shakenpolitics = {
+      allowed = {
+        always = no
+      }
+      allowed_civil_war = {
+        always = yes
+      }
+      removal_cost = -1
+      picture = GFX_idea_generic_neutrality_drift_bonus
+      modifier = {
+        political_power_gain = -0.10
+        stability_factor = -0.05
+            }
+      }
         CAC_republican = {
 
             picture = CAC_republican.dds

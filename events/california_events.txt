@@ -192,12 +192,12 @@ country_event = {
       exists = yes
     }
     OR = {
-  		NVN = {
-    		has_government = fascism
-  		}
-  		NVN = {
-    		has_government = communism
-  		}
+      NVN = {
+        has_government = fascism
+      }
+      NVN = {
+        has_government = communism
+      }
 		}
   }
 
@@ -206,11 +206,20 @@ country_event = {
   }
 
 	option = {
+    ai_chance = {
+      base = 100
+    }
 			name = california.3.a
-
 			declare_war_on = {
 				target = NVN
         type = annex_everything
+      }
+      CAC = {
+        807 = {	add_claim_by = CAC}
+        379 = {	add_claim_by = CAC}
+        808 = {	add_claim_by = CAC}
+        810 = {	add_claim_by = CAC}
+        809 = {	add_claim_by = CAC}
       }
         hidden_effect = {
           CAC = {
@@ -220,6 +229,9 @@ country_event = {
 			add_war_support = 0.1
 		}
 	option = {
+    ai_chance = {
+      base = 0
+    }
 			name = california.3.b
 			add_stability = 0.1
 			add_political_power = 25
@@ -237,6 +249,9 @@ country_event = {
 		is_triggered_only = yes
 
 		option = {
+      ai_chance = {
+        base = 0
+      }
 			name = california.4.a
 			add_political_power = 50
 			add_opinion_modifier = {
@@ -246,7 +261,10 @@ country_event = {
 		}
 
 		option = {
-			name = california.4.b
+      ai_chance = {
+        base = 100
+      }
+      name = california.4.b
 			HIH = {
 				country_event = disunitedstates.6
 			}
@@ -279,11 +297,17 @@ country_event = {
 		is_triggered_only = yes
 
 		option = {
+      ai_chance = {
+        base = 0
+      }
 			name = california.5.a
 		}
 
 
 		option = {
+      ai_chance = {
+        base = 100
+      }
 			name = california.5.b
 			declare_war_on = {
 				target = HIH
@@ -359,7 +383,14 @@ country_event = {
       create_wargoal = {
       type = annex_everything
       target = ORO
-        }
+      }
+      814 = {	add_claim_by = CAC}
+      813 = {	add_claim_by = CAC}
+      815 = {	add_claim_by = CAC}
+      812 = {	add_claim_by = CAC}
+      811 = {	add_claim_by = CAC}
+      807 = {	add_claim_by = CAC}
+      385 = {	add_claim_by = CAC}
     }
 
     option = {
@@ -416,6 +447,12 @@ country_event = {
       type = annex_everything
       target = WAW
         }
+        817 = {	add_claim_by = CAC}
+        386 = {	add_claim_by = CAC}
+        821 = {	add_claim_by = CAC}
+        820 = {	add_claim_by = CAC}
+        813 = {	add_claim_by = CAC}
+        819 = {	add_claim_by = CAC}
     }
 
     option = {
@@ -513,6 +550,13 @@ country_event = {
       type = annex_everything
       target = AKA
         }
+        834 = {	add_claim_by = CAC}
+        835 = {	add_claim_by = CAC}
+        833 = {	add_claim_by = CAC}
+        463 = {	add_claim_by = CAC}
+        832 = {	add_claim_by = CAC}
+        830 = {	add_claim_by = CAC}
+        831 = {	add_claim_by = CAC}
     }
 
     option = {
@@ -850,6 +894,81 @@ country_event = { #Oregon Event
     option = { #John Sutter The Founder of Sacremento
       name = california.36.c
       add_ideas = CAC_johnsutterdollar
+    }
+  }
+  country_event = { #The Assassination of Frank Merriam
+    id = california.37
+    title = california.37.t
+    desc = california.37.d
+    picture = GFX_report_event_aid_pact
+    fire_only_once = yes
+    trigger = {
+      date > 1939.9.3
+      has_idea = walt_disney
+      has_completed_focus = CAC_frankmerriamsplans
+      NOT = {
+        has_completed_focus = CAC_localsecurity
+      }
+    }
+    option = { #Prepare the Inauguration of VP Disney
+      name = california.37.a
+      add_stability = -0.15
+      kill_country_leader = yes
+      create_country_leader = {
+        name = "Senate of California"
+        desc = "POLITICS_CALIFORNIA_SENATE_DESC"
+        picture = "Portrait_CAC_Senate.dds"
+        expire = "1965.1.1"
+        ideology = conservatism
+      }
+      set_party_name = { 
+        ideology = democratic 
+        name = CAC_democratic_party_senate
+        long_name = CAC_democratic_party_senate_long
+    }
+    add_ideas = CAC_shakenpolitics
+      hidden_effect = {
+        country_event = {
+          id = california.38
+          days = 40
+        }
+      }
+      }
+  }
+  country_event = { #The Inauguration of Walt Disney
+    id = california.38
+    title = california.38.t
+    desc = california.38.d
+    picture = GFX_report_event_crowd_in_prague
+    is_triggered_only = yes
+    option = {
+      name = california.38.a
+      retire_country_leader = yes
+      load_focus_tree = CAC_waltdisney
+      create_country_leader = {
+        name = "Walt Disney"
+        desc = "POLITICS_WALT_DISNEY_DESC"
+        picture = "Portrait_CAC_Walt_Disney.dds"
+        expire = "1965.1.1"
+        ideology = conservatism
+        traits = {
+          popular_figurehead
+          compassionate_gentleman
+          propaganda_expert
+        }
+      }
+      set_party_name = { 
+        ideology = democratic 
+        name = CAC_democratic_party
+        long_name = CAC_democratic_party_long
+    }
+    add_stability = 0.05
+    hidden_effect = {
+      remove_ideas = CAC_aloyaldemocraticarmy
+      remove_ideas = CAC_encouragedcapitalism
+      remove_ideas = CAC_lesscorptaxidea
+      remove_ideas = CAC_openrecruitmentcenters
+      }
     }
   }
 

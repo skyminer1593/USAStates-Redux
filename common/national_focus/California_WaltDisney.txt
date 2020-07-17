@@ -1,0 +1,67 @@
+focus_tree = {
+	id = California_WaltDisney
+	country = {
+		factor = 0
+	}
+	continuous_focus_position = { x = 150 y = 2700 }
+	default = no
+
+	focus = {
+		id = CWD_waltdisney
+		icon = GFX_CAC_WaltDisneyPresident
+		cost = 2.9
+		x = 10
+		y = 0
+		completion_reward = {
+			CAC = {
+				country_event = california.44
+			}
+			hidden_effect = {
+				country_event = {
+				id = california.48
+				days = 25
+				}
+			}
+		}
+	}
+	focus = {
+		id = CWD_unitethenation
+		icon = GFX_CAC_UniteThePeople
+		prerequisite = { focus = CWD_waltdisney}
+		cost = 7.2
+		x = 9
+		y = 1
+		completion_reward = {
+			CAC = {
+				country_event = california.45
+			}
+		}
+	}
+	focus = {
+		id = CWD_dealwiththelapd
+		icon = GFX_Generic_Political_Purge
+		prerequisite = { focus = CWD_waltdisney}
+		cost = 7.2
+		x = 11
+		y = 1
+		completion_reward = {
+			CAC = {
+				country_event = california.46
+			}
+		}
+	}
+	focus = {
+		id = CWD_justiceformerriam
+		icon = GFX_Generic_Conservatism
+		prerequisite = { focus = CWD_dealwiththelapd }
+		prerequisite = { focus = CWD_unitethenation }
+		cost = 7.2
+		x = 10
+		y = 2
+		completion_reward = {
+			CAC = {
+				country_event = california.47
+			}
+		}
+	}
+}

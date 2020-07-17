@@ -31,11 +31,24 @@ ideas = {
         always = yes
       }
       removal_cost = -1
-      picture = GFX_idea_generic_neutrality_drift_bonus
+      picture = FRA_scw_intervention_republicans_focus
       modifier = {
         political_power_gain = -0.10
         stability_factor = -0.05
             }
+      }
+      CAC_traitorouspolice = {
+      allowed = {
+        always = no
+      }
+      allowed_civil_war = {
+        always = yes
+      }
+      removal_cost = -1
+      picture = FRA_scw_intervention_republicans_focus
+      modifier = {
+        stability_factor = -0.15
+        }
       }
         CAC_republican = {
 

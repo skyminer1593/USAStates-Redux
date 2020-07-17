@@ -2846,7 +2846,14 @@ SpriteType = {
   name = "GFX_CAC_CalifornianDollar"
   texturefile = "gfx/interface/goals/CAC_CalifornianDollar.dds"
 }
-
+SpriteType = {
+  name = "GFX_CAC_UniteThePeople"
+  texturefile = "gfx/interface/goals/CAC_UniteThePeople.dds"
+}
+SpriteType = {
+  name = "GFX_CAC_WaltDisneyPresident"
+  texturefile = "gfx/interface/goals/CAC_WaltDisneyPresident.dds"
+}
 
 
 

@@ -1,0 +1,93 @@
+division_template = {
+	name = "Los Angeles Police Department"
+	is_locked = yes
+	division_names_group = CAC_POLICE_LA
+  regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "LA Police Milita"
+	is_locked = yes
+	division_names_group = CAC_POLICEM_LA
+  regiments = {
+		infantry = { x = 0 y = 0 }
+	    infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "LA Police Milita 1"
+		location = 9814  # Los Angeles
+		division_template = "LA Police Milita"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+	}
+	division = {
+		name = "LA Police Milita 2"
+		location = 13597  # Los Angeles
+		division_template = "LA Police Milita"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+	}
+	division = {
+		name = "LA Police Milita 3"
+		location = 13574  # Los Angeles
+		division_template = "LA Police Milita"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+	}
+	division = {
+		name = "LA Police Milita 5"
+		location = 10483  # Los Angeles
+		division_template = "LA Police Milita"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+	}
+	division = {
+		name = "LA Police Milita 4"
+		location = 13592  # Los Angeles
+		division_template = "LA Police Milita"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.5
+	}
+	division = {
+		name = "LA Police Unit 1"
+		location = 9814  # Los Angeles
+		division_template = "Los Angeles Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+	}
+  division = {
+    name = "LA Police Unit 2"
+    location = 9814  # Los Angeles
+    division_template = "Los Angeles Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+  division = {
+    name = "LA Police Unit 3"
+    location = 9814  # Los Angeles
+    division_template = "Los Angeles Police Department"
+    start_experience_factor = 0.6
+    start_equipment_factor = 1
+  }
+}

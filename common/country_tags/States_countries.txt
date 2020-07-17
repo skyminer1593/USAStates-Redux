@@ -88,5 +88,6 @@ SON = "countries/Sonora.txt"
 TAU = "countries/Tamaulipas.txt"
 SIN = "countries/Sinaloa.txt"
 PGC = "countries/Provisional Government of California.txt"
+LAP = "countries/Los Angeles Police Milita.txt"
 ###Developer
 AAA = "countries/Wastes.txt"

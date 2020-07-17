@@ -983,6 +983,41 @@ country_event = { #Oregon Event
       add_political_power = 5
       }
   }
+  country_event = { #Unite The Nation
+    id = california.45
+    title = california.45.t
+    desc = california.45.d
+    picture = GFX_report_event_generic_rally_3
+    is_triggered_only = yes
+    option = {
+      name = california.45.a
+      add_political_power = -50
+      remove_ideas = CAC_shakenpolitics
+      }
+  }
+  country_event = { #DealWithTheLAPD
+    id = california.46
+    title = california.46.t
+    desc = california.46.d
+    picture = GFX_report_event_generic_rifles
+    is_triggered_only = yes
+    option = {
+      name = california.46.a
+      add_political_power = -25
+      remove_ideas = CAC_traitorouspolice
+      }
+  }
+  country_event = { #DealWithTheLAPD
+    id = california.47
+    title = california.47.t
+    desc = california.47.d
+    picture = GFX_report_event_generic_rifles
+    is_triggered_only = yes
+    option = {
+      name = california.47.a
+      add_stability = 0.05
+      }
+  }
   country_event = { #Police Uprising
     id = california.48
     title = california.48.t

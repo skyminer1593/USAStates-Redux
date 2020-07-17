@@ -10,6 +10,12 @@ focus_tree = {
 		id = CWD_waltdisney
 		icon = GFX_CAC_WaltDisneyPresident
 		cost = 2.9
+		available = {
+			has_country_leader = {
+				name = "Walt Disney"
+				ruling_only = yes
+			}
+		}
 		x = 10
 		y = 0
 		completion_reward = {
@@ -27,6 +33,11 @@ focus_tree = {
 	focus = {
 		id = CWD_unitethenation
 		icon = GFX_CAC_UniteThePeople
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
 		prerequisite = { focus = CWD_waltdisney}
 		cost = 7.2
 		x = 9
@@ -40,6 +51,11 @@ focus_tree = {
 	focus = {
 		id = CWD_dealwiththelapd
 		icon = GFX_Generic_Political_Purge
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
 		prerequisite = { focus = CWD_waltdisney}
 		cost = 7.2
 		x = 11
@@ -62,6 +78,67 @@ focus_tree = {
 			CAC = {
 				country_event = california.47
 			}
+		}
+	}
+	focus = {
+		id = CWD_thecalifornianprosperityplan
+		icon = a
+		prerequisite = { focus = CWD_justiceformerriam }
+		cost = 2.9
+		x = 10
+		y = 3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_ExpandDisneyWithPresidentalPowers
+		icon = a
+		prerequisite = { focus = CWD_thecalifornianprosperityplan }
+		cost = 7.2
+		x = 7
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_TheEpcotPlan
+		icon = a
+		prerequisite = { focus = CWD_thecalifornianprosperityplan }
+		cost = 7.2
+		x = 13
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_Disneyjobguarantee
+		icon = a
+		prerequisite = { focus = CWD_ExpandDisneyWithPresidentalPowers }
+		cost = 7.2
+		x = 6
+		y = 5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_taxbreaksfordisney
+		icon = a
+		prerequisite = { focus = CWD_ExpandDisneyWithPresidentalPowers }
+		cost = 7.2
+		x = 8
+		y = 5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_establishdisneyland
+		icon = a
+		prerequisite = { focus = CWD_Disneyjobguarantee }
+		prerequisite = { focus = CWD_taxbreaksfordisney }
+		cost = 7.2
+		x = 7
+		y = 6
+		completion_reward = {
 		}
 	}
 }

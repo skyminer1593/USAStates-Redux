@@ -933,6 +933,10 @@ country_event = { #Oregon Event
           id = california.38
           days = 40
         }
+				news_event = {
+					hours = 8
+					id = genericfocusnews.4
+					}
       }
       }
   }
@@ -1007,14 +1011,18 @@ country_event = { #Oregon Event
       remove_ideas = CAC_traitorouspolice
       }
   }
-  country_event = { #DealWithTheLAPD
+  country_event = { #Justice For Merriam
     id = california.47
     title = california.47.t
     desc = california.47.d
-    picture = GFX_report_event_generic_rifles
+    picture = GFX_report_event_generic_conference
     is_triggered_only = yes
     option = {
       name = california.47.a
+      add_stability = 0.05
+      }
+    option = {
+      name = california.47.b
       add_stability = 0.05
       }
   }
@@ -1044,7 +1052,7 @@ country_event = { #Oregon Event
         }
       }
   }
-  country_event = { #First Days Walt Disney
+  country_event = { #California Volunteers against davis
     id = california.49
     title = california.49.t
     desc = california.49.d
@@ -1056,6 +1064,79 @@ country_event = { #Oregon Event
       add_manpower = 1000
       }
   }
+country_event = { #Purchase Las Vegas
+  id = california.50
+  title = california.50.t
+  desc = california.50.d
+  picture = GFX_report_event_hitler_croatia_handshake
+  is_triggered_only = yes
+  option = {
+    name = california.50.a #send the offer
+    NVN = {
+      country_event = california.51
+    }
+    }
+}
+country_event = { #Nevada gets offered civs for las vegas
+  id = california.51
+  title = california.51.t
+  desc = california.51.d
+  picture = GFX_report_event_hitler_croatia_handshake
+  is_triggered_only = yes
+  option = {
+    ai_chance = { base = 75 }
+    name = california.51.a #accept the offer
+    CAC = {
+      country_event = california.52
+    }
+    add_timed_idea = {
+      idea = CAC_payment1
+      days = 356
+    }
+    }
+  option = {
+    ai_chance = { base = 25 }
+    name = california.51.b #deny the offer
+    CAC = {
+      country_event = california.53
+    }
+  }
+}
+country_event = { #Wargoal for nevada
+  id = california.53
+  title = california.53.t
+  desc = california.53.d
+  picture = GFX_report_event_hitler_croatia_handshake
+  is_triggered_only = yes
+  option = {
+    name = california.53.a 
+    CAC = {
+      add_state_claim = 807
+      declare_war_on = {
+        target = NVN
+        type = take_claimed_state
+    }
+    }
+    }
+}
+country_event = { #California gets accepted offer of Las Vegas
+  id = california.52
+  title = california.52.t
+  desc = california.52.d
+  picture = GFX_report_event_hitler_croatia_handshake
+  is_triggered_only = yes
+  option = {
+    name = california.52.a 
+    CAC = {
+      transfer_state = 807
+      add_state_core = 807
+    }
+    add_timed_idea = {
+      idea = CAC_payment2
+      days = 356
+    }
+    }
+}
 
 #California Army Events Shit
 country_event = { #1st,2ndInf Divison Disappear, starts country flag

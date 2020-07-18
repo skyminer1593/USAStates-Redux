@@ -1,7 +1,7 @@
 focus_tree = {
 	id = California_WaltDisney
 	country = {
-		factor = 0
+		factor = 30
 	}
 	continuous_focus_position = { x = 150 y = 2700 }
 	default = no
@@ -82,7 +82,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CWD_thecalifornianprosperityplan
-		icon = a
+		icon = GFX_Generic_Pass_Legislation
 		prerequisite = { focus = CWD_justiceformerriam }
 		cost = 2.9
 		x = 10
@@ -101,13 +101,57 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CWD_TheEpcotPlan
+		id = CWD_ExpandInfrastructure
 		icon = a
+		prerequisite = { focus = CWD_thecalifornianprosperityplan }
+		cost = 7.2
+		x = 9
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_ExpandThePrivateSector
+		icon = a
+		prerequisite = { focus = CWD_thecalifornianprosperityplan }
+		cost = 7.2
+		x = 11
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_BecominganEconomicPower
+		icon = a
+		prerequisite = { focus = CWD_ExpandThePrivateSector }
+		prerequisite = { focus = CWD_ExpandInfrastructure }
+		cost = 7.2
+		x = 10
+		y = 5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_ExpandInfrastructure
+		icon = a
+		prerequisite = { focus = CWD_thecalifornianprosperityplan }
+		cost = 7.2
+		x = 9
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CWD_TheEpcotPlan
+		icon = GFX_Generic_Broadway
 		prerequisite = { focus = CWD_thecalifornianprosperityplan }
 		cost = 7.2
 		x = 13
 		y = 4
 		completion_reward = {
+			CAC = {
+				country_event = california.50
+			}
 		}
 	}
 	focus = {

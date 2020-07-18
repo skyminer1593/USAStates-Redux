@@ -853,6 +853,38 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+		TXT_bomb_proof = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industry_air_damage_factor = -0.25
+				line_change_production_efficiency_factor = -0.05
+			}
+		}
+		TXT_concentrated_production = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				line_change_production_efficiency_factor = 0.2
+				industry_air_damage_factor = 0.15
+			}
+		}
 	}
 ##########Political Advisors###############
 	political_advisor = {
@@ -928,15 +960,54 @@ ideas = {
 	industrial_concern = {
 		texaco = {
 
+			available = {
+				has_completed_focus = TXT_backtexaco
+				NOT = {
+					has_government = communism
+				}
+			}
+
 			allowed = {
 				original_tag = TXT
 			}
 
 			research_bonus = {
-				electronics = 0.15
+				synth_resources = 0.15
 			}
 
-			traits = { industrial_concern }
+			modifier = {
+				fuel_gain_factor = 0.15
+				local_resources_factor = 0.10
+			}
+
+			traits = {
+				refinery_concern
+			}
+		}
+		kbr_construction = {
+
+			available = {
+				has_completed_focus = TXT_backkbr
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			allowed = {
+				original_tag = TXT
+			}
+
+			research_bonus = {
+				industry = 0.15
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+
+			traits = {
+				industrial_concern
+			}
 		}
 	}
 	theorist = {

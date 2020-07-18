@@ -251,7 +251,15 @@ spriteTypes = {
 		name = "GFX_idea_CAC_dust_bowl_migration"
 		texturefile = "gfx/interface/ideas/CAC_dust_bowl_migration.dds"
 	}
-
+#Texas
+	spriteType = {
+		name = "GFX_idea_texaco"
+		texturefile = "gfx/interface/ideas/Texaco_company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kbr_construction"
+		texturefile = "gfx/interface/ideas/Trinity_industries.dds"
+	}
 #Ohio
 	spriteType = {
 		name = "GFX_idea_worse_depression"

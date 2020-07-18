@@ -13,7 +13,7 @@ focus_tree = {
 		id = TXT_texaswillagainraiseitshead
 		icon = GFX_TXT_TexanNationalism
 		cost = 3.00
-		x = 18
+		x = 16
 		y = 0
 		ai_will_do = {
 			factor = 10
@@ -2392,10 +2392,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = TXT_expand_intellegence
-		icon = GFX_Generic_Spy_Communist
+		id = TXT_intelligence_focus
+		icon = GFX_Focus_Communist_Spy02
 
-		cost = 10
+		cost = 4.3
 
 		prerequisite = {
 			focus = TXT_trotskyism
@@ -2405,7 +2405,20 @@ focus_tree = {
 		y = 7
 
 		completion_reward = {
-			add_ideas = TXT_idea_expand_intel
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				if = {
+					limit = {
+						has_intelligence_agency = yes
+					}
+					add_political_power = 50
+				}
+				else = {
+					create_intelligence_agency = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -2415,7 +2428,7 @@ focus_tree = {
 		cost = 10
 
 		prerequisite = {
-			focus = TXT_expand_intellegence
+			focus = TXT_intelligence_focus
 		}
 		mutually_exclusive = {
 			focus = TXT_handsoff
@@ -2497,7 +2510,7 @@ focus_tree = {
 		cost = 10
 
 		prerequisite = {
-			focus = TXT_expand_intellegence
+			focus = TXT_intelligence_focus
 		}
 		mutually_exclusive = {
 			focus = TXT_handson
@@ -2574,6 +2587,23 @@ focus_tree = {
 			add_ideas = TXT_destabilization_initiative
 		}
 	}
+	focus = {
+    id = TXT_expand_intellegence
+    icon = GFX_Generic_Spy_Communist
+
+    cost = 10
+
+    prerequisite = {
+      focus = TXT_destabilizationcampaign
+    }
+
+    x = 25
+    y = 11
+
+    completion_reward = {
+      add_ideas = TXT_idea_expand_intel
+    }
+  }
 	focus = {
 		id = TXT_american_beacon
 		icon = GFX_Generic_Communist_Propaganda
@@ -2708,7 +2738,7 @@ focus_tree = {
 
 		cost = 10
 
-		x = 45
+		x = 43
 		y = 0
 
 		completion_reward = {
@@ -2777,16 +2807,65 @@ focus_tree = {
 			}
 		}
 
-		x = 36
+		x = 40
 		y = 2
 
 		cost = 10
 
 		completion_reward = {
+			895 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			899 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			904 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 			375 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
+					instant_build = yes
+				}
+			}
+			903 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			898 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			897 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2814,7 +2893,7 @@ focus_tree = {
 			}
 		}
 
-		x = 34
+		x = 41
 		y = 3
 
 		cost = 10
@@ -2827,6 +2906,77 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			898 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			896 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			902 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			900 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_backtexaco
+		icon = GFX_Generic_Oil_Production
+		prerequisite = {
+			focus = TXT_rural_infra
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			NOT = {
+				has_government = communism
+			}
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 42
+		y = 4
+
+		completion_reward = {
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = texaco
+			897 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_stability = -0.05
 		}
 	}
 	focus = {
@@ -2851,7 +3001,7 @@ focus_tree = {
 			}
 		}
 
-		x = 38
+		x = 39
 		y = 3
 
 		cost = 10
@@ -2860,6 +3010,105 @@ focus_tree = {
 			375 = {
 				add_building_construction  = {
 					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			895 = {
+				add_building_construction  = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_building_construction  = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			903 = {
+				add_building_construction  = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_backkbr
+		icon = GFX_Generic_Factory_Planning
+		available = {
+			NOT = {
+				has_government = communism
+			}
+		}
+		prerequisite = {
+			focus = TXT_urban_infra
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 38
+		y = 4
+
+		completion_reward = {
+			custom_effect_tooltip = available_industrial_concern
+			show_ideas_tooltip = kbr_construction
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_increase_construction
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = TXT_urban_infra
+			focus = TXT_rural_infra
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 40
+		y = 4
+
+		completion_reward = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
 					level = 2
 					instant_build = yes
 				}
@@ -2886,7 +3135,7 @@ focus_tree = {
 			}
 		}
 
-		x = 50
+		x = 46
 		y = 1
 
 		cost = 10
@@ -2897,6 +3146,343 @@ focus_tree = {
 				add_building_construction = {
 					type = arms_factory
 					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_navalproducts
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = {
+			focus = TXT_militarydevelopment
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 46
+		y = 2
+
+		cost = 10
+
+		completion_reward = {
+			894 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			901 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_concentrated_industry
+		icon = GFX_Generic_Factory_Complex
+		prerequisite = {
+			focus = TXT_navalproducts
+		}
+		mutually_exclusive = {
+			focus = TXT_dispersed_industry
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 45
+		y = 3
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_concentrated
+				bonus = 1.0
+				uses = 2
+				category = concentrated_industry_category
+			}
+			375 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_concentrated_industry1
+		icon = GFX_Generic_Industry
+		prerequisite = {
+			focus = TXT_concentrated_industry
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 44
+		y = 4
+
+		cost = 10
+
+		completion_reward = {
+			895 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_concentrated_industry2
+		icon = GFX_Generic_Industry_Tanks
+		prerequisite = {
+			focus = TXT_concentrated_industry1
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 44
+		y = 5
+
+		completion_reward = {
+			add_ideas = TXT_concentrated_production
+		}
+	}
+	focus = {
+		id = TXT_dispersed_industry
+		icon = GFX_Generic_Factory_Planning
+		prerequisite = {
+			focus = TXT_navalproducts
+		}
+		mutually_exclusive = {
+			focus = TXT_concentrated_industry
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 47
+		y = 3
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_dispersed
+				bonus = 1.0
+				uses = 2
+				category = dispersed_industry_category
+			}
+			375 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			895 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_dispersed_industry1
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = TXT_dispersed_industry
+		}
+
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 48
+		y = 4
+
+		cost = 10
+
+		completion_reward = {
+			895 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			897 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_bomb_proofing
+		icon = GFX_Generic_Industry_Planes
+		prerequisite = {
+			focus = TXT_dispersed_industry1
+		}
+
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 48
+		y = 5
+
+		cost = 10
+
+		completion_reward = {
+			add_ideas = TXT_bomb_proof
+		}
+	}
+	focus = {
+		id = TXT_navalgrowth
+		icon = GFX_Generic_Naval_Industry
+		prerequisite = {
+			focus = TXT_concentrated_industry
+			focus = TXT_dispersed_industry
+		}
+
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		x = 46
+		y = 4
+
+		cost = 10
+
+		completion_reward = {
+			894 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
 					instant_build = yes
 				}
 			}

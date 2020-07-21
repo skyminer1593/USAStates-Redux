@@ -1,7 +1,7 @@
 focus_tree = {
 	id = California_WaltDisney
 	country = {
-		factor = 30
+		factor = 0
 	}
 	continuous_focus_position = { x = 150 y = 2700 }
 	default = no

@@ -92,17 +92,18 @@ focus_tree = {
 	}
 	focus = {
 		id = CWD_ExpandDisneyWithPresidentalPowers
-		icon = a
+		icon = GFX_CAC_ExpandDisney
 		prerequisite = { focus = CWD_thecalifornianprosperityplan }
 		cost = 7.2
 		x = 7
 		y = 4
 		completion_reward = {
+			add_political_power = 250
 		}
 	}
 	focus = {
 		id = CWD_ExpandInfrastructure
-		icon = a
+		icon = GFX_Generic_Railroads
 		prerequisite = { focus = CWD_thecalifornianprosperityplan }
 		cost = 7.2
 		x = 9
@@ -112,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CWD_ExpandThePrivateSector
-		icon = a
+		icon = GFX_Generic_Monopoly
 		prerequisite = { focus = CWD_thecalifornianprosperityplan }
 		cost = 7.2
 		x = 11
@@ -121,23 +122,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CWD_BecominganEconomicPower
-		icon = a
+		id = CWD_AntiUnionPropaganda
+		icon = GFX_FLF_focus_Focus_On_The_Unions
 		prerequisite = { focus = CWD_ExpandThePrivateSector }
 		prerequisite = { focus = CWD_ExpandInfrastructure }
 		cost = 7.2
 		x = 10
 		y = 5
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = CWD_ExpandInfrastructure
-		icon = a
-		prerequisite = { focus = CWD_thecalifornianprosperityplan }
-		cost = 7.2
-		x = 9
-		y = 4
 		completion_reward = {
 		}
 	}
@@ -156,33 +147,36 @@ focus_tree = {
 	}
 	focus = {
 		id = CWD_Disneyjobguarantee
-		icon = a
+		icon = GFX_CAC_DisneyJobGuarantee
 		prerequisite = { focus = CWD_ExpandDisneyWithPresidentalPowers }
 		cost = 7.2
 		x = 6
 		y = 5
 		completion_reward = {
+			add_ideas = CAC_disneyjobguarantee
 		}
 	}
 	focus = {
 		id = CWD_taxbreaksfordisney
-		icon = a
+		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus = CWD_ExpandDisneyWithPresidentalPowers }
 		cost = 7.2
 		x = 8
 		y = 5
 		completion_reward = {
+			add_ideas = CAC_disneytaxbreaks
 		}
 	}
 	focus = {
 		id = CWD_establishdisneyland
-		icon = a
+		icon = GFX_Generic_Factory_Planning
 		prerequisite = { focus = CWD_Disneyjobguarantee }
 		prerequisite = { focus = CWD_taxbreaksfordisney }
 		cost = 7.2
 		x = 7
 		y = 6
 		completion_reward = {
+			country_event = california.54
 		}
 	}
 }

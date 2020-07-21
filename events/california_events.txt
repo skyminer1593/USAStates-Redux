@@ -1102,23 +1102,6 @@ country_event = { #Nevada gets offered civs for las vegas
     }
   }
 }
-country_event = { #Wargoal for nevada
-  id = california.53
-  title = california.53.t
-  desc = california.53.d
-  picture = GFX_report_event_hitler_croatia_handshake
-  is_triggered_only = yes
-  option = {
-    name = california.53.a 
-    CAC = {
-      add_state_claim = 807
-      declare_war_on = {
-        target = NVN
-        type = take_claimed_state
-    }
-    }
-    }
-}
 country_event = { #California gets accepted offer of Las Vegas
   id = california.52
   title = california.52.t
@@ -1137,7 +1120,42 @@ country_event = { #California gets accepted offer of Las Vegas
     }
     }
 }
-
+country_event = { #Wargoal for nevada
+  id = california.53
+  title = california.53.t
+  desc = california.53.d
+  picture = GFX_report_event_hitler_croatia_handshake
+  is_triggered_only = yes
+  option = {
+    name = california.53.a 
+    CAC = {
+      add_state_claim = 807
+      declare_war_on = {
+        target = NVN
+        type = take_claimed_state
+    }
+    }
+    }
+}
+country_event = { #Picking the first disneyland
+  id = california.54
+  title = california.54.t
+  desc = california.54.d
+  picture = GFX_report_event_hitler_croatia_handshake
+  is_triggered_only = yes
+  option = {
+    name = california.54.a
+  }
+  option = {
+    name = california.54.b
+  }
+  option = {
+    name = california.54.c
+  }
+  option = {
+    name = california.54.e
+  }
+}
 #California Army Events Shit
 country_event = { #1st,2ndInf Divison Disappear, starts country flag
   id = californiaarmy.1

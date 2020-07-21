@@ -132,6 +132,34 @@ ideas = {
       consumer_goods_factor = 0.05
     }
   }
+  CAC_disneytaxbreaks = {
+    allowed = {
+      always = no
+    }
+    picture = generic_goods_red_bonus
+    allowed_civil_war = {
+      always = yes
+    }
+    removal_cost = -1
+    modifier = {
+      consumer_goods_factor = -0.05
+    }
+  }
+  CAC_disneyjobguarantee = {
+    allowed = {
+      always = no
+    }
+    picture = generic_goods_red_bonus
+    allowed_civil_war = {
+      always = yes
+    }
+    removal_cost = -1
+    modifier = {
+      production_factory_max_efficiency_factor = 0.15
+      industrial_capacity_factory = 0.1
+      conscription = -0.005
+    }
+  }
 
 
       CAC_tradepower = {

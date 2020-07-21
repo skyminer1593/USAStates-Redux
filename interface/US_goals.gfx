@@ -2854,7 +2854,14 @@ SpriteType = {
   name = "GFX_CAC_WaltDisneyPresident"
   texturefile = "gfx/interface/goals/CAC_WaltDisneyPresident.dds"
 }
-
+SpriteType = {
+  name = "GFX_CAC_ExpandDisney"
+  texturefile = "gfx/interface/goals/CAC_ExpandDisney.dds"
+}
+SpriteType = {
+  name = "GFX_CAC_DisneyJobGuarantee"
+  texturefile = "gfx/interface/goals/CAC_DisneyJobGuarantee.dds"
+}
 
 
 #Texas

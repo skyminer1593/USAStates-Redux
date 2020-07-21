@@ -2862,7 +2862,14 @@ SpriteType = {
   name = "GFX_CAC_DisneyJobGuarantee"
   texturefile = "gfx/interface/goals/CAC_DisneyJobGuarantee.dds"
 }
-
+SpriteType = {
+  name = "GFX_CAC_DisneySecurityForces"
+  texturefile = "gfx/interface/goals/CAC_DisneySecurityForces.dds"
+}
+SpriteType = {
+  name = "GFX_CAC_WaltDisneyCult"
+  texturefile = "gfx/interface/goals/CAC_WaltDisneyCult.dds"
+}
 
 #Texas
 SpriteType = {

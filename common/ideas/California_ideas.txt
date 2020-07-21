@@ -160,6 +160,36 @@ ideas = {
       conscription = -0.005
     }
   }
+  CAC_antiunion = {
+    allowed = {
+      always = no
+    }
+    picture = anti_soviet_pact
+    allowed_civil_war = {
+      always = yes
+    }
+    removal_cost = -1
+    modifier = {
+      production_factory_efficiency_gain_factor = 0.05
+      communism_drift = -0.05
+    }
+  }
+  CAC_disneysecurityforces = {
+    allowed = {
+      always = no
+    }
+    picture = generic_manpower_bonus
+    allowed_civil_war = {
+      always = yes
+    }
+    removal_cost = -1
+    modifier = {
+      conscription_factor = 0.1
+      conscription = 0.02
+      stability_factor = -0.05
+      political_power_gain = -0.05
+    }
+  }
 
 
       CAC_tradepower = {
@@ -874,7 +904,6 @@ CAC_ncrrevanchism = {
       military_leader_cost_factor = 0.15
       high_command_cost_factor = 0.25
       army_morale_factor = 0.1
-      democratic_acceptance = 85
       communism_acceptance = -50
       fascism_acceptance = -50
     }

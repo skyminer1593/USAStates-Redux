@@ -1143,17 +1143,129 @@ country_event = { #Picking the first disneyland
   desc = california.54.d
   picture = GFX_report_event_hitler_croatia_handshake
   is_triggered_only = yes
-  option = {
+  option = { #Sacramento Option
     name = california.54.a
+    add_political_power = -250
+    hidden_effect = {
+      country_event = {
+      id = california.55
+      days = 180
+      }
+    }
   }
-  option = {
+  option = { #San Francisco Option
     name = california.54.b
+    add_political_power = -250
+    hidden_effect = {
+      country_event = {
+      id = california.56
+      days = 180
+      }
+    }
   }
-  option = {
+  option = { #Los Angeles Option
     name = california.54.c
+    add_political_power = -250
+      hidden_effect = {
+        country_event = {
+        id = california.57
+        days = 180
+        }
+    }
   }
-  option = {
+  option = { #San Diego Option
     name = california.54.e
+    add_political_power = -250
+    hidden_effect = {
+      country_event = {
+      id = california.58
+      days = 180
+      }
+    }
+  }
+}
+country_event = { #Sacramento Disneyland Finished
+id = california.55
+title = california.55.t
+desc = california.55.d
+picture = GFX_report_event_aid_pact
+is_triggered_only = yes
+option = {
+  name = california.55.a
+  798 = {
+    add_extra_state_shared_building_slots = 4
+    add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+      }
+  }
+  hidden_effect = {
+    set_country_flag = CAC_finisheddisneyland
+  }
+  }
+}
+country_event = { #San francisco disneyland finished
+id = california.56
+title = california.56.t
+desc = california.56.d
+picture = GFX_report_event_aid_pact
+is_triggered_only = yes
+option = {
+  name = california.56.a
+  800 = {
+    add_extra_state_shared_building_slots = 4
+    add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+      }
+  }
+  hidden_effect = {
+    set_country_flag = CAC_finisheddisneyland
+  }
+  }
+}
+country_event = { #Los angeles disneyland finished
+id = california.57
+title = california.57.t
+desc = california.57.d
+picture = GFX_report_event_aid_pact
+is_triggered_only = yes
+option = {
+  name = california.57.a
+  803 = {
+    add_extra_state_shared_building_slots = 4
+    add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+      }
+  }
+  hidden_effect = {
+    set_country_flag = CAC_finisheddisneyland
+  }
+  }
+}
+country_event = { #SanDiego Disneyland finished
+id = california.58
+title = california.58.t
+desc = california.58.d
+picture = GFX_report_event_aid_pact
+is_triggered_only = yes
+option = {
+  name = california.58.a
+  802 = {
+    add_extra_state_shared_building_slots = 4
+    add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+      }
+  }
+  hidden_effect = {
+    set_country_flag = CAC_finisheddisneyland
+  }
   }
 }
 #California Army Events Shit

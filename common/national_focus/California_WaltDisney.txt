@@ -1,7 +1,7 @@
 focus_tree = {
 	id = California_WaltDisney
 	country = {
-		factor = 0
+		factor = 30
 	}
 	continuous_focus_position = { x = 150 y = 2700 }
 	default = no
@@ -172,14 +172,27 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = CWD_SidelineGovernmentRegulations
+		icon = GFX_Generic_Tear_Paper
+		prerequisite = { focus = CWD_ExpandThePrivateSector }
+		cost = 7.2
+		x = 11
+		y = 6
+		completion_reward = {
+			add_ideas = CAC_nogovermentregulations
+		}
+	}
+	focus = {
 		id = CWD_waltszeal
 		icon = GFX_CAC_WaltDisneyCult
-		prerequisite = { focus = CWD_ExpandThePrivateSector }
 		prerequisite = { focus = CWD_Disneysecurityforces }
+		prerequisite = { focus = CWD_establishdisneyland }
+		prerequisite = { focus = CWD_SidelineGovernmentRegulations }
 		cost = 10
-		x = 11
-		y = 7
+		x = 10
+		y = 8
 		completion_reward = {
+			#add_ideas = CAC_waltspersonality
 		}
 	}
 	focus = {
@@ -188,7 +201,7 @@ focus_tree = {
 		available = { has_completed_focus = CWD_TheEpcotPlan}
 		prerequisite = { focus = CWD_waltszeal}
 		cost = 10
-		x = 11
+		x = 10
 		y = 9
 		completion_reward = {
 		}
@@ -208,6 +221,7 @@ focus_tree = {
 	focus = {
 		id = CWD_TheEpcotPlan
 		icon = GFX_Generic_Broadway
+		bypass = { owns_state = 807 }
 		available = { has_country_flag = CAC_finisheddisneyland}
 		prerequisite = { focus = CWD_thecalifornianprosperityplan }
 		cost = 10
@@ -219,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CWD_Epcotphasetwo
-		icon = GFX
+		icon = GFX_Generic_Broadway
 		available = {
 		owns_state = 807
 		}

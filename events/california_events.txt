@@ -903,7 +903,7 @@ country_event = { #Oregon Event
     picture = GFX_report_event_aid_pact
     fire_only_once = yes
     trigger = {
-      date > 1939.9.3
+      date > 1938.6.3
       has_idea = walt_disney
       has_completed_focus = CAC_frankmerriamsplans
       NOT = {
@@ -948,8 +948,8 @@ country_event = { #Oregon Event
     is_triggered_only = yes
     option = {
       name = california.38.a
-      retire_country_leader = yes
       load_focus_tree = California_WaltDisney
+      retire_country_leader = yes
       create_country_leader = {
         name = "Walt Disney"
         desc = "POLITICS_WALT_DISNEY_DESC"

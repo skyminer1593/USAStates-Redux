@@ -2870,6 +2870,10 @@ SpriteType = {
   name = "GFX_CAC_WaltDisneyCult"
   texturefile = "gfx/interface/goals/CAC_WaltDisneyCult.dds"
 }
+SpriteType = {
+  name = "GFX_CAC_Epcot"
+  texturefile = "gfx/interface/goals/CAC_Epcot.dds"
+}
 
 #Texas
 SpriteType = {

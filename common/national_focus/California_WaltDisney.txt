@@ -233,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CWD_Epcotphasetwo
-		icon = GFX_Generic_Broadway
+		icon = GFX_CAC_Epcot
 		available = {
 		owns_state = 807
 		}

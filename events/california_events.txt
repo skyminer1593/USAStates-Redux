@@ -1019,7 +1019,7 @@ country_event = { #Oregon Event
     is_triggered_only = yes
     option = {
       name = california.47.a
-      add_stability = 0.05
+      add_war_support = 0.05
       }
     option = {
       name = california.47.b
@@ -1116,7 +1116,7 @@ country_event = { #California gets accepted offer of Las Vegas
     }
     add_timed_idea = {
       idea = CAC_payment2
-      days = 356
+      days = 240
     }
     }
 }

@@ -78,4 +78,60 @@ units = {
     start_experience_factor = 0.25
     start_equipment_factor = 0.5
   }
+  division = {
+    name = "Civilian Militia El Paso"
+    location = 10740
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia San Antonio"
+    location = 12782
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Austin"
+    location = 13504
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Houston"
+    location = 13451
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian El Paso"
+    location = 10740
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia San Antonio"
+    location = 12782
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Austin"
+    location = 13504
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
+  division = {
+    name = "Civilian Militia Houston"
+    location = 13451
+    division_template = "Civilian Militia"
+    start_experience_factor = 0.25
+    start_equipment_factor = 0.5
+  }
 }

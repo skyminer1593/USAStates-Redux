@@ -33,7 +33,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_gain = -2
+				political_power_gain = -1
 				justify_war_goal_time = 5
 				enemy_justify_war_goal_time = 0.1
 				fascism_acceptance = 100

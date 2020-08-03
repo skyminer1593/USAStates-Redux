@@ -910,6 +910,30 @@ country_event = {
       COC = {
         surrender_progress > 0.80
       }
+      OR = {
+        AND = {
+          has_war_with = TXT
+          has_war_with = NMN
+          TXT = {
+            has_government = democratic
+          }
+        }
+        AND = {
+          has_war_with = TXT
+          has_war_with = UTU
+          TXT = {
+            has_government = democratic
+          }
+        }
+        AND = {
+          has_war_with = TXT
+          has_war_with = NMN
+          has_war_with = UTU
+          TXT = {
+            has_government = democratic
+          }
+        }
+      }
     }
 
     option = {
@@ -938,21 +962,84 @@ country_event = {
 
     option = {
       name = tex.32.a
-      COC = {
-        white_peace = TXT
-        white_peace = UTU
-        white_peace = NMN
+      if = {
+        limit = {
+          COC = {
+            AND = {
+              has_war_with = TXT
+              has_war_with = UTU
+              NOT = {
+                has_war_with = NMN
+              }
+            }
+          }
+        }
+        COC = {
+          white_peace = TXT
+          white_peace = UTU
+        }
+        UTU = {
+          transfer_state = 882
+          transfer_state = 881
+        }
+        TXT = {
+          transfer_state = 885
+          transfer_state = 884
+          transfer_state = 883
+        }
       }
-      UTU = {
-        transfer_state = 882
+      else_if = {
+        limit = {
+          COC = {
+            AND = {
+              has_war_with = TXT
+              has_war_with = NMN
+              NOT = {
+                has_war_with = UTU
+              }
+            }
+          }
+        }
+        COC = {
+          white_peace = TXT
+          white_peace = NMN
+        }
+        NMN = {
+          transfer_state = 881
+          transfer_state = 882
+        }
+        TXT = {
+          transfer_state = 885
+          transfer_state = 884
+          transfer_state = 883
+        }
       }
-      NMN = {
-        transfer_state = 881
-      }
-      TXT = {
-        transfer_state = 885
-        transfer_state = 884
-        transfer_state = 883
+      else_if = {
+        limit = {
+          COC = {
+            AND = {
+              has_war_with = TXT
+              has_war_with = NMN
+              has_war_with = UTU
+            }
+          }
+        }
+        COC = {
+          white_peace = TXT
+          white_peace = UTU
+          white_peace = NMN
+        }
+        UTU = {
+          transfer_state = 882
+        }
+        NMN = {
+          transfer_state = 881
+        }
+        TXT = {
+          transfer_state = 885
+          transfer_state = 884
+          transfer_state = 883
+        }
       }
     }
   }

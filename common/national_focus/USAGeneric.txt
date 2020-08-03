@@ -323,7 +323,9 @@ focus_tree = {
     search_filters = {
       FOCUS_FILTER_POLITICAL
     }
-
+    ai_will_do = {
+      factor = 100
+    }
     cost = 10
     x = 24
     y = 5
@@ -454,7 +456,7 @@ focus_tree = {
       focus = GEN_mobilize_masses
     }
     ai_will_do = {
-      factor = 10
+      factor = 50
     }
     search_filters = {
       FOCUS_FILTER_POLITICAL
@@ -549,7 +551,7 @@ focus_tree = {
       focus = GEN_seize_production
     }
     ai_will_do = {
-      factor = 10
+      factor = 50
     }
     search_filters = {
       FOCUS_FILTER_POLITICAL
@@ -810,6 +812,9 @@ focus_tree = {
     prerequisite = {
       focus = GEN_decryptionfocus
     }
+    ai_will_do = {
+      factor = 100
+    }
     cost = 10
     x = 36
     y = 4
@@ -936,6 +941,9 @@ focus_tree = {
     search_filters = {
       FOCUS_FILTER_INDUSTRY
     }
+    ai_will_do = {
+      factor = 10
+    }
 
     completion_reward = {
       add_tech_bonus = {
@@ -951,6 +959,9 @@ focus_tree = {
     icon = GFX_Generic_Industrial_Complexes
     prerequisite = {
       focus = GEN_land_reforms
+    }
+    ai_will_do = {
+      factor = 10
     }
     cost = 10
     x = 2
@@ -978,6 +989,9 @@ focus_tree = {
     prerequisite = {
       focus = GEN_subsidizeciv
     }
+    ai_will_do = {
+      factor = 10
+    }
     cost = 10
     x = 0
     y = 2
@@ -1002,6 +1016,9 @@ focus_tree = {
     prerequisite = {
       focus = GEN_develop_rural
     }
+    ai_will_do = {
+      factor = 10
+    }
     cost = 10
     x = 0
     y = 3
@@ -1018,6 +1035,9 @@ focus_tree = {
     icon = GFX_Generic_Public_Works
     prerequisite = {
       focus = GEN_develop_civ1
+    }
+    ai_will_do = {
+      factor = 35
     }
     cost = 10
     x = 1
@@ -1043,6 +1063,9 @@ focus_tree = {
     prerequisite = {
       focus = GEN_subsidizeciv
     }
+    ai_will_do = {
+      factor = 10
+    }
     cost = 7.2
     x = 2
     y = 2
@@ -1059,6 +1082,9 @@ focus_tree = {
     icon = GFX_goal_generic_construct_infrastructure
     prerequisite = {
       focus = GEN_rural_infra
+    }
+    ai_will_do = {
+      factor = 10
     }
     cost = 10
     x = 2
@@ -1092,6 +1118,9 @@ focus_tree = {
     prerequisite = {
       focus = GEN_subsidizeciv
     }
+    ai_will_do = {
+      factor = 10
+    }
     cost = 10
     x = 4
     y = 2
@@ -1115,6 +1144,9 @@ focus_tree = {
     icon = GFX_goal_generic_construct_infrastructure
     prerequisite = {
       focus = GEN_rural_infra
+    }
+    ai_will_do = {
+      factor = 10
     }
     cost = 10
     x = 4
@@ -1140,6 +1172,9 @@ focus_tree = {
     prerequisite = {
       focus = GEN_infra1
     }
+    ai_will_do = {
+      factor = 35
+    }
     cost = 10
     x = 3
     y = 4
@@ -1164,7 +1199,7 @@ focus_tree = {
     prerequisite = {
       focus = GEN_land_reforms
     }
-    cost = 10
+    cost = 5
     x = 8
     y = 1
     search_filters = {
@@ -1188,7 +1223,7 @@ focus_tree = {
     prerequisite = {
       focus = GEN_develop_mil
     }
-    cost = 10
+    cost = 5
     x = 6
     y = 2
     search_filters = {
@@ -1368,6 +1403,9 @@ focus_tree = {
     icon = GFX_UTU_steel_mines
     prerequisite = {
       focus = GEN_develop_mil
+    }
+    ai_will_do = {
+      factor = 10
     }
     cost = 10
     x = 8

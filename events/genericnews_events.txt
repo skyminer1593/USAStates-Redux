@@ -87,3 +87,25 @@ news_event = {
     trigger = { TAG = CAC }
   }
 }
+
+#Kansas City Crisis
+news_event = {
+  id = genericfocusnews.5
+  title = genericfocusnews.5.t
+  desc = genericfocusnews.5.d
+  picture = GFX_news_event_chinese_soldiers_city_ruin
+  is_triggered_only = yes
+  major = yes
+  option = {
+    name = genericfocusnews.5.a
+    trigger = {
+      NOT = {
+        TAG = KSK
+      }
+    }
+  }
+  option = {
+    name = genericfocusnews.5.b
+    trigger = { TAG = KSK }
+  }
+}

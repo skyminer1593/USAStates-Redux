@@ -42,6 +42,15 @@
  kansas.4.t:0 "Police Units Join!"
  kansas.4.d:0 "After Winrod's plan to militarize the police force, officers have been joining the military in droves. Several brigades have formed in our cities, and they are ready to integrate themselves as full fledged divisions."
  kansas.4.a:0 "We welcome them with open arms."
+
+ ##missouri KC referendum events
+ missouri.4.t:0 "The Kansas City Referendum"
+ missouri.4.d:0 "The governmet of Missouri has acknowledged the vote in Kansas City to unite under Kansas and has begun efforts to transfer it over to Kansan control. This is a glorious day in Kansan history."
+ missouri.4.a:0 "Great work everyone!"
+ missouri.5.t:0 "The Kansas City Crisis"
+ missouri.5.d:0 "After weeks of stalling by the Missourian government, they have issued a statement stating that the vote to unite the cities was rigged.. It seems that the Missourians won't give the cities through diplomatic means."
+ missouri.5.a:0 "Issue economic sanctions and ready the military!"
+ MOM_KSK_subject:0 "Kansan Occupation Zone of Missouri"
 ##Focuses
  KSK_bleeding_kansas:0 "Bleeding Kansas"
  KSK_bleeding_kansas_desc:0 "Following the collapse of the United States, Kansas City became a tense border between the new countries of Kansas and Missouri. Both sides would like to see the city united, and both sides are ready to fight for it."

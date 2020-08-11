@@ -10,16 +10,59 @@ country_event = {
 
   option = {
     name = missouri.3.a
-
+	ai_chance = { base = 50 }
     KSK = {
     transfer_state = 976
+    country_event = missouri.4
     }
   }
 
   option = {
     name = missouri.3.b
-
+	ai_chance = { base = 50 }
     add_political_power = -100
     add_stability = -0.05
+    KSK = {
+    	country_event = missouri.5
+    }
   }
 }
+
+country_event = {
+  id = missouri.4
+  title = missouri.4.t
+  desc = missouri.4.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = missouri.4.a
+    add_political_power = 25
+    add_stability = 0.05
+  }
+}
+
+country_event = {
+  id = missouri.5
+  title = missouri.5.t
+  desc = missouri.5.d
+  picture = GFX_report_event_kansas_city.dds
+
+  is_triggered_only = yes
+
+  option = {
+    name = missouri.5.a
+ 	add_state_core = 976
+   	declare_war_on = {
+        target = MOM
+        type = take_claimed_state
+    }
+    hidden_effect = {
+    	news_event = {
+		hours = 6
+		id = genericfocusnews.5
+		}
+    }
+  }
+ }

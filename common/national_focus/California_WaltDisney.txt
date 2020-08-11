@@ -192,7 +192,7 @@ focus_tree = {
 		x = 10
 		y = 8
 		completion_reward = {
-			#add_ideas = CAC_waltspersonality
+			add_ideas = CAC_waltspersonality
 		}
 	}
 	focus = {

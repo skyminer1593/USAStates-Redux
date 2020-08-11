@@ -77,6 +77,20 @@ units = {
 	### 1st Army -- note: Armies only paper organizations in 1936 ###
 	# I Army Corps #
 	division= {
+		name = "1st Reserve Garrison Brigade"
+		location = 11698
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {
+		name = "2nd Reserve Garrison Brigade"
+		location = 4727
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {
 		name = "1st Californian National Guard"
 		location = 9713
 		division_template = "National Guard Division"
@@ -102,18 +116,18 @@ units = {
 	}
 	division= {
 		name = "4th Californian National Guard"
-		location = 9671
+		location = 610
 		division_template = "National Guard Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 
 	}
 
 	division= {
 		name = "7th Californian National Guard"
-		location = 9671
+		location = 1601
 		division_template = "National Guard Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.4
 		start_equipment_factor = 1
 
 	}
@@ -121,25 +135,38 @@ units = {
 		name = "Californian 1st Infantry Divison"
 		location = 9671
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.6
 	}
 	division= {
 		name = "Californian 2nd Infantry Divison"
 		location = 9671
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.9
 	}
 }
 	### Air oob
 	air_wings = {
 		### I. Airwing -- San Fran ###
-		968 = {
-			# Jagdgeschwader 232
-			fighter_equipment_0 =  {		# He 51
+		800 = {
+			fighter_equipment_0 =  {
 				owner = "USA"
 				amount = 70
+			}
+			name = "California Fighter Airwing"
+		}
+		801 = {
+			fighter_equipment_0 =  {
+				owner = "USA"
+				amount = 25
+			}
+			name = "California Fighter Airwing"
+		}
+		800 = {
+			cas_equipment_1 =  {
+				owner = "USA"
+				amount = 15
 			}
 			name = "California Fighter Airwing"
 		}
@@ -150,7 +177,6 @@ units = {
 	#########################
 
 	instant_effect = {
-
 		add_equipment_production = {
 			equipment = {
 				type = infantry_equipment_1
@@ -158,9 +184,8 @@ units = {
 			}
 			requested_factories = 4
 			progress = 0.1
-			efficiency = 5
+			efficiency = 10
 		}
-
 		add_equipment_production = {
 			equipment = {
 				type = support_equipment_1
@@ -189,7 +214,6 @@ units = {
 			progress = 0.15
 			efficiency = 5
 		}
-
 		add_equipment_production = {
 			equipment = {
 				type = CAS_equipment_1

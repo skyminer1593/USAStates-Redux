@@ -630,7 +630,7 @@ country_event = {
     option = { #Country joins
       name = tex.25.a
       ai_chance = {
-        base = 60
+        base = 70
       }
       if = {
         limit = {
@@ -643,6 +643,7 @@ country_event = {
         }
         UTU = {
           give_military_access = TXT
+          give_military_access = NMN
         }
       }
       if = {
@@ -653,16 +654,18 @@ country_event = {
           set_country_flag = NMN_partition
           country_event = tex.30
           give_military_access = NMN
+          give_military_access = UTU
         }
         NMN = {
           give_military_access = TXT
+          give_military_access = UTU
         }
       }
     }
     option = { #Country refuses
       name = tex.25.b
       ai_chance = {
-        base = 40
+        base = 30
       }
       if = {
         limit = {
@@ -692,7 +695,7 @@ country_event = {
 
     is_triggered_only = yes
 
-    option = {
+    option = { #Demand it
       name = tex.26.a
       COC = {
         if = {
@@ -706,7 +709,7 @@ country_event = {
         }
       }
     }
-    option = {
+    option = { #Give Up
       name = tex.26.b
     }
   }
@@ -936,7 +939,7 @@ country_event = {
       }
     }
 
-    option = {
+    option = { #Surrender
       name = tex.31.a
       ai_chance = {
         base = 90
@@ -945,14 +948,14 @@ country_event = {
         country_event = tex.32
       }
     }
-    option = {
+    option = { #Die
       name = tex.31.b
       ai_chance = {
         base = 10
       }
     }
   }
-  country_event = {
+  country_event = { #Colorado Armistice
     id = tex.32
     title = tex.32.t
     desc = tex.32.d
@@ -1041,6 +1044,27 @@ country_event = {
           transfer_state = 883
         }
       }
+    }
+  }
+  country_event = { #Choose where to expand
+    id = tex.33
+    title = tex.33.t
+    desc = tex.33.d
+    picture = GFX_report_event_chinese_soldiers_fighting
+
+    is_triggered_only = yes
+
+    option = { #Expand to the North
+      name = tex.33.a
+      set_country_flag = TXT_expandnorth
+    }
+    option = { #Expand to the East
+      name = tex.33.b
+      set_country_flag = TXT_expandeast
+    }
+    option = { #Expand to the West
+      name = tex.33.c
+      set_country_flag = TXT_expandwest
     }
   }
 

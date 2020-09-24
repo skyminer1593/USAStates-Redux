@@ -885,6 +885,70 @@ ideas = {
 				industry_air_damage_factor = 0.15
 			}
 		}
+
+		TXT_westtraining = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				heat_attrition_factor = -0.15
+		    acclimatization_hot_climate_gain_factor = 0.1
+		    terrain_penalty_reduction = 0.20
+			}
+		}
+		TXT_easttraining = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				heat_attrition_factor = -0.15
+		    acclimatization_hot_climate_gain_factor = 0.1
+		    terrain_penalty_reduction = 0.20
+			}
+		}
+		TXT_northtraining = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				winter_attrition_factor = -0.15
+		    acclimatization_cold_climate_gain_factor = 0.1
+		    terrain_penalty_reduction = 0.20
+			}
+		}
+		TXT_mma = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				special_forces_min = 8
+				special_forces_attack_factor = 0.15
+			}
+		}
 	}
 ##########Political Advisors###############
 	political_advisor = {

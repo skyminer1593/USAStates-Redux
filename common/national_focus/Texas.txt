@@ -1610,7 +1610,10 @@ focus_tree = {
 
 		completion_reward = {
 			UTU = {
-				country_event = tex.25
+				country_event = {
+					id = tex.25
+					days = 10
+				}
 			}
 			NMN = {
 				country_event = tex.25
@@ -2290,6 +2293,9 @@ focus_tree = {
 		prerequisite = {
 			focus = TXT_cavcharges
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 
 		x = 29
 		y = 4
@@ -2738,6 +2744,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_2
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
 		}
 		offset = {
 			x = -10
@@ -3218,6 +3225,7 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
 		}
 		offset = {
 			x = -10
@@ -3333,6 +3341,7 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
 		}
 		offset = {
 			x = -10
@@ -3500,6 +3509,270 @@ focus_tree = {
 					level = 3
 					instant_build = yes
 				}
+			}
+		}
+	}
+	#Army Path
+	focus = {
+		id = TXT_expand_military_bases
+		icon = GFX_goal_generic_construct_military
+
+		x = 34
+		y = 0
+
+		cost = 5
+
+		completion_reward = {
+			army_experience = 10
+			903 = {
+				add_building_construction = {
+					type = bunker
+					level = 6
+					province = 12782
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 13447
+					instant_build = yes
+				}
+			}
+			895 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 13538
+					instant_build = yes
+				}
+			}
+			897 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10740
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_expansionfocus
+		icon = GFX_Generic_Draw_Up_Plans
+		prerequisite = {
+			focus = TXT_expand_military_bases
+		}
+
+		x = 34
+		y = 1
+
+		cost = 1
+
+		completion_reward = {
+			country_event = tex.33
+		}
+	}
+	focus = {
+		id = TXT_expansionwest
+		icon = GFX_Generic_Desert_Warfare
+		prerequisite = {
+			focus = TXT_expansionfocus
+		}
+		available = {
+			has_country_flag = TXT_expandwest
+		}
+
+		x = 31
+		y = 2
+
+		cost = 10
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus TXT_expandwest"
+			custom_effect_tooltip = TXT_westernexpansion_tech_effect
+			hidden_effect = {
+				set_technology = {
+					TXT_westernexpansion_tech = 1
+				}
+			}
+			add_ideas = TXT_westtraining
+		}
+	}
+	focus = {
+		id = TXT_mountainmen
+		icon = GFX_Generic_Mountain_Warfare
+		prerequisite = {
+			focus = TXT_expansionwest
+		}
+
+		x = 31
+		y = 3
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_mountainmen
+				bonus = 1.0
+				uses = 2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_mountaineers3
+			}
+		}
+	}
+	focus = {
+		id = TXT_increasesfc
+		icon = GFX_Generic_Scouts
+		prerequisite = {
+			focus = TXT_expansionwest
+			focus = TXT_expansionnorth
+		}
+
+		x = 33
+		y = 3
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_increasesfc
+				bonus = 1.0
+				uses = 2
+				technology = improved_special_forces
+				technology = survival_training
+			}
+		}
+	}
+	focus = {
+		id = TXT_expansionnorth
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = {
+			focus = TXT_expansionfocus
+		}
+		available = {
+			has_country_flag = TXT_expandnorth
+		}
+
+		x = 34
+		y = 2
+
+		cost = 10
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus TXT_expansionnorth"
+			custom_effect_tooltip = TXT_northernexpansion_tech_effect
+			hidden_effect = {
+				set_technology = {
+					TXT_northernexpansion_tech = 1
+				}
+			}
+			add_ideas = TXT_northtraining
+		}
+	}
+	focus = {
+		id = TXT_moderntanks
+		icon = GFX_Generic_Refit_Tanks
+		prerequisite = {
+			focus = TXT_expansionnorth
+		}
+
+		x = 34
+		y = 4
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_moderntanks
+				bonus = 1.5
+				uses = 2
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+			}
+		}
+	}
+	focus = {
+		id = TXT_expansioneast
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = {
+			focus = TXT_expansionfocus
+		}
+		available = {
+			has_country_flag = TXT_expandeast
+		}
+
+		x = 37
+		y = 2
+
+		cost = 10
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus TXT_expansioneast"
+			custom_effect_tooltip = TXT_easternexpansion_tech_effect
+			hidden_effect = {
+				set_technology = {
+					TXT_easternexpansion_tech = 1
+				}
+			}
+			add_ideas = TXT_easttraining
+		}
+	}
+	focus = {
+		id = TXT_modernizeamtracks
+		icon = GFX_goal_generic_build_tank
+		prerequisite = {
+			focus = TXT_expansioneast
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 35
+		y = 3
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_modernizeamptanks
+				bonus = 1.0
+				uses = 2
+				technology = amphibious_tank
+				technology = amphibious_tank_2
+			}
+		}
+	}
+	focus = {
+		id = TXT_openmma
+		icon = GFX_Generic_Naval_Industry
+		prerequisite = {
+			focus = TXT_expansioneast
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 37
+		y = 3
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_themma
+				bonus = 1.50
+				uses = 2
+				category = marine_tech
+			}
+			add_tech_bonus = {
+				name = TXT_themma
+				bonus = 1.50
+				uses = 2
+				category = tp_tech
 			}
 		}
 	}

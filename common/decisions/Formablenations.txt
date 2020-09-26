@@ -1899,10 +1899,12 @@ form_nation = {
 
 		available = {
 			is_subject = no
-			controls_state = 802
-			controls_state = 950
-			controls_state = 795
-			controls_state = 839
+			controls_state = 887
+			controls_state = 889
+			controls_state = 886
+			controls_state = 864
+      controls_state = 855
+      controls_state = 879
     }
 
 
@@ -1916,7 +1918,7 @@ form_nation = {
 
 		complete_effect = {
 			set_cosmetic_tag = POF
-			set_capital = 800
+			set_capital = 864
 			add_stability = 0.10
 			custom_effect_tooltip = core_land_usa
 			hidden_effect = {
@@ -2806,7 +2808,7 @@ form_nation = {
         629 = { add_core_of = ROOT }
         1152 = { add_core_of = ROOT }
   			1153 = { add_core_of = ROOT }
-        1154 = { add_core_of = ROOT } 
+        1154 = { add_core_of = ROOT }
       }
     }
   }

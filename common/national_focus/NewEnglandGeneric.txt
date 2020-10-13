@@ -3,103 +3,26 @@ focus_tree = {
   country = {
     factor = 0
     modifier = {
-			add = 10
-      OR = {
-        tag = ALA
-        tag = AKA
-        tag = AZA
-        tag = ARA
-        tag = CAC
-        tag = COC
-        tag = DED
-        tag = FLF
-        tag = GAG
-        tag = HIH
-        tag = IDI
-        tag = ILI
-        tag = INI
-        tag = IAI
-        tag = KSK
-        tag = LAL
-        tag = MDM
-        tag = MIM
-        tag = MNM
-        tag = MSM
-        tag = MOM
-        tag = MTM
-        tag = NEN
-        tag = NVN
-        tag = NJN
-        tag = NMN
-        tag = NYN
-        tag = NCN
-        tag = NDN
-        tag = OHO
-        tag = OKO
-        tag = ORO
-        tag = PAP
-        tag = SCS
-        tag = SDS
-        tag = TNT
-        tag = TXT
-        tag = KYK
-        tag = DCD
-        tag = VAV
-        tag = WAW
-        tag = WVW
-        tag = WIW
-        tag = WYW
-        tag = UTU
-        tag = PRP
-        tag = UVU
-        tag = MWM
-        tag = WKW
-        tag = PIP
-        tag = JAJ
-        tag = PCP
-        tag = LIL
-        tag = GUG
-        tag = ASA
-        tag = ABA
-        tag = BCB
-        tag = MBM
-        tag = NBN
-        tag = NLN
-        tag = NSN
-        tag = NTN
-        tag = NUN
-        tag = ONO
-        tag = PEP
-        tag = QBC
-        tag = SKS
-        tag = YTY
-        tag = LAB
-        tag = GUE
-        tag = COU
-        tag = CIA
-        tag = OAX
-        tag = CHP
-        tag = OME
-        tag = YUC
-        tag = GRN
-        tag = BAJ
-        tag = VEC
-        tag = NAY
-        tag = SON
-        tag = TAU
-        tag = SIN
-      }
+		add = 10
+     	OR = {
+        	tag = MEM
+        	tag = NHN
+        	tag = VTV
+        	tag = MAM
+        	tag = CTC
+        	tag = RIR
+      	}
 	}
   }
   initial_show_position = {
-		focus = GEN_our_place
+		focus = NEGEN_our_place
 	}
   continuous_focus_position = {
     x = 60
     y = 915
   }
   focus = {
-    id = GEN_our_place
+    id = NEGEN_our_place
 		icon = GFX_Generic_Global_Hegemony
 		cost = 5.00
 		x = 30
@@ -124,16 +47,16 @@ focus_tree = {
   }
   ##Democratic Path
   focus = {
-    id = GEN_staydemo
+    id = NEGEN_staydemo
     icon = GFX_Generic_Liberty_Calling
     prerequisite = {
-      focus = GEN_our_place
+      focus = NEGEN_our_place
     }
     mutually_exclusive = {
-      focus = GEN_gocommunist
+      focus = NEGEN_gocommunist
     }
     mutually_exclusive = {
-      focus = GEN_gofascist
+      focus = NEGEN_gofascist
     }
     cost = 10
     x = 24
@@ -164,206 +87,18 @@ focus_tree = {
       }
     }
   }
-  focus = {
-    id = GEN_demoelections
-    icon = GFX_Generic_Elections
-    prerequisite = {
-      focus = GEN_staydemo
-    }
-    cost = 10
-    x = 24
-    y = 2
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-      country_event = GEN.1
-    }
-  }
-  focus = {
-    id = GEN_conservatism
-    icon = GFX_Generic_Conservatism
-    available = {
-      has_country_flag = conservatism_won
-    }
-    prerequisite = {
-      focus = GEN_demoelections
-    }
-
-    cost = 1
-    x = 22
-    y = 3
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-
-    }
-  }
-  focus = {
-    id = GEN_support_business
-    icon = GFX_Generic_Industry02
-    prerequisite = {
-      focus = GEN_conservatism
-    }
-
-    cost = 10
-    x = 22
-    y = 4
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-      add_ideas = GEN_business
-    }
-  }
-  focus = {
-    id = GEN_liberalism
-    icon = GFX_Generic_Liberalism
-    available = {
-      has_country_flag = liberalism_won
-    }
-    prerequisite = {
-      focus = GEN_demoelections
-    }
-
-    cost = 1
-    x = 24
-    y = 3
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-
-    }
-  }
-  focus = {
-    id = GEN_liberalistvalues
-    icon = GFX_focus_generic_treaty
-    prerequisite = {
-      focus = GEN_liberalism
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 24
-    y = 4
-
-    completion_reward = {
-      add_ideas = GEN_liberal_values
-    }
-  }
-  focus = {
-    id = GEN_dem_socialism
-    icon = GFX_Generic_Liberatian_Socialism
-    available = {
-      has_country_flag = dem_socialism_won
-    }
-    prerequisite = {
-      focus = GEN_demoelections
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 1
-    x = 26
-    y = 3
-
-    completion_reward = {
-
-    }
-  }
-  focus = {
-    id = GEN_socialreforms
-    icon = GFX_Generic_State_Socialism
-    prerequisite = {
-      focus = GEN_dem_socialism
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 26
-    y = 4
-
-    completion_reward = {
-      add_ideas = GEN_socialdemocracy
-    }
-  }
-  focus = {
-    id = GEN_defend_values
-    icon = GFX_Generic_Mutual_Cooperation
-    prerequisite = {
-      focus = GEN_socialreforms
-      focus = GEN_liberalistvalues
-      focus = GEN_support_business
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    ai_will_do = {
-      factor = 100
-    }
-    cost = 10
-    x = 24
-    y = 5
-
-    completion_reward = {
-      set_rule = {
-				can_create_factions = yes
-			}
-      add_ideas = GEN_defend_values
-    }
-  }
-  focus = {
-    id = GEN_getsupport_foreign
-    icon = GFX_Generic_German_Soldiers2
-    prerequisite = {
-      focus = GEN_defend_values
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 24
-    y = 6
-
-    completion_reward = {
-      set_rule = {
-  			can_send_volunteers = yes
-  		}
-      add_ideas = GEN_foreign_intervention
-    }
-  }
   #Communist Path
   focus = {
-    id = GEN_gocommunist
+    id = NEGEN_gocommunist
     icon = GFX_Generic_Militant_Socialism
     prerequisite = {
-      focus = GEN_our_place
+      focus = NEGEN_our_place
     }
     mutually_exclusive = {
-      focus = GEN_gofascist
+      focus = NEGEN_gofascist
     }
     mutually_exclusive = {
-      focus = GEN_staydemo
+      focus = NEGEN_staydemo
     }
     cost = 10
     x = 30
@@ -395,255 +130,19 @@ focus_tree = {
       }
     }
   }
-  focus = {
-    id = GEN_secure_state
-    icon = GFX_Generic_Political_Killing
-    prerequisite = {
-      focus = GEN_gocommunist
-    }
 
-    cost = 10
-    x = 30
-    y = 2
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    completion_reward = {
-      add_ideas = GEN_securethe_state
-    }
-  }
-  focus = {
-    id = GEN_mobilize_masses
-    icon = GFX_Generic_Liberation
-    prerequisite = {
-      focus = GEN_secure_state
-    }
-    available = {
-      NOT = {
-        has_completed_focus = GEN_seize_production
-      }
-    }
-
-    cost = 10
-    x = 28
-    y = 3
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    completion_reward = {
-      add_ideas = GEN_mobilizemasses
-      add_political_power = 50
-    }
-  }
-  focus = {
-    id = GEN_everyman
-    icon = GFX_Generic_American_Soldier
-    prerequisite = {
-      focus = GEN_mobilize_masses
-    }
-    ai_will_do = {
-      factor = 50
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 28
-    y = 4
-
-    completion_reward = {
-      add_ideas = extensive_conscription
-      add_political_power = 50
-    }
-  }
-  focus = {
-    id = GEN_monitorpeople
-    icon = GFX_Generic_Lookout
-    prerequisite = {
-      focus = GEN_secure_state
-    }
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 30
-    y = 3
-
-    completion_reward = {
-      add_stability = 0.05
-      add_popularity = {
-        ideology = communism
-        popularity = 0.10
-      }
-    }
-  }
-  focus = {
-    id = GEN_reformschools
-    icon = GFX_focus_generic_military_academy
-    prerequisite = {
-      focus = GEN_monitorpeople
-    }
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 30
-    y = 4
-
-    completion_reward = {
-      add_stability = 0.05
-      add_ideas = GEN_reform_schools
-    }
-  }
-  focus = {
-    id = GEN_seize_production
-    icon = GFX_Generic_State_Socialism
-    prerequisite = {
-      focus = GEN_secure_state
-    }
-    available = {
-      NOT = {
-        has_completed_focus = GEN_mobilize_masses
-      }
-    }
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 32
-    y = 3
-
-    completion_reward = {
-      add_ideas = GEN_seize_means
-    }
-  }
-  focus = {
-    id = GEN_redistribute_wealth
-    icon = GFX_CAC_relieve_states
-    prerequisite = {
-      focus = GEN_seize_production
-    }
-    ai_will_do = {
-      factor = 50
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-
-    cost = 10
-    x = 32
-    y = 4
-
-    completion_reward = {
-      add_ideas = GEN_redistribution
-    }
-  }
-  focus = {
-    id = GEN_communisttakeover
-    icon = GFX_Generic_Invasion2
-    prerequisite = {
-      focus = GEN_redistribute_wealth
-      focus = GEN_everyman
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-      FOCUS_FILTER_ANNEXATION
-    }
-    cost = 10
-    x = 30
-    y = 5
-
-    completion_reward = {
-      random_neighbor_country = {
-        limit = {
-          not = {
-            is_guaranteed_by = ROOT
-            is_in_faction_with = ROOT
-            has_non_aggression_pact_with = ROOT
-            is_subject_of = ROOT
-          }
-        }
-        country_event = GEN.4
-        ROOT = {
-          create_wargoal= {
-            target = PREV
-            type = annex_everything
-          }
-        }
-      }
-    }
-  }
-  focus = {
-    id = GEN_solidify_influence
-    icon = GFX_focus_eng_global_defense
-    prerequisite = {
-      focus = GEN_communisttakeover
-    }
-    cost = 10
-    x = 30
-    y = 6
-
-    completion_reward = {
-      random_neighbor_country = {
-        limit = {
-          is_subject_of = ROOT
-        }
-        add_autonomy_score = {
-					value = -150
-					localization = GEN_securesphere
-				}
-      }
-    }
-  }
-  focus = {
-    id = GEN_formfaction
-    icon = GFX_Generic_Mutual_Cooperation
-    prerequisite = {
-      focus = GEN_solidify_influence
-      focus = GEN_getsupport_foreign
-    }
-
-    cost = 10
-    x = 27
-    y = 7
-
-    completion_reward = {
-      unlock_decision_category_tooltip = factions
-    }
-  }
   #Fascist Path
   focus = {
-    id = GEN_gofascist
+    id = NEGEN_gofascist
     icon = GFX_Generic_Fascist_Guy
     prerequisite = {
-      focus = GEN_our_place
+      focus = NEGEN_our_place
     }
     mutually_exclusive = {
-      focus = GEN_gocommunist
+      focus = NEGEN_gocommunist
     }
     mutually_exclusive = {
-      focus = GEN_staydemo
+      focus = NEGEN_staydemo
     }
     cost = 10
     x = 36
@@ -675,223 +174,11 @@ focus_tree = {
       }
     }
   }
-  focus = {
-    id = GEN_prideinpeople
-    icon = GFX_Generic_Gray_Fascists
-    prerequisite = {
-      focus = GEN_gofascist
-    }
-    cost = 10
-    x = 34
-    y = 2
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-      add_ideas = GEN_nationalism
-    }
-  }
-  focus = {
-    id = GEN_expandarmy
-    icon = GFX_Generic_Ultranationalist_Volunteers
-    prerequisite = {
-      focus = GEN_prideinpeople
-    }
-    cost = 10
-    x = 34
-    y = 3
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_MANPOWER
-    }
-    completion_reward = {
-      add_ideas = GEN_expandarmyf
-    }
-  }
-  focus = {
-    id = GEN_mobilizeeconomy
-    icon = GFX_Generic_Machine_Gun
-    available = {
-      threat > 0.10
-    }
-    prerequisite = {
-      focus = GEN_gofascist
-    }
-    cost = 10
-    x = 36
-    y = 2
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-      FOCUS_FILTER_INDUSTRY
-    }
-    completion_reward = {
-      add_ideas = partial_economic_mobilisation
-    }
-  }
-  focus = {
-    id = GEN_mobilizeeconomy1
-    icon = GFX_Generic_Industry_Tanks
-    available = {
-      threat > 0.25
-    }
-    prerequisite = {
-      focus = GEN_mobilizeeconomy
-    }
-    cost = 10
-    x = 36
-    y = 3
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-      FOCUS_FILTER_INDUSTRY
-    }
-    completion_reward = {
-      add_ideas = war_economy
-    }
-  }
-  focus = {
-    id = GEN_securesecrets
-    icon = GFX_Generic_Spy_Sabotage
-    prerequisite = {
-      focus = GEN_gofascist
-    }
-    cost = 10
-    x = 38
-    y = 2
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-      add_ideas = GEN_statesecrets
-    }
-  }
-  focus = {
-    id = GEN_decryptionfocus
-    icon = GFX_Focus_Communist_Spy02
-    prerequisite = {
-      focus = GEN_securesecrets
-    }
-    cost = 10
-    x = 38
-    y = 3
-    ai_will_do = {
-      factor = 10
-    }
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-      add_ideas = GEN_decrypt
-    }
-  }
-  focus = {
-    id = GEN_foreignintervention
-    icon = GFX_Generic_Volunteer_Corps
-    prerequisite = {
-      focus = GEN_expandarmy
-    }
-    prerequisite = {
-      focus = GEN_decryptionfocus
-    }
-    ai_will_do = {
-      factor = 100
-    }
-    cost = 10
-    x = 36
-    y = 4
-    search_filters = {
-      FOCUS_FILTER_POLITICAL
-    }
-    completion_reward = {
-      add_ideas = GEN_volunteersf
-    }
-  }
-  focus = {
-    id = GEN_expandborders
-    icon = GFX_Generic_Invasion
-    prerequisite = {
-      focus = GEN_foreignintervention
-    }
 
-    cost = 10
-    x = 36
-    y = 5
-    search_filters = {
-      FOCUS_FILTER_ANNEXATION
-    }
-    completion_reward = {
-      random_neighbor_country = {
-        limit = {
-          not = {
-            is_guaranteed_by = ROOT
-            is_in_faction_with = ROOT
-            has_non_aggression_pact_with = ROOT
-            is_subject_of = ROOT
-          }
-        }
-        country_event = GEN.4
-        ROOT = {
-          create_wargoal= {
-            target = PREV
-            type = annex_everything
-          }
-        }
-      }
-    }
-  }
   focus = {
-    id = GEN_expandborders2
-    icon = GFX_Generic_Urban_Warfare
-    prerequisite = {
-      focus = GEN_expandborders
-    }
-
-    cost = 10
-    x = 36
-    y = 6
-    search_filters = {
-      FOCUS_FILTER_ANNEXATION
-    }
-    completion_reward = {
-      random_neighbor_country = {
-        limit = {
-          not = {
-            is_guaranteed_by = ROOT
-            is_in_faction_with = ROOT
-            has_non_aggression_pact_with = ROOT
-            is_subject_of = ROOT
-          }
-        }
-        country_event = GEN.4
-        ROOT = {
-          create_wargoal= {
-            target = PREV
-            type = annex_everything
-          }
-        }
-      }
-    }
-  }
-  focus = {
-    id = GEN_research1
+    id = NEGEN_research1
     icon = GFX_focus_research
     prerequisite = {
-      focus = GEN_expandborders2
-      focus = GEN_solidify_influence
-      focus = GEN_getsupport_foreign
     }
 
     cost = 10
@@ -905,10 +192,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_research2
+    id = NEGEN_research2
     icon = GFX_focus_research2
     prerequisite = {
-      focus = GEN_research1
+      focus = NEGEN_research1
     }
 
     available = {
@@ -927,7 +214,7 @@ focus_tree = {
   }
   #Industrial Path
   focus = {
-    id = GEN_land_reforms
+    id = NEGEN_land_reforms
     icon = GFX_Generic_Land_Reform
     cost = 7.2
     x = 5
@@ -949,10 +236,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_subsidizeciv
+    id = NEGEN_subsidizeciv
     icon = GFX_Generic_Industrial_Complexes
     prerequisite = {
-      focus = GEN_land_reforms
+      focus = NEGEN_land_reforms
     }
     ai_will_do = {
       factor = 10
@@ -965,7 +252,7 @@ focus_tree = {
     }
 
     completion_reward = {
-      custom_effect_tooltip = GEN_civincapital
+      custom_effect_tooltip = NEGEN_civincapital
       hidden_effect = {
         capital_scope = {
           add_building_construction = {
@@ -978,10 +265,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_rural
+    id = NEGEN_develop_rural
     icon = GFX_Generic_Industry
     prerequisite = {
-      focus = GEN_subsidizeciv
+      focus = NEGEN_subsidizeciv
     }
     ai_will_do = {
       factor = 10
@@ -1005,10 +292,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_civ1
+    id = NEGEN_develop_civ1
     icon = GFX_Generic_Industry_04
     prerequisite = {
-      focus = GEN_develop_rural
+      focus = NEGEN_develop_rural
     }
     ai_will_do = {
       factor = 10
@@ -1025,10 +312,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_civ2
+    id = NEGEN_develop_civ2
     icon = GFX_Generic_Public_Works
     prerequisite = {
-      focus = GEN_develop_civ1
+      focus = NEGEN_develop_civ1
     }
     ai_will_do = {
       factor = 35
@@ -1052,10 +339,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_extract_resources
+    id = NEGEN_extract_resources
     icon = GFX_Generic_Mining
     prerequisite = {
-      focus = GEN_subsidizeciv
+      focus = NEGEN_subsidizeciv
     }
     ai_will_do = {
       factor = 10
@@ -1072,10 +359,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_state_highways
+    id = NEGEN_state_highways
     icon = GFX_goal_generic_construct_infrastructure
     prerequisite = {
-      focus = GEN_rural_infra
+      focus = NEGEN_rural_infra
     }
     ai_will_do = {
       factor = 10
@@ -1107,10 +394,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_rural_infra
+    id = NEGEN_rural_infra
     icon = GFX_Generic_Railroads
     prerequisite = {
-      focus = GEN_subsidizeciv
+      focus = NEGEN_subsidizeciv
     }
     ai_will_do = {
       factor = 10
@@ -1134,10 +421,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_infra1
+    id = NEGEN_infra1
     icon = GFX_goal_generic_construct_infrastructure
     prerequisite = {
-      focus = GEN_rural_infra
+      focus = NEGEN_rural_infra
     }
     ai_will_do = {
       factor = 10
@@ -1161,10 +448,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_infra2
+    id = NEGEN_infra2
     icon = GFX_Generic_Railroads
     prerequisite = {
-      focus = GEN_infra1
+      focus = NEGEN_infra1
     }
     ai_will_do = {
       factor = 35
@@ -1188,10 +475,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_mil
+    id = NEGEN_develop_mil
     icon = GFX_Generic_Industry_Tanks
     prerequisite = {
-      focus = GEN_land_reforms
+      focus = NEGEN_land_reforms
     }
     cost = 5
     x = 8
@@ -1212,10 +499,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_mil01
+    id = NEGEN_develop_mil01
     icon = GFX_Generic_Industry02
     prerequisite = {
-      focus = GEN_develop_mil
+      focus = NEGEN_develop_mil
     }
     cost = 5
     x = 6
@@ -1236,10 +523,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_mil2
+    id = NEGEN_develop_mil2
     icon = GFX_Generic_Factory_Complex
     prerequisite = {
-      focus = GEN_develop_mil01
+      focus = NEGEN_develop_mil01
     }
     cost = 10
     x = 6
@@ -1253,13 +540,13 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_mil3
+    id = NEGEN_develop_mil3
     icon = GFX_Generic_Industry_Planes
     mutually_exclusive = {
-      focus = GEN_develop_nav3
+      focus = NEGEN_develop_nav3
     }
     prerequisite = {
-      focus = GEN_develop_mil2
+      focus = NEGEN_develop_mil2
     }
     cost = 10
     x = 7
@@ -1284,10 +571,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_nav
+    id = NEGEN_develop_nav
     icon = GFX_Generic_Naval_Industry
     prerequisite = {
-      focus = GEN_develop_mil
+      focus = NEGEN_develop_mil
     }
     available = {
       any_owned_state = {
@@ -1316,10 +603,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_nav2
+    id = NEGEN_develop_nav2
     icon = GFX_Generic_Coastal_Focus_Navy
     prerequisite = {
-      focus = GEN_develop_nav
+      focus = NEGEN_develop_nav
     }
     available = {
       any_owned_state = {
@@ -1338,13 +625,13 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_develop_nav3
+    id = NEGEN_develop_nav3
     icon = GFX_Generic_Navy1
     mutually_exclusive = {
-      focus = GEN_develop_mil3
+      focus = NEGEN_develop_mil3
     }
     prerequisite = {
-      focus = GEN_develop_nav2
+      focus = NEGEN_develop_nav2
     }
     available = {
       any_owned_state = {
@@ -1377,10 +664,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_purchase_convoys
+    id = NEGEN_purchase_convoys
     icon = GFX_Generic_Sea_Focus_Navy
     prerequisite = {
-      focus = GEN_develop_nav
+      focus = NEGEN_develop_nav
     }
     cost = 10
     x = 8
@@ -1393,10 +680,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_steel_refineries
+    id = NEGEN_steel_refineries
     icon = GFX_UTU_steel_mines
     prerequisite = {
-      focus = GEN_develop_mil
+      focus = NEGEN_develop_mil
     }
     ai_will_do = {
       factor = 10
@@ -1415,7 +702,7 @@ focus_tree = {
   }
   #Army Path
   focus = {
-    id = GEN_army1
+    id = NEGEN_army1
     icon = GFX_goal_generic_allies_build_infantry
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1435,17 +722,17 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_army2
+    id = NEGEN_army2
     icon = GFX_Generic_Republican_Japanese_Army
     prerequisite = {
-      focus = GEN_army1
+      focus = NEGEN_army1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
     }
     available = {
       NOT = {
-        has_completed_focus = GEN_mech1
+        has_completed_focus = NEGEN_mech1
       }
     }
     cost = 10
@@ -1463,10 +750,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_army3
+    id = NEGEN_army3
     icon = GFX_Generic_Colonial_Army
     prerequisite = {
-      focus = GEN_army2
+      focus = NEGEN_army2
     }
     search_filters = {
       FOCUS_FILTER_MANPOWER
@@ -1479,10 +766,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_army4
+    id = NEGEN_army4
     icon = GFX_goal_generic_special_forces
     prerequisite = {
-      focus = GEN_army2
+      focus = NEGEN_army2
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1506,10 +793,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_doct1
+    id = NEGEN_doct1
     icon = GFX_goal_generic_army_doctrines
     prerequisite = {
-      focus = GEN_army1
+      focus = NEGEN_army1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1529,10 +816,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_doct2
+    id = NEGEN_doct2
     icon = GFX_Generic_Coalition_Army
     prerequisite = {
-      focus = GEN_doct1
+      focus = NEGEN_doct1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1552,16 +839,16 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_doct3
+    id = NEGEN_doct3
     icon = GFX_Generic_Imperial_Army
     prerequisite = {
-      focus = GEN_doct1
+      focus = NEGEN_doct1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
     }
     available = {
-      has_completed_focus = GEN_doct2
+      has_completed_focus = NEGEN_doct2
     }
     cost = 10
     x = 6
@@ -1578,17 +865,17 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_mech1
+    id = NEGEN_mech1
     icon = GFX_goal_generic_build_tank
     prerequisite = {
-      focus = GEN_army1
+      focus = NEGEN_army1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
     }
     available = {
       NOT = {
-        has_completed_focus = GEN_army2
+        has_completed_focus = NEGEN_army2
       }
     }
     cost = 10
@@ -1605,10 +892,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_mech2
+    id = NEGEN_mech2
     icon = GFX_Generic_Tank_with_Flags
     prerequisite = {
-      focus = GEN_mech1
+      focus = NEGEN_mech1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1628,10 +915,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_mech3
+    id = NEGEN_mech3
     icon = GFX_Generic_Purchase_Tanks_Focus
     prerequisite = {
-      focus = GEN_mech1
+      focus = NEGEN_mech1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1646,7 +933,7 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air
+    id = NEGEN_air
     icon = GFX_Generic_Pilots
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1677,10 +964,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air1
+    id = NEGEN_air1
     icon = GFX_goal_generic_build_airforce
     prerequisite = {
-      focus = GEN_air
+      focus = NEGEN_air
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1708,11 +995,11 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_airdoct
+    id = NEGEN_airdoct
     icon = GFX_goal_generic_air_doctrine
     prerequisite = {
-      focus = GEN_air2
-      focus = GEN_air3
+      focus = NEGEN_air2
+      focus = NEGEN_air3
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1739,11 +1026,11 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_airdoct1
+    id = NEGEN_airdoct1
     icon = GFX_goal_generic_air_doctrine
     prerequisite = {
-      focus = GEN_air8
-      focus = GEN_air9
+      focus = NEGEN_air8
+      focus = NEGEN_air9
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1770,10 +1057,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air10
+    id = NEGEN_air10
     icon = GFX_Generic_Air_Defense
     prerequisite = {
-      focus = GEN_airdoct1
+      focus = NEGEN_airdoct1
     }
     search_filters = {
       FOCUS_FILTER_INDUSTRY
@@ -1801,10 +1088,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air11
+    id = NEGEN_air11
     icon = GFX_goal_generic_air_production
     prerequisite = {
-      focus = GEN_airdoct1
+      focus = NEGEN_airdoct1
     }
     search_filters = {
       FOCUS_FILTER_INDUSTRY
@@ -1832,13 +1119,13 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air2
+    id = NEGEN_air2
     icon = GFX_goal_generic_air_fighter
     prerequisite = {
-      focus = GEN_air1
+      focus = NEGEN_air1
     }
     mutually_exclusive = {
-      focus = GEN_air3
+      focus = NEGEN_air3
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1864,10 +1151,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air5
+    id = NEGEN_air5
     icon = GFX_Generic_Bombs
     prerequisite = {
-      focus = GEN_air2
+      focus = NEGEN_air2
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1894,10 +1181,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air6
+    id = NEGEN_air6
     icon = GFX_focus_chi_flying_tigers
     prerequisite = {
-      focus = GEN_air2
+      focus = NEGEN_air2
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1917,13 +1204,13 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air8
+    id = NEGEN_air8
     icon = GFX_Generic_Industry_Planes
     prerequisite = {
-      focus = GEN_air6
+      focus = NEGEN_air6
     }
     prerequisite = {
-      focus = GEN_air5
+      focus = NEGEN_air5
     }
     search_filters = {
       FOCUS_FILTER_INDUSTRY
@@ -1938,13 +1225,13 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air3
+    id = NEGEN_air3
     icon = GFX_goal_generic_air_bomber
     prerequisite = {
-      focus = GEN_air1
+      focus = NEGEN_air1
     }
     mutually_exclusive = {
-      focus = GEN_air2
+      focus = NEGEN_air2
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1967,10 +1254,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air4
+    id = NEGEN_air4
     icon = GFX_WAW_streamline_bomber_production
     prerequisite = {
-      focus = GEN_air3
+      focus = NEGEN_air3
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -1993,10 +1280,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air7
+    id = NEGEN_air7
     icon = GFX_focus_generic_cryptologic_bomb
     prerequisite = {
-      focus = GEN_air3
+      focus = NEGEN_air3
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2017,13 +1304,13 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_air9
+    id = NEGEN_air9
     icon = GFX_WAW_streamline_bomber_production
     prerequisite = {
-      focus = GEN_air7
+      focus = NEGEN_air7
     }
     prerequisite = {
-      focus = GEN_air4
+      focus = NEGEN_air4
     }
     search_filters = {
       FOCUS_FILTER_INDUSTRY
@@ -2039,7 +1326,7 @@ focus_tree = {
   }
   #Navy
   focus = {
-    id = GEN_navy
+    id = NEGEN_navy
     icon = GFX_goal_generic_construct_naval_dockyard
     available = {
 			any_state = {
@@ -2152,16 +1439,16 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy1
+    id = NEGEN_navy1
     icon = GFX_goal_generic_navy_submarine
     mutually_exclusive = {
-      focus = GEN_navy2
+      focus = NEGEN_navy2
     }
     mutually_exclusive = {
-      focus = GEN_navy3
+      focus = NEGEN_navy3
     }
     prerequisite = {
-      focus = GEN_navy
+      focus = NEGEN_navy
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2198,10 +1485,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy4
+    id = NEGEN_navy4
     icon = GFX_focus_generic_destroyer
     prerequisite = {
-      focus = GEN_navy1
+      focus = NEGEN_navy1
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2232,10 +1519,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy5
+    id = NEGEN_navy5
     icon = GFX_goal_generic_wolf_pack
     prerequisite = {
-      focus = GEN_navy1
+      focus = NEGEN_navy1
     }
 
     cost = 10
@@ -2258,16 +1545,16 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy2
+    id = NEGEN_navy2
     icon = GFX_goal_generic_navy_carrier
     mutually_exclusive = {
-      focus = GEN_navy3
+      focus = NEGEN_navy3
     }
     mutually_exclusive = {
-      focus = GEN_navy1
+      focus = NEGEN_navy1
     }
     prerequisite = {
-      focus = GEN_navy
+      focus = NEGEN_navy
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2304,10 +1591,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy6
+    id = NEGEN_navy6
     icon = GFX_goal_generic_air_naval_bomber
     prerequisite = {
-      focus = GEN_navy2
+      focus = NEGEN_navy2
     }
 
     cost = 10
@@ -2324,7 +1611,7 @@ focus_tree = {
         }
       }
       add_tech_bonus = {
-        name = GEN_airstrikebonus
+        name = NEGEN_airstrikebonus
         bonus = 1.5
         uses = 2
         category = naval_bomber
@@ -2332,10 +1619,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy7
+    id = NEGEN_navy7
     icon = GFX_goal_generic_navy_cruiser
     prerequisite = {
-      focus = GEN_navy2
+      focus = NEGEN_navy2
     }
 
     cost = 10
@@ -2355,7 +1642,7 @@ focus_tree = {
         }
       }
       add_tech_bonus = {
-        name = GEN_carrierbonus
+        name = NEGEN_carrierbonus
         bonus = 1.5
         uses = 2
         category = cv_tech
@@ -2363,16 +1650,16 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy3
+    id = NEGEN_navy3
     icon = GFX_goal_generic_navy_battleship
     mutually_exclusive = {
-      focus = GEN_navy1
+      focus = NEGEN_navy1
     }
     mutually_exclusive = {
-      focus = GEN_navy2
+      focus = NEGEN_navy2
     }
     prerequisite = {
-      focus = GEN_navy
+      focus = NEGEN_navy
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2409,10 +1696,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy8
+    id = NEGEN_navy8
     icon = GFX_goal_generic_navy_battleship
     prerequisite = {
-      focus = GEN_navy3
+      focus = NEGEN_navy3
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2435,7 +1722,7 @@ focus_tree = {
         }
       }
       add_tech_bonus = {
-        name = GEN_battleshipbonus
+        name = NEGEN_battleshipbonus
         bonus = 1.0
         uses = 2
         category = bb_tech
@@ -2443,10 +1730,10 @@ focus_tree = {
     }
   }
   focus = {
-    id = GEN_navy9
+    id = NEGEN_navy9
     icon = GFX_focus_generic_cruiser2
     prerequisite = {
-      focus = GEN_navy3
+      focus = NEGEN_navy3
     }
     search_filters = {
       FOCUS_FILTER_RESEARCH
@@ -2469,7 +1756,7 @@ focus_tree = {
         }
       }
       add_tech_bonus = {
-        name = GEN_battlecruiserbonus
+        name = NEGEN_battlecruiserbonus
         bonus = 1.0
         uses = 2
         category = bc_tech
